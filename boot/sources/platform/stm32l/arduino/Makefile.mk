@@ -17,6 +17,6 @@ VPATH += sources/platform/stm32l/arduino/SPI
 
 # CPP source files
 SOURCES_CPP += sources/platform/stm32l/arduino/SPI/SPI.cpp
-SOURCES_CPP += sources/platform/stm32l/arduino/wiring_digital.cpp
-SOURCES_CPP += sources/platform/stm32l/arduino/wiring_shift.cpp
+#SOURCES_CPP += sources/platform/stm32l/arduino/wiring_digital.cpp
+#SOURCES_CPP += sources/platform/stm32l/arduino/wiring_shift.cpp
 SOURCES_CPP += sources/platform/stm32l/arduino/Print.cpp

@@ -27,17 +27,17 @@ public:
 };
 
 void view_scr_info() {
-	/* link base kit */
-	QRCode qrcode;
-	uint8_t qrcodeData[qrcode_getBufferSize(8)];
-	qrcode_initText(&qrcode, qrcodeData, 8, 0, "https://epcb.vn/products/ak-embedded-base-kit-lap-trinh-nhung-vi-dieu-khien-mcu");
+// 	/* link base kit */
+// 	QRCode qrcode;
+// 	uint8_t qrcodeData[qrcode_getBufferSize(8)];
+// 	qrcode_initText(&qrcode, qrcodeData, 8, 0, "https://epcb.vn/products/ak-embedded-base-kit-lap-trinh-nhung-vi-dieu-khien-mcu");
 
-	for (uint8_t y = 0; y < qrcode.size; y++) {
-		for (uint8_t x = 0; x < qrcode.size; x++) {
-			view_render.drawPixel(x+40, y+2, qrcode_getModule(&qrcode, x, y) ? 1 : 0);
-		}
-	}
-}
+// 	for (uint8_t y = 0; y < qrcode.size; y++) {
+// 		for (uint8_t x = 0; x < qrcode.size; x++) {
+// 			view_render.drawPixel(x+40, y+2, qrcode_getModule(&qrcode, x, y) ? 1 : 0);
+// 		}
+// 	}
+ }
 
 void scr_info_handle(ak_msg_t* msg) {
 	switch (msg->sig) {

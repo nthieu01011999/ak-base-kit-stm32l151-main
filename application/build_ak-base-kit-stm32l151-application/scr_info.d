@@ -87,13 +87,6 @@ build_ak-base-kit-stm32l151-application/scr_info.o: \
  sources/common/view_item.h \
  sources/driver/Adafruit_ssd1306syp/Adafruit_ssd1306syp.h \
  sources/driver/Adafruit_ssd1306syp/Adafruit_GFX.h \
- sources/platform/stm32l/arduino/cores/Arduino.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
- sources/sys/sys_io.h sources/platform/stm32l/sys_cfg.h \
  sources/platform/stm32l/arduino/cores/Print.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
@@ -108,6 +101,11 @@ build_ak-base-kit-stm32l151-application/scr_info.o: \
  sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
  sources/app/screens/scr_idle.h sources/common/view_render.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/vector \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/functexcept.h \
