@@ -25,12 +25,12 @@
 #define SPI_MODE2           0x40
 #define SPI_MODE3           0xC0
 
-#ifndef LSBFIRST
-#define LSBFIRST 0
-#endif
-#ifndef MSBFIRST
-#define MSBFIRST 1
-#endif
+// #ifndef LSBFIRST
+// #define LSBFIRST 0
+// #endif
+// #ifndef MSBFIRST
+// #define MSBFIRST 1
+// #endif
 
 
 class SPISettings {
@@ -40,7 +40,7 @@ public:
   }
 
   SPISettings() {
-	spi_config(4000000, MSBFIRST, SPI_MODE0);
+	spi_config(4000000, 1, SPI_MODE0); //MSBFIRST
   }
 private:
   uint32_t setting_clock;

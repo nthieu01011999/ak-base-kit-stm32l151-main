@@ -1,50 +1,62 @@
 build_ak-base-kit-stm32l151-application/Stream.o: \
  sources/platform/stm32l/arduino/cores/Stream.cpp \
- sources/platform/stm32l/arduino/cores/Arduino.h \
+ sources/platform/stm32l/arduino/cores/Stream.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ sources/platform/stm32l/arduino/cores/Print.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
+ sources/platform/stm32l/arduino/cores/Printable.h \
+ sources/platform/stm32l/arduino/cores/WString.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7-m/nofp/bits/c++config.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7-m/nofp/bits/os_defines.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7-m/nofp/bits/cpu_defines.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/ctype.h \
+ sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
+ sources/platform/stm32l/arduino/cores/Arduino.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
- sources/sys/sys_ctrl.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
- sources/app/app_data.h sources/sys/sys_boot.h sources/ak/inc/port.h \
- sources/platform/stm32l/platform.h sources/sys/sys_dbg.h \
- sources/ak/inc/task.h sources/ak/inc/ak.h sources/ak/inc/fsm.h \
- sources/ak/inc/message.h sources/ak/inc/port.h sources/ak/inc/task.h \
- sources/common/container/log_queue.h sources/ak/inc/message.h \
- sources/sys/sys_ctrl.h sources/common/xprintf.h sources/app/app.h \
- sources/ak/inc/ak.h sources/app/app_if.h sources/app/app_eeprom.h \
- sources/app/app_data.h sources/driver/buzzer/buzzer.h \
- sources/platform/stm32l/io_cfg.h \
+ sources/sys/sys_ctrl.h sources/app/app_data.h sources/sys/sys_boot.h \
+ sources/ak/inc/port.h sources/platform/stm32l/platform.h \
+ sources/sys/sys_dbg.h sources/ak/inc/task.h sources/ak/inc/ak.h \
+ sources/ak/inc/fsm.h sources/ak/inc/message.h sources/ak/inc/port.h \
+ sources/ak/inc/task.h sources/common/container/log_queue.h \
+ sources/ak/inc/message.h sources/sys/sys_ctrl.h sources/common/xprintf.h \
+ sources/app/app.h sources/ak/inc/ak.h sources/app/app_if.h \
+ sources/app/app_eeprom.h sources/app/app_data.h \
+ sources/driver/buzzer/buzzer.h sources/platform/stm32l/io_cfg.h \
  sources/platform/stm32l/Libraries/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h \
  sources/platform/stm32l/Libraries/CMSIS/Include/core_cm3.h \
  sources/platform/stm32l/Libraries/CMSIS/Include/core_cmInstr.h \
@@ -87,18 +99,4 @@ build_ak-base-kit-stm32l151-application/Stream.o: \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
  sources/platform/stm32l/system.h sources/sys/sys_io.h \
- sources/platform/stm32l/sys_cfg.h \
- sources/platform/stm32l/arduino/cores/Stream.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
- sources/platform/stm32l/arduino/cores/Print.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
- sources/platform/stm32l/arduino/cores/Printable.h \
- sources/platform/stm32l/arduino/cores/WString.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/ctype.h \
- sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
- sources/platform/stm32l/arduino/cores/Arduino.h
+ sources/platform/stm32l/sys_cfg.h

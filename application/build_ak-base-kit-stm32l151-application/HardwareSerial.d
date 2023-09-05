@@ -88,13 +88,6 @@ build_ak-base-kit-stm32l151-application/HardwareSerial.o: \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
  sources/platform/stm32l/system.h \
- sources/platform/stm32l/arduino/cores/Arduino.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
- sources/sys/sys_io.h sources/platform/stm32l/sys_cfg.h \
  sources/platform/stm32l/arduino/cores/HardwareSerial.h \
  sources/platform/stm32l/arduino/cores/Stream.h \
  sources/platform/stm32l/arduino/cores/Print.h \
@@ -102,4 +95,10 @@ build_ak-base-kit-stm32l151-application/HardwareSerial.o: \
  sources/platform/stm32l/arduino/cores/WString.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/ctype.h \
  sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
- sources/platform/stm32l/arduino/cores/Arduino.h
+ sources/platform/stm32l/arduino/cores/Arduino.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
+ sources/sys/sys_io.h sources/platform/stm32l/sys_cfg.h

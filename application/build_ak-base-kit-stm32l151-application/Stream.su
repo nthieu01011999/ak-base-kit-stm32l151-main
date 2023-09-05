@@ -1,5 +1,3 @@
-sources/platform/stm32l/arduino/cores/Stream.cpp:31:5:int Stream::timedRead()	8	static
-sources/platform/stm32l/arduino/cores/Stream.cpp:43:5:int Stream::timedPeek()	8	static
 sources/platform/stm32l/arduino/cores/Stream.cpp:56:5:int Stream::peekNextDigit(LookaheadMode, bool)	24	static
 sources/platform/stm32l/arduino/cores/Stream.cpp:87:6:void Stream::setTimeout(long unsigned int)	0	static
 sources/platform/stm32l/arduino/cores/Stream.cpp:130:6:long int Stream::parseInt(LookaheadMode, char)	24	static

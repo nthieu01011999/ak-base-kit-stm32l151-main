@@ -93,7 +93,7 @@
 
 #ifdef ARDUINO
 
-#include <Arduino.h>
+//#include <Arduino.h>
 
 // Enable support for Arduino's String class
 #ifndef ARDUINOJSON_ENABLE_ARDUINO_STRING

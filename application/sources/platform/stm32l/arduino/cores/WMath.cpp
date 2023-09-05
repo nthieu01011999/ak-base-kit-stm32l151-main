@@ -22,7 +22,7 @@
 */
 
 #include <stdlib.h>
-#include <stdint.h>
+//#include <stdint.h>
 #include "Arduino.h"
 
 void randomSeed(unsigned long seed)

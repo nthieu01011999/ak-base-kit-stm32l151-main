@@ -22,9 +22,9 @@
 #include <math.h>
 #include <stdlib.h>
 #include <inttypes.h>
-#include "Arduino.h"
+// #include "Arduino.h"
 
-#include "Arduino.h" // for digitalWrite
+// #include "Arduino.h" // for digitalWrite
 
 #include "stm32l1xx.h"
 #include "stm32l1xx_i2c.h"

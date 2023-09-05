@@ -29,7 +29,7 @@
 
 #include "sys_ctrl.h"
 
-#include "Arduino.h"
+//#include "Arduino.h"
 #include "HardwareSerial.h"
 
 // Public Methods //////////////////////////////////////////////////////////////

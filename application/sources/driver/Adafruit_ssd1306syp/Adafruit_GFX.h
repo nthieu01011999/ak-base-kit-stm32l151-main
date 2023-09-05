@@ -1,7 +1,7 @@
 #ifndef __ADAFRUIT_GFX_H__
 #define __ADAFRUIT_GFX_H__
 
-#include "Arduino.h"
+//#include "Arduino.h"
 #include "Print.h"
 
 #define abs(x) ((x)>0?(x):-(x))

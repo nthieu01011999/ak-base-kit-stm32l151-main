@@ -1,7 +1,7 @@
 #include "Adafruit_ssd1306syp.h"
 
 #if defined (STM32L_PLATFORM)
-#include "Arduino.h"
+//#include "Arduino.h"
 #include "io_cfg.h"
 #endif
 
@@ -21,9 +21,9 @@ Adafruit_ssd1306syp::~Adafruit_ssd1306syp()
 //initialized the ssd1306 in the setup function
 bool Adafruit_ssd1306syp::initialize()
 {
-	//setup the pin mode
-	pinMode(m_sda,OUTPUT);
-	pinMode(m_scl,OUTPUT);
+	// //setup the pin mode
+	// pinMode(m_sda,OUTPUT);
+	// pinMode(m_scl,OUTPUT);
 
 	//malloc the framebuffer.
 	m_pFramebuffer = frame_buffer;
@@ -128,54 +128,54 @@ void Adafruit_ssd1306syp::writeCommand(unsigned char cmd)
 }
 void Adafruit_ssd1306syp::writeByte(unsigned char b)
 {
-	unsigned char i;
-#if defined (SH1106_CMD)
-	for(i=0;i<8;i++)
-	{
-		if((b << i) & 0x80){
-			digitalWrite(m_sda, HIGH);
-		}else{
-			digitalWrite(m_sda, LOW);
-		}
-		digitalWrite(m_scl, HIGH);
-		digitalWrite(m_scl, LOW);
-	}
-	digitalWrite(m_sda, LOW);
-	digitalWrite(m_scl, HIGH);
+//	unsigned char i;
+// #if defined (SH1106_CMD)
+// 	for(i=0;i<8;i++)
+// 	{
+// 		if((b << i) & 0x80){
+// 			digitalWrite(m_sda, HIGH);
+// 		}else{
+// 			digitalWrite(m_sda, LOW);
+// 		}
+// 		digitalWrite(m_scl, HIGH);
+// 		digitalWrite(m_scl, LOW);
+// 	}
+// 	digitalWrite(m_sda, LOW);
+// 	digitalWrite(m_scl, HIGH);
 
-	digitalWrite(m_scl, LOW);
-#else
-	for(i=0;i<8;i++)
-	{
-		if((b << i) & 0x80){
-			digitalWrite(m_sda, HIGH);
-		}else{
-			digitalWrite(m_sda, LOW);
-		}
-		digitalWrite(m_scl, HIGH);
-		digitalWrite(m_scl, LOW);
-		//    IIC_Byte<<=1;
-	}
-	digitalWrite(m_sda, HIGH);
-	digitalWrite(m_scl, HIGH);
+// 	digitalWrite(m_scl, LOW);
+// #else
+// 	for(i=0;i<8;i++)
+// 	{
+// 		if((b << i) & 0x80){
+// 			digitalWrite(m_sda, HIGH);
+// 		}else{
+// 			digitalWrite(m_sda, LOW);
+// 		}
+// 		digitalWrite(m_scl, HIGH);
+// 		digitalWrite(m_scl, LOW);
+// 		//    IIC_Byte<<=1;
+// 	}
+// 	digitalWrite(m_sda, HIGH);
+// 	digitalWrite(m_scl, HIGH);
 	
-	digitalWrite(m_scl, LOW);
-#endif
+// 	digitalWrite(m_scl, LOW);
+// #endif
 }
 void Adafruit_ssd1306syp::startIIC()
+ {
+// 	digitalWrite(m_scl, HIGH);
+// 	digitalWrite(m_sda, HIGH);
+// 	digitalWrite(m_sda, LOW);
+// 	digitalWrite(m_scl, LOW);
+ }
+ void Adafruit_ssd1306syp::stopIIC()
 {
-	digitalWrite(m_scl, HIGH);
-	digitalWrite(m_sda, HIGH);
-	digitalWrite(m_sda, LOW);
-	digitalWrite(m_scl, LOW);
-}
-void Adafruit_ssd1306syp::stopIIC()
-{
-	digitalWrite(m_scl, LOW);
-	digitalWrite(m_sda, LOW);
-	digitalWrite(m_scl, HIGH);
-	digitalWrite(m_sda, HIGH);
-}
+// 	digitalWrite(m_scl, LOW);
+// 	digitalWrite(m_sda, LOW);
+// 	digitalWrite(m_scl, HIGH);
+// 	digitalWrite(m_sda, HIGH);
+ }
 
 void Adafruit_ssd1306syp::drawPixel(int16_t x, int16_t y, uint16_t color)
 {
@@ -215,35 +215,35 @@ void Adafruit_ssd1306syp::startDataSequence()
 void Adafruit_ssd1306syp::update()
 {
 #if defined (SH1106_CMD)
-	writeCommand(SH1106_SETLOWCOLUMN | 0x0);  // low col = 0
-	writeCommand(SH1106_SETHIGHCOLUMN | 0x0);  // hi col = 0
-	writeCommand(SH1106_SETSTARTLINE | 0x0); // line #0
+	writeCommand(SH1106_SETLOWCOLUMN 	| 0x0);  // low col = 0
+	writeCommand(SH1106_SETHIGHCOLUMN 	| 0x0);  // hi col = 0
+	writeCommand(SH1106_SETSTARTLINE 	| 0x0); // line #0
 
-	byte height=64;
-	byte width=132;
-	byte m_row = 0;
-	byte m_col = 2;
+	// byte height=64;
+	// byte width=132;
+	// byte m_row = 0;
+	// byte m_col = 2;
 
-	height >>= 3;
-	width >>= 3;
+	// height >>= 3;
+	// width >>= 3;
 
-	int p = 0;
-	byte i, j, k =0;
+	// int p = 0;
+	// byte i, j, k =0;
 
-	for ( i = 0; i < height; i++) {
-		// send a bunch of data in one xmission
-		writeCommand(0xB0 + i + m_row);//set page address
-		writeCommand(m_col & 0xf);//set lower column address
-		writeCommand(0x10 | (m_col >> 4));//set higher column address
+	// for ( i = 0; i < height; i++) {
+	// 	// send a bunch of data in one xmission
+	// 	writeCommand(0xB0 + i + m_row);//set page address
+	// 	writeCommand(m_col & 0xf);//set lower column address
+	// 	writeCommand(0x10 | (m_col >> 4));//set higher column address
 
-		for( j = 0; j < 8; j++){
-			startDataSequence();
-			for (k = 0; k < width; k++, p++) {
-				writeByte(m_pFramebuffer[p]);
-			}
-			stopIIC ();
-		}
-	}
+	// 	for( j = 0; j < 8; j++){
+	// 		startDataSequence();
+	// 		for (k = 0; k < width; k++, p++) {
+	// 			writeByte(m_pFramebuffer[p]);
+	// 		}
+	// 		stopIIC ();
+	// 	}
+	// }
 #else
 #if 1
 	unsigned int  i=0;
@@ -265,8 +265,8 @@ void Adafruit_ssd1306syp::update()
 	updateRow(0,SSD1306_MAXROW);
 #endif
 
-#endif
-}
+ #endif
+ }
 
 void Adafruit_ssd1306syp::updateRow(int rowID)
 {

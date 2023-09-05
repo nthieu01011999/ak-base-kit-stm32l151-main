@@ -17,7 +17,7 @@
 #include "xprintf.h"
 #include "ring_buffer.h"
 
-#include "Arduino.h"
+//#include "Arduino.h"
 #include "HardwareSerial.h"
 
 //https://github.com/athombv/homey/issues/2165
