@@ -80,7 +80,6 @@ build_ak-base-kit-stm32l151-application/task_rf24_if.o: \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/internal/mbmiconfig.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
- sources/app/app_dbg.h sources/app/task_rf24_if.h sources/app/task_if.h \
- sources/app/task_list.h sources/ak/inc/fsm.h sources/ak/inc/timer.h \
- sources/ak/inc/timer.h sources/common/container/fifo.h \
- sources/driver/eeprom/eeprom.h
+ sources/app/app_dbg.h sources/app/task_if.h sources/app/task_list.h \
+ sources/ak/inc/fsm.h sources/ak/inc/timer.h sources/ak/inc/timer.h \
+ sources/common/container/fifo.h sources/driver/eeprom/eeprom.h

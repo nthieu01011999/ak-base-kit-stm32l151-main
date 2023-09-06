@@ -39,7 +39,7 @@
 #include "task_shell.h"
 #include "task_life.h"
 #include "task_if.h"
-#include "task_rf24_if.h"
+//#include "task_rf24_if.h"
 #include "task_uart_if.h"
 #include "task_display.h"
 #include "task_zigbee.h"

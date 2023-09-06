@@ -203,10 +203,9 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/networks/net/link/link_phy.h \
  sources/networks/net/link/link_config.h \
  sources/networks/net/link/hal/link_hal.h sources/app/task_life.h \
- sources/app/task_if.h sources/app/task_rf24_if.h \
- sources/app/task_uart_if.h sources/app/task_display.h \
- sources/common/screen_manager.h sources/common/view_render.h \
- sources/common/view_item.h \
+ sources/app/task_if.h sources/app/task_uart_if.h \
+ sources/app/task_display.h sources/common/screen_manager.h \
+ sources/common/view_render.h sources/common/view_item.h \
  sources/driver/Adafruit_ssd1306syp/Adafruit_ssd1306syp.h \
  sources/driver/Adafruit_ssd1306syp/Adafruit_GFX.h \
  sources/platform/stm32l/arduino/cores/Print.h \
