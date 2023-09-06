@@ -209,27 +209,14 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/common/view_item.h \
  sources/driver/Adafruit_ssd1306syp/Adafruit_ssd1306syp.h \
  sources/driver/Adafruit_ssd1306syp/Adafruit_GFX.h \
- sources/platform/stm32l/arduino/cores/Arduino.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
- sources/sys/sys_ctrl.h sources/sys/sys_io.h \
- sources/platform/stm32l/sys_cfg.h \
  sources/platform/stm32l/arduino/cores/Print.h \
  sources/platform/stm32l/arduino/cores/Printable.h \
  sources/platform/stm32l/arduino/cores/Print.h \
  sources/platform/stm32l/arduino/cores/WString.h \
  sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
- sources/app/screens/scr_idle.h sources/app/app.h sources/app/app_dbg.h \
- sources/app/task_list.h sources/app/task_display.h \
- sources/common/view_render.h sources/app/screens/scr_info.h \
- sources/app/screens/scr_startup.h sources/app/screens/scr_noen.h \
- sources/app/screens/scr_es35sw_th_sensor.h sources/app/app_modbus_pull.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
- sources/app/screens/scr_lhio404_io_device.h sources/app/task_zigbee.h \
- sources/sys/sys_irq.h \
+ sources/app/task_zigbee.h sources/sys/sys_irq.h sources/sys/sys_io.h \
+ sources/sys/sys_ctrl.h \
  sources/platform/stm32l/arduino/libraries/SPI/SPI.h \
  sources/platform/stm32l/arduino/cores/WString.h \
  sources/platform/stm32l/arduino/cores/HardwareSerial.h \
@@ -278,7 +265,7 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Polyfills/safe_strcmp.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Strings/RamStringAdapter.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Strings/SizedRamStringAdapter.hpp \
- sources/libraries/ArduinoJson/src/ArduinoJson/Strings/ArduinoStringAdapter.hpp \
+ sources/libraries/ArduinoJson/src/ArduinoJson/Strings/StlStringAdapter.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Strings/FlashStringAdapter.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Strings/SizedFlashStringAdapter.hpp \
@@ -326,13 +313,25 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Deserialization/ArduinoStreamReader.hpp \
- sources/platform/stm32l/arduino/cores/Stream.h \
  sources/libraries/ArduinoJson/src/ArduinoJson/Deserialization/CharPointerReader.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Deserialization/IteratorReader.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationError.hpp \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/ostream \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/ios \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/basic_ios.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/locale_facets.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cwctype \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/wctype.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7-m/nofp/bits/ctype_base.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7-m/nofp/bits/ctype_inline.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/locale_facets.tcc \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/basic_ios.tcc \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/ostream.tcc \
  sources/libraries/ArduinoJson/src/ArduinoJson/Deserialization/FlashStringReader.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Deserialization/NestingLimit.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Deserialization/StdStreamReader.hpp \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/istream \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/istream.tcc \
  sources/libraries/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Memory/StringBuilder.hpp \
@@ -346,11 +345,12 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Serialization/DummyWriter.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Serialization/StaticStringWriter.hpp \
- sources/libraries/ArduinoJson/src/ArduinoJson/Serialization/PrintWriter.hpp \
+ sources/libraries/ArduinoJson/src/ArduinoJson/Serialization/StreamWriter.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp \
- sources/libraries/ArduinoJson/src/ArduinoJson/compatibility.hpp
+ sources/libraries/ArduinoJson/src/ArduinoJson/compatibility.hpp \
+ sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h

@@ -15,18 +15,18 @@ typedef struct {
 	uint8_t  duration;
 } Tone_TypeDef;
 
-static const Tone_TypeDef tones_startup[] = {
-	{2000,3},
-	{   0,3},
-	{3000,3},
-	{   0,3},
-	{4000,3},
-	{   0,3},
-	{1200,4},
-	{   0,6},
-	{4500,6},
-	{   0,0}     // <-- tones end
-};
+// static const Tone_TypeDef tones_startup[] = {
+// 	{2000,3},
+// 	{   0,3},
+// 	{3000,3},
+// 	{   0,3},
+// 	{4000,3},
+// 	{   0,3},
+// 	{1200,4},
+// 	{   0,6},
+// 	{4500,6},
+// 	{   0,0}     // <-- tones end
+// };
 
 static const Tone_TypeDef tones_3beep[] = {
 	{4000, 3},

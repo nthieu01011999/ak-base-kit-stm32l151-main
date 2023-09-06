@@ -1,5 +1,6 @@
 build_ak-base-kit-stm32l151-application/scr_info.o: \
- sources/app/screens/scr_info.cpp sources/libraries/QRCode/src/qrcode.h \
+ sources/app/screens/scr_info.cpp sources/app/screens/scr_info.h \
+ sources/ak/inc/fsm.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
@@ -7,7 +8,7 @@ build_ak-base-kit-stm32l151-application/scr_info.o: \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
- sources/app/screens/scr_info.h sources/ak/inc/fsm.h sources/ak/inc/ak.h \
+ sources/ak/inc/ak.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \

@@ -1,4 +1,4 @@
-#include "qrcode.h"
+//#include "qrcode.h"
 #include "scr_info.h"
 
 static void view_scr_info();

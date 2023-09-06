@@ -161,8 +161,8 @@ int main_app() {
 	button_enable(&btn_down);
 
 	/* siren init */
-	BUZZER_Init();
-	BUZZER_PlayTones(tones_startup);
+	//BUZZER_Init();
+	//BUZZER_PlayTones(tones_startup);
 
 	/* get boot share data */
 	flash_read(APP_FLASH_INTTERNAL_SHARE_DATA_SECTOR_1, reinterpret_cast<uint8_t*>(&boot_app_share_data), sizeof(boot_app_share_data_t));
@@ -363,7 +363,7 @@ void app_init_state_machine() {
  * used for app tasks
  */
 void app_task_init() {
-	SCREEN_CTOR(&scr_mng_app, scr_startup_handle, &scr_startup);
+//	SCREEN_CTOR(&scr_mng_app, scr_startup_handle, &scr_startup);
 
 	task_post_pure_msg(AC_TASK_RF24_IF_ID, AC_RF24_IF_INIT_NETWORK);
 	task_post_pure_msg(AC_TASK_UART_IF_ID, AC_UART_IF_INIT);

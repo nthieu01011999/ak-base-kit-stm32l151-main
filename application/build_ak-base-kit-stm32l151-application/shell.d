@@ -39,12 +39,19 @@ build_ak-base-kit-stm32l151-application/shell.o: sources/app/shell.cpp \
  sources/common/view_render.h sources/common/view_item.h \
  sources/driver/Adafruit_ssd1306syp/Adafruit_ssd1306syp.h \
  sources/driver/Adafruit_ssd1306syp/Adafruit_GFX.h \
- sources/platform/stm32l/arduino/cores/Arduino.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
+ sources/platform/stm32l/arduino/cores/Print.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
+ sources/platform/stm32l/arduino/cores/Printable.h \
+ sources/platform/stm32l/arduino/cores/Print.h \
+ sources/platform/stm32l/arduino/cores/WString.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/ctype.h \
+ sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
+ /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
  sources/sys/sys_ctrl.h sources/app/app_data.h sources/sys/sys_boot.h \
  sources/ak/inc/port.h sources/sys/sys_dbg.h sources/sys/sys_ctrl.h \
  sources/app/app.h sources/app/app_if.h sources/app/app_eeprom.h \
@@ -92,20 +99,6 @@ build_ak-base-kit-stm32l151-application/shell.o: sources/app/shell.cpp \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
  sources/platform/stm32l/system.h sources/sys/sys_io.h \
- sources/platform/stm32l/sys_cfg.h \
- sources/platform/stm32l/arduino/cores/Print.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
- sources/platform/stm32l/arduino/cores/Printable.h \
- sources/platform/stm32l/arduino/cores/Print.h \
- sources/platform/stm32l/arduino/cores/WString.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/ctype.h \
- sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
- /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
  sources/sys/sys_irq.h sources/app/app.h sources/app/app_if.h \
  sources/app/app_dbg.h sources/app/app_data.h sources/app/app_flash.h \
  sources/app/app_eeprom.h sources/app/app_non_clear_ram.h \
@@ -117,4 +110,4 @@ build_ak-base-kit-stm32l151-application/shell.o: sources/app/shell.cpp \
  sources/networks/net/link/hal/link_hal.h sources/app/task_list.h \
  sources/app/task_list_if.h sources/app/task_if.h sources/app/task_life.h \
  sources/driver/led/led.h sources/driver/eeprom/eeprom.h \
- sources/driver/flash/flash.h sources/libraries/QRCode/src/qrcode.h
+ sources/driver/flash/flash.h

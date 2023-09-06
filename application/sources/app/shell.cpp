@@ -44,7 +44,7 @@
 #include "Adafruit_ssd1306syp.h"
 #include "flash.h"
 
-#include "qrcode.h"
+//#include "qrcode.h"
 
 /*****************************************************************************/
 /*  local declare
