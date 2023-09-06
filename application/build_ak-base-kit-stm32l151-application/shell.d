@@ -102,9 +102,6 @@ build_ak-base-kit-stm32l151-application/shell.o: sources/app/shell.cpp \
  sources/sys/sys_irq.h sources/app/app.h sources/app/app_if.h \
  sources/app/app_dbg.h sources/app/app_data.h sources/app/app_flash.h \
  sources/app/app_eeprom.h sources/app/app_non_clear_ram.h \
- sources/app/app_modbus_pull.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
  sources/app/task_shell.h sources/networks/net/link/link_phy.h \
  sources/ak/inc/fsm.h sources/networks/net/link/link_config.h \
  sources/networks/net/link/hal/link_hal.h sources/app/task_list.h \

@@ -214,8 +214,7 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/platform/stm32l/arduino/cores/WString.h \
  sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
  /home/nthieu111999/workspace/tools/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
- sources/app/task_zigbee.h sources/sys/sys_irq.h sources/sys/sys_io.h \
- sources/sys/sys_ctrl.h \
+ sources/sys/sys_irq.h sources/sys/sys_io.h sources/sys/sys_ctrl.h \
  sources/platform/stm32l/arduino/libraries/SPI/SPI.h \
  sources/platform/stm32l/arduino/cores/WString.h \
  sources/platform/stm32l/arduino/cores/HardwareSerial.h \

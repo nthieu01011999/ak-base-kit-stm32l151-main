@@ -31,7 +31,7 @@
 #include "app_flash.h"
 #include "app_eeprom.h"
 #include "app_non_clear_ram.h"
-#include "app_modbus_pull.h"
+//#include "app_modbus_pull.h"
 
 #include "task_shell.h"
 #include "task_list.h"
@@ -875,10 +875,10 @@ int32_t shell_buzzer(uint8_t* argv) {
 	}
 		break;
 
-	case '1': {
-		BUZZER_PlayTones(tones_startup);
-	}
-		break;
+	// case '1': {
+	// 	BUZZER_PlayTones(tones_startup);
+	// }
+	// 	break;
 
 	case '2': {
 		BUZZER_PlayTones(tones_3beep);
@@ -910,23 +910,23 @@ int32_t shell_buzzer(uint8_t* argv) {
 
 int32_t shell_modbus(uint8_t* argv) {
 	switch (*(argv + 7)) {
-	case 'r':
-		LOGIN_PRINT("Modbus polling all register: \n");
-		updateDataModbusDevice(&MB_ES35SW_TH_Sensor);
-		LOGIN_PRINT("--ES35-SW--\n");
-		for (uint16_t i = 0; i < MB_ES35SW_TH_Sensor.listRegAmount; i++) {
-			LOGIN_PRINT("regAddr[%d]: %d\t", i+1, MB_ES35SW_TH_Sensor.listRegDevice[i].regAddress);
-			LOGIN_PRINT("\trawValue: %d \n", MB_ES35SW_TH_Sensor.listRegDevice[i].regValue);
-		}
+	// case 'r':
+	// 	LOGIN_PRINT("Modbus polling all register: \n");
+	// 	updateDataModbusDevice(&MB_ES35SW_TH_Sensor);
+	// 	LOGIN_PRINT("--ES35-SW--\n");
+	// 	for (uint16_t i = 0; i < MB_ES35SW_TH_Sensor.listRegAmount; i++) {
+	// 		LOGIN_PRINT("regAddr[%d]: %d\t", i+1, MB_ES35SW_TH_Sensor.listRegDevice[i].regAddress);
+	// 		LOGIN_PRINT("\trawValue: %d \n", MB_ES35SW_TH_Sensor.listRegDevice[i].regValue);
+	// 	}
 
-		LOGIN_PRINT("\n--LHIO404--\n");
-		updateDataModbusDevice(&MB_LHIO404_IO_Device);
-		for (uint16_t i = 0; i < MB_LHIO404_IO_Device.listRegAmount; i++) {
-			LOGIN_PRINT("regAddr[%d]: %d\t", i+1, MB_LHIO404_IO_Device.listRegDevice[i].regAddress);
-			LOGIN_PRINT("\trawValue: %d \n", MB_LHIO404_IO_Device.listRegDevice[i].regValue);
-		}
-		LOGIN_PRINT("\nDone !\n");
-		break;
+	// 	LOGIN_PRINT("\n--LHIO404--\n");
+	// 	updateDataModbusDevice(&MB_LHIO404_IO_Device);
+	// 	for (uint16_t i = 0; i < MB_LHIO404_IO_Device.listRegAmount; i++) {
+	// 		LOGIN_PRINT("regAddr[%d]: %d\t", i+1, MB_LHIO404_IO_Device.listRegDevice[i].regAddress);
+	// 		LOGIN_PRINT("\trawValue: %d \n", MB_LHIO404_IO_Device.listRegDevice[i].regValue);
+	// 	}
+	// 	LOGIN_PRINT("\nDone !\n");
+	// 	break;
 
 	default:
 		LOGIN_PRINT("\n[HELP]\n");
