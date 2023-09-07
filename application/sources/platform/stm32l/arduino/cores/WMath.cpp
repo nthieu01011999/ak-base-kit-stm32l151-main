@@ -22,8 +22,8 @@
 */
 
 #include <stdlib.h>
-//#include <stdint.h>
-#include "Arduino.h"
+#include <stdint.h>
+//#include "Arduino.h"
 
 void randomSeed(unsigned long seed)
 {
@@ -54,5 +54,5 @@ long map(long x, long in_min, long in_max, long out_min, long out_max)
   return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
 
-uint16_t makeWord(uint16_t w) { return w; }
-uint16_t makeWord(byte h, byte l) { return (h << 8) | l; }
+//uint16_t makeWord(uint16_t w) { return w; }
+//uint16_t makeWord(byte h, byte l) { return (h << 8) | l; }

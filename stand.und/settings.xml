@@ -1,6 +1,5 @@
 <project>
   <files
-    portability_mode="relative"
     default_encoding="System"
     readonly="false"
     maxfilesize="10485760"
@@ -1014,7 +1013,6 @@
     analyze_headers_in_isolation="true"
     use_clang="true"
     use_include_cache="true"
-    warning_level="NoWarnings"
     objc_memory_mode="MrrMode"
     worker_process_timeout="2"/>
   <dependency_options

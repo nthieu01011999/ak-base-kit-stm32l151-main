@@ -59,7 +59,7 @@ void if_des_type_rf24_handler(ak_msg_t* msg) {
 		APP_DBG_SIG("AC_IF_PURE_MSG_OUT\n");
 		msg_inc_ref_count(msg);
 		set_msg_sig(msg, AC_RF24_IF_PURE_MSG_OUT);
-		task_post(AC_TASK_RF24_IF_ID, msg);
+		//task_post(AC_TASK_RF24_IF_ID, msg);
 	}
 		break;
 
@@ -67,7 +67,7 @@ void if_des_type_rf24_handler(ak_msg_t* msg) {
 		APP_DBG_SIG("AC_IF_COMMON_MSG_OUT\n");
 		msg_inc_ref_count(msg);
 		set_msg_sig(msg, AC_RF24_IF_COMMON_MSG_OUT);
-		task_post(AC_TASK_RF24_IF_ID, msg);
+		//task_post(AC_TASK_RF24_IF_ID, msg);
 	}
 		break;
 

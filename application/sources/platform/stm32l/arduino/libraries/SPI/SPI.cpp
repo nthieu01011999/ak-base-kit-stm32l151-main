@@ -4,14 +4,14 @@
 
 SPIClass::SPIClass(void) {
 	spi_clock = 1000000;
-	spi_bitorder = MSBFIRST;
+	//spi_bitorder = MSBFIRST;
 	spi_datamode = SPI_MODE0;
 }
 
 SPIClass::SPIClass(uint8_t module) {
 	(void)module;
 	spi_clock = 1000000;
-	spi_bitorder = MSBFIRST;
+	//spi_bitorder = MSBFIRST;
 	spi_datamode = SPI_MODE0;
 }
 
@@ -88,12 +88,12 @@ void SPIClass::begin() {
 		break;
 	}
 
-	if (spi_bitorder == MSBFIRST) {
-		spi_init.SPI_FirstBit = SPI_FirstBit_MSB;
-	}
-	else {
-		spi_init.SPI_FirstBit = SPI_FirstBit_LSB;
-	}
+	// if (spi_bitorder == MSBFIRST) {
+	// 	spi_init.SPI_FirstBit = SPI_FirstBit_MSB;
+	// }
+	// else {
+	// 	spi_init.SPI_FirstBit = SPI_FirstBit_LSB;
+	// }
 
 	switch (spi_clock) {
 	case 125000:
@@ -167,12 +167,12 @@ void SPIClass::beginTransaction(SPISettings settings) {
 		break;
 	}
 
-	if (spi_bitorder == MSBFIRST) {
-		spi_init.SPI_FirstBit = SPI_FirstBit_MSB;
-	}
-	else {
-		spi_init.SPI_FirstBit = SPI_FirstBit_LSB;
-	}
+	// if (spi_bitorder == MSBFIRST) {
+	// 	spi_init.SPI_FirstBit = SPI_FirstBit_MSB;
+	// }
+	// else {
+	// 	spi_init.SPI_FirstBit = SPI_FirstBit_LSB;
+	// }
 
 	switch (spi_clock) {
 	case 125000:
@@ -218,12 +218,12 @@ void SPIClass::setBitOrder(uint8_t ssPin, uint8_t bitOrder) {
 
 void SPIClass::setBitOrder(uint8_t bitOrder) {
 	spi_bitorder = bitOrder;
-	if (spi_bitorder == MSBFIRST) {
-		spi_init.SPI_FirstBit = SPI_FirstBit_MSB;
-	}
-	else {
-		spi_init.SPI_FirstBit = SPI_FirstBit_LSB;
-	}
+	// if (spi_bitorder == MSBFIRST) {
+	// 	spi_init.SPI_FirstBit = SPI_FirstBit_MSB;
+	// }
+	// else {
+	// 	spi_init.SPI_FirstBit = SPI_FirstBit_LSB;
+	// }
 	SPI_Init(SPI1, &spi_init);
 }
 
@@ -275,10 +275,10 @@ void SPIClass::setClockDivider(uint8_t divider){
 uint8_t SPIClass::transfer(uint8_t data) {
 	unsigned long rxtxData = data;
 
-	if (spi_bitorder == LSBFIRST) {
-		asm("rbit %0, %1" : "=r" (rxtxData) : "r" (rxtxData));	// reverse order of 32 bits
-		asm("rev %0, %1" : "=r" (rxtxData) : "r" (rxtxData));	// reverse order of bytes to get original bits into lowest byte
-	}
+	// if (spi_bitorder == LSBFIRST) {
+	// 	asm("rbit %0, %1" : "=r" (rxtxData) : "r" (rxtxData));	// reverse order of 32 bits
+	// 	asm("rev %0, %1" : "=r" (rxtxData) : "r" (rxtxData));	// reverse order of bytes to get original bits into lowest byte
+	// }
 
 	/* waiting send idle then send data */
 	while (SPI_I2S_GetFlagStatus(SPI1, SPI_I2S_FLAG_TXE) == RESET);
@@ -288,17 +288,17 @@ uint8_t SPIClass::transfer(uint8_t data) {
 	while (SPI_I2S_GetFlagStatus(SPI1, SPI_I2S_FLAG_RXNE) == RESET);
 	rxtxData = (uint8_t)SPI_I2S_ReceiveData(SPI1);
 
-	if (spi_bitorder == LSBFIRST) {
-		asm("rbit %0, %1" : "=r" (rxtxData) : "r" (rxtxData));	// reverse order of 32 bits
-		asm("rev %0, %1" : "=r" (rxtxData) : "r" (rxtxData));	// reverse order of bytes to get original bits into lowest byte
-	}
+	//if (spi_bitorder == LSBFIRST) {
+	// 	asm("rbit %0, %1" : "=r" (rxtxData) : "r" (rxtxData));	// reverse order of 32 bits
+	// 	asm("rev %0, %1" : "=r" (rxtxData) : "r" (rxtxData));	// reverse order of bytes to get original bits into lowest byte
+	// }
 
 	return (uint8_t)rxtxData;
 }
 
 uint16_t SPIClass::transfer16(uint16_t data) {
 	uint16_t ret = 0;
-	if (spi_bitorder == LSBFIRST) {
+	if (spi_bitorder == 0) {
 		ret = transfer((uint8_t)(data&0xFF)) & 0xFF;
 		ret = (transfer((uint8_t)(data>>8)) << 8) | ret;
 	}

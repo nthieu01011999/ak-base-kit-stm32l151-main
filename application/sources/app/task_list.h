@@ -96,7 +96,7 @@ extern void task_rf24_demo(ak_msg_t*);
 /*  DECLARE: Task polling
  */
 /*****************************************************************************/
-extern void task_polling_zigbee();
+//extern void task_polling_zigbee();
 extern void task_polling_console();
 
 #endif //__TASK_LIST_H__
