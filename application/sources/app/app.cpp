@@ -54,7 +54,7 @@
 /* arduino include */
 #include "SPI.h"
 #include "WString.h"
-#include "HardwareSerial.h"
+//#include "HardwareSerial.h"
 #include "ArduinoJson.h"
 
 /* common include */

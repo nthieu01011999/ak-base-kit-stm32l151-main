@@ -1882,32 +1882,6 @@ Discarded input sections
                 0x0000000000000000       0x18 build_ak-base-kit-stm32l151-application/link_data.o
  .text._Z17link_set_des_addrm
                 0x0000000000000000       0x18 build_ak-base-kit-stm32l151-application/link_data.o
- .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .text._Z7pinModehh
-                0x0000000000000000        0x2 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .text._Z12digitalWritehh
-                0x0000000000000000        0x2 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .debug_info    0x0000000000000000      0xa91 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .debug_abbrev  0x0000000000000000      0x210 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .debug_aranges
-                0x0000000000000000       0x20 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .debug_ranges  0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .debug_line    0x0000000000000000      0x4aa build_ak-base-kit-stm32l151-application/wiring_digital.o
- .debug_str     0x0000000000000000      0x3ee build_ak-base-kit-stm32l151-application/wiring_digital.o
- .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/wiring_digital.o
- .debug_frame   0x0000000000000000       0x30 build_ak-base-kit-stm32l151-application/wiring_digital.o
- .ARM.attributes
-                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/wiring_digital.o
- .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/wiring_shift.o
- .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/wiring_shift.o
- .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/wiring_shift.o
- .debug_line    0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/wiring_shift.o
- .debug_str     0x0000000000000000      0x121 build_ak-base-kit-stm32l151-application/wiring_shift.o
- .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/wiring_shift.o
- .ARM.attributes
-                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/wiring_shift.o
  .group         0x0000000000000000        0xc build_ak-base-kit-stm32l151-application/Print.o
  .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/Print.o
  .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/Print.o
@@ -1973,12 +1947,6 @@ Discarded input sections
                 0x0000000000000000       0x2a build_ak-base-kit-stm32l151-application/Stream.o
  .text._ZN6Stream14readBytesUntilEcPcj
                 0x0000000000000000       0x30 build_ak-base-kit-stm32l151-application/Stream.o
- .rodata._ZN6Stream10readStringEv.str1.1
-                0x0000000000000000        0x1 build_ak-base-kit-stm32l151-application/Stream.o
- .text._ZN6Stream10readStringEv
-                0x0000000000000000       0x28 build_ak-base-kit-stm32l151-application/Stream.o
- .text._ZN6Stream15readStringUntilEc
-                0x0000000000000000       0x30 build_ak-base-kit-stm32l151-application/Stream.o
  .text._ZN6Stream9findMultiEPNS_11MultiTargetEi
                 0x0000000000000000       0xa0 build_ak-base-kit-stm32l151-application/Stream.o
  .text._ZN6Stream9findUntilEPcjS0_j
@@ -1989,16 +1957,16 @@ Discarded input sections
                 0x0000000000000000       0x1e build_ak-base-kit-stm32l151-application/Stream.o
  .text._ZN6Stream4findEPc
                 0x0000000000000000       0x2a build_ak-base-kit-stm32l151-application/Stream.o
- .debug_info    0x0000000000000000     0x2705 build_ak-base-kit-stm32l151-application/Stream.o
- .debug_abbrev  0x0000000000000000      0x577 build_ak-base-kit-stm32l151-application/Stream.o
- .debug_loc     0x0000000000000000      0xcbd build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_info    0x0000000000000000     0x2552 build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_abbrev  0x0000000000000000      0x550 build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_loc     0x0000000000000000      0xb1e build_ak-base-kit-stm32l151-application/Stream.o
  .debug_aranges
-                0x0000000000000000       0x80 build_ak-base-kit-stm32l151-application/Stream.o
- .debug_ranges  0x0000000000000000      0x148 build_ak-base-kit-stm32l151-application/Stream.o
- .debug_line    0x0000000000000000      0x9e2 build_ak-base-kit-stm32l151-application/Stream.o
+                0x0000000000000000       0x70 build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_ranges  0x0000000000000000      0x138 build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_line    0x0000000000000000      0x927 build_ak-base-kit-stm32l151-application/Stream.o
  .debug_str     0x0000000000000000     0x133f build_ak-base-kit-stm32l151-application/Stream.o
  .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/Stream.o
- .debug_frame   0x0000000000000000      0x1a8 build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_frame   0x0000000000000000      0x170 build_ak-base-kit-stm32l151-application/Stream.o
  .ARM.attributes
                 0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/Stream.o
  .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/WString.o
@@ -4966,8 +4934,6 @@ LOAD build_ak-base-kit-stm32l151-application/link.o
 LOAD build_ak-base-kit-stm32l151-application/link_mac.o
 LOAD build_ak-base-kit-stm32l151-application/link_phy.o
 LOAD build_ak-base-kit-stm32l151-application/link_data.o
-LOAD build_ak-base-kit-stm32l151-application/wiring_digital.o
-LOAD build_ak-base-kit-stm32l151-application/wiring_shift.o
 LOAD build_ak-base-kit-stm32l151-application/Print.o
 LOAD build_ak-base-kit-stm32l151-application/Stream.o
 LOAD build_ak-base-kit-stm32l151-application/WString.o
@@ -4993,7 +4959,7 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
 LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libg.a
 LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
 
-.debug_info     0x0000000000000000    0x43c7d
+.debug_info     0x0000000000000000    0x43c53
  .debug_info    0x0000000000000000      0x226 build_ak-base-kit-stm32l151-application/fsm.o
  .debug_info    0x0000000000000226     0x10e6 build_ak-base-kit-stm32l151-application/task.o
  .debug_info    0x000000000000130c      0xab5 build_ak-base-kit-stm32l151-application/timer.o
@@ -5031,35 +4997,35 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_info    0x00000000000166f2     0x27e6 build_ak-base-kit-stm32l151-application/io_cfg.o
  .debug_info    0x0000000000018ed8      0x5db build_ak-base-kit-stm32l151-application/system_stm32l1xx.o
  .debug_info    0x00000000000194b3      0xd78 build_ak-base-kit-stm32l151-application/task_system.o
- .debug_info    0x000000000001a22b     0x6ce1 build_ak-base-kit-stm32l151-application/app.o
- .debug_info    0x0000000000020f0c      0xa46 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
- .debug_info    0x0000000000021952      0xd87 build_ak-base-kit-stm32l151-application/app_bsp.o
- .debug_info    0x00000000000226d9     0x2d53 build_ak-base-kit-stm32l151-application/shell.o
- .debug_info    0x000000000002542c      0xe9a build_ak-base-kit-stm32l151-application/task_shell.o
- .debug_info    0x00000000000262c6      0xc5f build_ak-base-kit-stm32l151-application/task_life.o
- .debug_info    0x0000000000026f25     0x1875 build_ak-base-kit-stm32l151-application/task_fw.o
- .debug_info    0x000000000002879a      0xa43 build_ak-base-kit-stm32l151-application/task_list.o
- .debug_info    0x00000000000291dd      0xbd4 build_ak-base-kit-stm32l151-application/task_display.o
- .debug_info    0x0000000000029db1      0xdde build_ak-base-kit-stm32l151-application/task_if.o
- .debug_info    0x000000000002ab8f      0xde8 build_ak-base-kit-stm32l151-application/task_uart_if.o
- .debug_info    0x000000000002b977      0xb4f build_ak-base-kit-stm32l151-application/task_dbg.o
- .debug_info    0x000000000002c4c6      0xd57 build_ak-base-kit-stm32l151-application/view_render.o
- .debug_info    0x000000000002d21d      0xd9e build_ak-base-kit-stm32l151-application/screen_manager.o
- .debug_info    0x000000000002dfbb     0x2f10 build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
- .debug_info    0x0000000000030ecb      0xf28 build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
- .debug_info    0x0000000000031df3      0xba5 build_ak-base-kit-stm32l151-application/eeprom.o
- .debug_info    0x0000000000032998      0xbab build_ak-base-kit-stm32l151-application/link_hal.o
- .debug_info    0x0000000000033543     0x1682 build_ak-base-kit-stm32l151-application/link.o
- .debug_info    0x0000000000034bc5     0x19c0 build_ak-base-kit-stm32l151-application/link_mac.o
- .debug_info    0x0000000000036585     0x1747 build_ak-base-kit-stm32l151-application/link_phy.o
- .debug_info    0x0000000000037ccc      0xeed build_ak-base-kit-stm32l151-application/link_data.o
- .debug_info    0x0000000000038bb9     0x33d9 build_ak-base-kit-stm32l151-application/Print.o
- .debug_info    0x000000000003bf92      0xfb4 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_info    0x000000000003cf46     0x2e3a build_ak-base-kit-stm32l151-application/Wire.o
- .debug_info    0x000000000003fd80     0x2958 build_ak-base-kit-stm32l151-application/twi.o
- .debug_info    0x00000000000426d8     0x15a5 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_info    0x000000000001a22b     0x6cb7 build_ak-base-kit-stm32l151-application/app.o
+ .debug_info    0x0000000000020ee2      0xa46 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
+ .debug_info    0x0000000000021928      0xd87 build_ak-base-kit-stm32l151-application/app_bsp.o
+ .debug_info    0x00000000000226af     0x2d53 build_ak-base-kit-stm32l151-application/shell.o
+ .debug_info    0x0000000000025402      0xe9a build_ak-base-kit-stm32l151-application/task_shell.o
+ .debug_info    0x000000000002629c      0xc5f build_ak-base-kit-stm32l151-application/task_life.o
+ .debug_info    0x0000000000026efb     0x1875 build_ak-base-kit-stm32l151-application/task_fw.o
+ .debug_info    0x0000000000028770      0xa43 build_ak-base-kit-stm32l151-application/task_list.o
+ .debug_info    0x00000000000291b3      0xbd4 build_ak-base-kit-stm32l151-application/task_display.o
+ .debug_info    0x0000000000029d87      0xdde build_ak-base-kit-stm32l151-application/task_if.o
+ .debug_info    0x000000000002ab65      0xde8 build_ak-base-kit-stm32l151-application/task_uart_if.o
+ .debug_info    0x000000000002b94d      0xb4f build_ak-base-kit-stm32l151-application/task_dbg.o
+ .debug_info    0x000000000002c49c      0xd57 build_ak-base-kit-stm32l151-application/view_render.o
+ .debug_info    0x000000000002d1f3      0xd9e build_ak-base-kit-stm32l151-application/screen_manager.o
+ .debug_info    0x000000000002df91     0x2f10 build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
+ .debug_info    0x0000000000030ea1      0xf28 build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
+ .debug_info    0x0000000000031dc9      0xba5 build_ak-base-kit-stm32l151-application/eeprom.o
+ .debug_info    0x000000000003296e      0xbab build_ak-base-kit-stm32l151-application/link_hal.o
+ .debug_info    0x0000000000033519     0x1682 build_ak-base-kit-stm32l151-application/link.o
+ .debug_info    0x0000000000034b9b     0x19c0 build_ak-base-kit-stm32l151-application/link_mac.o
+ .debug_info    0x000000000003655b     0x1747 build_ak-base-kit-stm32l151-application/link_phy.o
+ .debug_info    0x0000000000037ca2      0xeed build_ak-base-kit-stm32l151-application/link_data.o
+ .debug_info    0x0000000000038b8f     0x33d9 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_info    0x000000000003bf68      0xfb4 build_ak-base-kit-stm32l151-application/SPI.o
+ .debug_info    0x000000000003cf1c     0x2e3a build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_info    0x000000000003fd56     0x2958 build_ak-base-kit-stm32l151-application/twi.o
+ .debug_info    0x00000000000426ae     0x15a5 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
-.debug_abbrev   0x0000000000000000     0xb73f
+.debug_abbrev   0x0000000000000000     0xb72a
  .debug_abbrev  0x0000000000000000       0xdc build_ak-base-kit-stm32l151-application/fsm.o
  .debug_abbrev  0x00000000000000dc      0x3c6 build_ak-base-kit-stm32l151-application/task.o
  .debug_abbrev  0x00000000000004a2      0x324 build_ak-base-kit-stm32l151-application/timer.o
@@ -5097,33 +5063,33 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_abbrev  0x0000000000004b26      0x327 build_ak-base-kit-stm32l151-application/io_cfg.o
  .debug_abbrev  0x0000000000004e4d      0x192 build_ak-base-kit-stm32l151-application/system_stm32l1xx.o
  .debug_abbrev  0x0000000000004fdf      0x25d build_ak-base-kit-stm32l151-application/task_system.o
- .debug_abbrev  0x000000000000523c      0x7e4 build_ak-base-kit-stm32l151-application/app.o
- .debug_abbrev  0x0000000000005a20      0x1cd build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
- .debug_abbrev  0x0000000000005bed      0x287 build_ak-base-kit-stm32l151-application/app_bsp.o
- .debug_abbrev  0x0000000000005e74      0x4be build_ak-base-kit-stm32l151-application/shell.o
- .debug_abbrev  0x0000000000006332      0x2dd build_ak-base-kit-stm32l151-application/task_shell.o
- .debug_abbrev  0x000000000000660f      0x266 build_ak-base-kit-stm32l151-application/task_life.o
- .debug_abbrev  0x0000000000006875      0x364 build_ak-base-kit-stm32l151-application/task_fw.o
- .debug_abbrev  0x0000000000006bd9      0x1e6 build_ak-base-kit-stm32l151-application/task_list.o
- .debug_abbrev  0x0000000000006dbf      0x246 build_ak-base-kit-stm32l151-application/task_display.o
- .debug_abbrev  0x0000000000007005      0x2b2 build_ak-base-kit-stm32l151-application/task_if.o
- .debug_abbrev  0x00000000000072b7      0x26c build_ak-base-kit-stm32l151-application/task_uart_if.o
- .debug_abbrev  0x0000000000007523      0x1eb build_ak-base-kit-stm32l151-application/task_dbg.o
- .debug_abbrev  0x000000000000770e      0x35b build_ak-base-kit-stm32l151-application/view_render.o
- .debug_abbrev  0x0000000000007a69      0x2d2 build_ak-base-kit-stm32l151-application/screen_manager.o
- .debug_abbrev  0x0000000000007d3b      0x73f build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
- .debug_abbrev  0x000000000000847a      0x48a build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
- .debug_abbrev  0x0000000000008904      0x220 build_ak-base-kit-stm32l151-application/eeprom.o
- .debug_abbrev  0x0000000000008b24      0x264 build_ak-base-kit-stm32l151-application/link_hal.o
- .debug_abbrev  0x0000000000008d88      0x3c1 build_ak-base-kit-stm32l151-application/link.o
- .debug_abbrev  0x0000000000009149      0x4b1 build_ak-base-kit-stm32l151-application/link_mac.o
- .debug_abbrev  0x00000000000095fa      0x5bc build_ak-base-kit-stm32l151-application/link_phy.o
- .debug_abbrev  0x0000000000009bb6      0x304 build_ak-base-kit-stm32l151-application/link_data.o
- .debug_abbrev  0x0000000000009eba      0x526 build_ak-base-kit-stm32l151-application/Print.o
- .debug_abbrev  0x000000000000a3e0      0x39f build_ak-base-kit-stm32l151-application/SPI.o
- .debug_abbrev  0x000000000000a77f      0x6e0 build_ak-base-kit-stm32l151-application/Wire.o
- .debug_abbrev  0x000000000000ae5f      0x47f build_ak-base-kit-stm32l151-application/twi.o
- .debug_abbrev  0x000000000000b2de      0x461 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_abbrev  0x000000000000523c      0x7cf build_ak-base-kit-stm32l151-application/app.o
+ .debug_abbrev  0x0000000000005a0b      0x1cd build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
+ .debug_abbrev  0x0000000000005bd8      0x287 build_ak-base-kit-stm32l151-application/app_bsp.o
+ .debug_abbrev  0x0000000000005e5f      0x4be build_ak-base-kit-stm32l151-application/shell.o
+ .debug_abbrev  0x000000000000631d      0x2dd build_ak-base-kit-stm32l151-application/task_shell.o
+ .debug_abbrev  0x00000000000065fa      0x266 build_ak-base-kit-stm32l151-application/task_life.o
+ .debug_abbrev  0x0000000000006860      0x364 build_ak-base-kit-stm32l151-application/task_fw.o
+ .debug_abbrev  0x0000000000006bc4      0x1e6 build_ak-base-kit-stm32l151-application/task_list.o
+ .debug_abbrev  0x0000000000006daa      0x246 build_ak-base-kit-stm32l151-application/task_display.o
+ .debug_abbrev  0x0000000000006ff0      0x2b2 build_ak-base-kit-stm32l151-application/task_if.o
+ .debug_abbrev  0x00000000000072a2      0x26c build_ak-base-kit-stm32l151-application/task_uart_if.o
+ .debug_abbrev  0x000000000000750e      0x1eb build_ak-base-kit-stm32l151-application/task_dbg.o
+ .debug_abbrev  0x00000000000076f9      0x35b build_ak-base-kit-stm32l151-application/view_render.o
+ .debug_abbrev  0x0000000000007a54      0x2d2 build_ak-base-kit-stm32l151-application/screen_manager.o
+ .debug_abbrev  0x0000000000007d26      0x73f build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
+ .debug_abbrev  0x0000000000008465      0x48a build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
+ .debug_abbrev  0x00000000000088ef      0x220 build_ak-base-kit-stm32l151-application/eeprom.o
+ .debug_abbrev  0x0000000000008b0f      0x264 build_ak-base-kit-stm32l151-application/link_hal.o
+ .debug_abbrev  0x0000000000008d73      0x3c1 build_ak-base-kit-stm32l151-application/link.o
+ .debug_abbrev  0x0000000000009134      0x4b1 build_ak-base-kit-stm32l151-application/link_mac.o
+ .debug_abbrev  0x00000000000095e5      0x5bc build_ak-base-kit-stm32l151-application/link_phy.o
+ .debug_abbrev  0x0000000000009ba1      0x304 build_ak-base-kit-stm32l151-application/link_data.o
+ .debug_abbrev  0x0000000000009ea5      0x526 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_abbrev  0x000000000000a3cb      0x39f build_ak-base-kit-stm32l151-application/SPI.o
+ .debug_abbrev  0x000000000000a76a      0x6e0 build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_abbrev  0x000000000000ae4a      0x47f build_ak-base-kit-stm32l151-application/twi.o
+ .debug_abbrev  0x000000000000b2c9      0x461 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
 .debug_loc      0x0000000000000000    0x12a07
  .debug_loc     0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/fsm.o
@@ -5380,7 +5346,7 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_ranges  0x0000000000002400       0x58 build_ak-base-kit-stm32l151-application/twi.o
  .debug_ranges  0x0000000000002458       0x50 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
-.debug_line     0x0000000000000000    0x1ed5e
+.debug_line     0x0000000000000000    0x1ed2a
  .debug_line    0x0000000000000000      0x18a build_ak-base-kit-stm32l151-application/fsm.o
  .debug_line    0x000000000000018a      0xa0e build_ak-base-kit-stm32l151-application/task.o
  .debug_line    0x0000000000000b98      0x5bb build_ak-base-kit-stm32l151-application/timer.o
@@ -5418,33 +5384,33 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_line    0x000000000000ea81     0x103b build_ak-base-kit-stm32l151-application/io_cfg.o
  .debug_line    0x000000000000fabc      0x450 build_ak-base-kit-stm32l151-application/system_stm32l1xx.o
  .debug_line    0x000000000000ff0c      0x55a build_ak-base-kit-stm32l151-application/task_system.o
- .debug_line    0x0000000000010466     0x10fe build_ak-base-kit-stm32l151-application/app.o
- .debug_line    0x0000000000011564      0x495 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
- .debug_line    0x00000000000119f9      0x60d build_ak-base-kit-stm32l151-application/app_bsp.o
- .debug_line    0x0000000000012006     0x1373 build_ak-base-kit-stm32l151-application/shell.o
- .debug_line    0x0000000000013379      0x610 build_ak-base-kit-stm32l151-application/task_shell.o
- .debug_line    0x0000000000013989      0x530 build_ak-base-kit-stm32l151-application/task_life.o
- .debug_line    0x0000000000013eb9      0xae7 build_ak-base-kit-stm32l151-application/task_fw.o
- .debug_line    0x00000000000149a0      0x489 build_ak-base-kit-stm32l151-application/task_list.o
- .debug_line    0x0000000000014e29      0x4e5 build_ak-base-kit-stm32l151-application/task_display.o
- .debug_line    0x000000000001530e      0x5e6 build_ak-base-kit-stm32l151-application/task_if.o
- .debug_line    0x00000000000158f4      0x602 build_ak-base-kit-stm32l151-application/task_uart_if.o
- .debug_line    0x0000000000015ef6      0x4af build_ak-base-kit-stm32l151-application/task_dbg.o
- .debug_line    0x00000000000163a5      0x737 build_ak-base-kit-stm32l151-application/view_render.o
- .debug_line    0x0000000000016adc      0x647 build_ak-base-kit-stm32l151-application/screen_manager.o
- .debug_line    0x0000000000017123     0x1414 build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
- .debug_line    0x0000000000018537      0x843 build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
- .debug_line    0x0000000000018d7a      0x4e6 build_ak-base-kit-stm32l151-application/eeprom.o
- .debug_line    0x0000000000019260      0x581 build_ak-base-kit-stm32l151-application/link_hal.o
- .debug_line    0x00000000000197e1      0x97b build_ak-base-kit-stm32l151-application/link.o
- .debug_line    0x000000000001a15c      0xbb7 build_ak-base-kit-stm32l151-application/link_mac.o
- .debug_line    0x000000000001ad13      0xd02 build_ak-base-kit-stm32l151-application/link_phy.o
- .debug_line    0x000000000001ba15      0x7d1 build_ak-base-kit-stm32l151-application/link_data.o
- .debug_line    0x000000000001c1e6      0xaa6 build_ak-base-kit-stm32l151-application/Print.o
- .debug_line    0x000000000001cc8c      0x785 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_line    0x000000000001d411      0xa2e build_ak-base-kit-stm32l151-application/Wire.o
- .debug_line    0x000000000001de3f      0x8c9 build_ak-base-kit-stm32l151-application/twi.o
- .debug_line    0x000000000001e708      0x656 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_line    0x0000000000010466     0x10ca build_ak-base-kit-stm32l151-application/app.o
+ .debug_line    0x0000000000011530      0x495 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
+ .debug_line    0x00000000000119c5      0x60d build_ak-base-kit-stm32l151-application/app_bsp.o
+ .debug_line    0x0000000000011fd2     0x1373 build_ak-base-kit-stm32l151-application/shell.o
+ .debug_line    0x0000000000013345      0x610 build_ak-base-kit-stm32l151-application/task_shell.o
+ .debug_line    0x0000000000013955      0x530 build_ak-base-kit-stm32l151-application/task_life.o
+ .debug_line    0x0000000000013e85      0xae7 build_ak-base-kit-stm32l151-application/task_fw.o
+ .debug_line    0x000000000001496c      0x489 build_ak-base-kit-stm32l151-application/task_list.o
+ .debug_line    0x0000000000014df5      0x4e5 build_ak-base-kit-stm32l151-application/task_display.o
+ .debug_line    0x00000000000152da      0x5e6 build_ak-base-kit-stm32l151-application/task_if.o
+ .debug_line    0x00000000000158c0      0x602 build_ak-base-kit-stm32l151-application/task_uart_if.o
+ .debug_line    0x0000000000015ec2      0x4af build_ak-base-kit-stm32l151-application/task_dbg.o
+ .debug_line    0x0000000000016371      0x737 build_ak-base-kit-stm32l151-application/view_render.o
+ .debug_line    0x0000000000016aa8      0x647 build_ak-base-kit-stm32l151-application/screen_manager.o
+ .debug_line    0x00000000000170ef     0x1414 build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
+ .debug_line    0x0000000000018503      0x843 build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
+ .debug_line    0x0000000000018d46      0x4e6 build_ak-base-kit-stm32l151-application/eeprom.o
+ .debug_line    0x000000000001922c      0x581 build_ak-base-kit-stm32l151-application/link_hal.o
+ .debug_line    0x00000000000197ad      0x97b build_ak-base-kit-stm32l151-application/link.o
+ .debug_line    0x000000000001a128      0xbb7 build_ak-base-kit-stm32l151-application/link_mac.o
+ .debug_line    0x000000000001acdf      0xd02 build_ak-base-kit-stm32l151-application/link_phy.o
+ .debug_line    0x000000000001b9e1      0x7d1 build_ak-base-kit-stm32l151-application/link_data.o
+ .debug_line    0x000000000001c1b2      0xaa6 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_line    0x000000000001cc58      0x785 build_ak-base-kit-stm32l151-application/SPI.o
+ .debug_line    0x000000000001d3dd      0xa2e build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_line    0x000000000001de0b      0x8c9 build_ak-base-kit-stm32l151-application/twi.o
+ .debug_line    0x000000000001e6d4      0x656 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
 .debug_str      0x0000000000000000    0x11dcb
  .debug_str     0x0000000000000000      0x1b4 build_ak-base-kit-stm32l151-application/fsm.o
@@ -5521,55 +5487,55 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
                                         0x364 (size before relaxing)
  .debug_str     0x0000000000005e3c      0x2c6 build_ak-base-kit-stm32l151-application/task_system.o
                                         0x616 (size before relaxing)
- .debug_str     0x0000000000006102     0x6e33 build_ak-base-kit-stm32l151-application/app.o
-                                       0x7b70 (size before relaxing)
- .debug_str     0x000000000000cf35       0x22 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
+ .debug_str     0x0000000000006102     0x6e02 build_ak-base-kit-stm32l151-application/app.o
+                                       0x7b3f (size before relaxing)
+ .debug_str     0x000000000000cf04       0x22 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
                                         0x3c9 (size before relaxing)
- .debug_str     0x000000000000cf57       0x97 build_ak-base-kit-stm32l151-application/app_bsp.o
+ .debug_str     0x000000000000cf26       0x97 build_ak-base-kit-stm32l151-application/app_bsp.o
                                         0x73f (size before relaxing)
- .debug_str     0x000000000000cfee      0x411 build_ak-base-kit-stm32l151-application/shell.o
+ .debug_str     0x000000000000cfbd      0x411 build_ak-base-kit-stm32l151-application/shell.o
                                         0xf27 (size before relaxing)
- .debug_str     0x000000000000d3ff       0x49 build_ak-base-kit-stm32l151-application/task_shell.o
+ .debug_str     0x000000000000d3ce       0x49 build_ak-base-kit-stm32l151-application/task_shell.o
                                         0x671 (size before relaxing)
- .debug_str     0x000000000000d448       0x3b build_ak-base-kit-stm32l151-application/task_life.o
+ .debug_str     0x000000000000d417       0x3b build_ak-base-kit-stm32l151-application/task_life.o
                                         0x53d (size before relaxing)
- .debug_str     0x000000000000d483      0x356 build_ak-base-kit-stm32l151-application/task_fw.o
+ .debug_str     0x000000000000d452      0x356 build_ak-base-kit-stm32l151-application/task_fw.o
                                         0xe47 (size before relaxing)
- .debug_str     0x000000000000d7d9       0x1a build_ak-base-kit-stm32l151-application/task_list.o
+ .debug_str     0x000000000000d7a8       0x1a build_ak-base-kit-stm32l151-application/task_list.o
                                         0x5a7 (size before relaxing)
- .debug_str     0x000000000000d7f3       0x95 build_ak-base-kit-stm32l151-application/task_display.o
+ .debug_str     0x000000000000d7c2       0x95 build_ak-base-kit-stm32l151-application/task_display.o
                                         0x4ea (size before relaxing)
- .debug_str     0x000000000000d888       0xe1 build_ak-base-kit-stm32l151-application/task_if.o
+ .debug_str     0x000000000000d857       0xe1 build_ak-base-kit-stm32l151-application/task_if.o
                                         0x738 (size before relaxing)
- .debug_str     0x000000000000d969      0x14a build_ak-base-kit-stm32l151-application/task_uart_if.o
+ .debug_str     0x000000000000d938      0x14a build_ak-base-kit-stm32l151-application/task_uart_if.o
                                         0x7b4 (size before relaxing)
- .debug_str     0x000000000000dab3       0x38 build_ak-base-kit-stm32l151-application/task_dbg.o
+ .debug_str     0x000000000000da82       0x38 build_ak-base-kit-stm32l151-application/task_dbg.o
                                         0x47c (size before relaxing)
- .debug_str     0x000000000000daeb      0x26f build_ak-base-kit-stm32l151-application/view_render.o
+ .debug_str     0x000000000000daba      0x26f build_ak-base-kit-stm32l151-application/view_render.o
                                         0x70c (size before relaxing)
- .debug_str     0x000000000000dd5a      0x181 build_ak-base-kit-stm32l151-application/screen_manager.o
+ .debug_str     0x000000000000dd29      0x181 build_ak-base-kit-stm32l151-application/screen_manager.o
                                         0x6d6 (size before relaxing)
- .debug_str     0x000000000000dedb      0x795 build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
+ .debug_str     0x000000000000deaa      0x795 build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
                                         0xf40 (size before relaxing)
- .debug_str     0x000000000000e670      0x295 build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
+ .debug_str     0x000000000000e63f      0x295 build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
                                         0x7e4 (size before relaxing)
- .debug_str     0x000000000000e905       0x21 build_ak-base-kit-stm32l151-application/eeprom.o
+ .debug_str     0x000000000000e8d4       0x21 build_ak-base-kit-stm32l151-application/eeprom.o
                                         0x412 (size before relaxing)
- .debug_str     0x000000000000e926       0xdd build_ak-base-kit-stm32l151-application/link_hal.o
+ .debug_str     0x000000000000e8f5       0xdd build_ak-base-kit-stm32l151-application/link_hal.o
                                         0x4e7 (size before relaxing)
- .debug_str     0x000000000000ea03      0x3e4 build_ak-base-kit-stm32l151-application/link.o
+ .debug_str     0x000000000000e9d2      0x3e4 build_ak-base-kit-stm32l151-application/link.o
                                         0xc93 (size before relaxing)
- .debug_str     0x000000000000ede7      0x556 build_ak-base-kit-stm32l151-application/link_mac.o
+ .debug_str     0x000000000000edb6      0x556 build_ak-base-kit-stm32l151-application/link_mac.o
                                         0xf3f (size before relaxing)
- .debug_str     0x000000000000f33d      0x46a build_ak-base-kit-stm32l151-application/link_phy.o
+ .debug_str     0x000000000000f30c      0x46a build_ak-base-kit-stm32l151-application/link_phy.o
                                         0xe16 (size before relaxing)
- .debug_str     0x000000000000f7a7       0xe9 build_ak-base-kit-stm32l151-application/link_data.o
+ .debug_str     0x000000000000f776       0xe9 build_ak-base-kit-stm32l151-application/link_data.o
                                         0x5ec (size before relaxing)
- .debug_str     0x000000000000f890      0xc72 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_str     0x000000000000f85f      0xc72 build_ak-base-kit-stm32l151-application/Print.o
                                        0x109f (size before relaxing)
- .debug_str     0x0000000000010502      0x104 build_ak-base-kit-stm32l151-application/SPI.o
+ .debug_str     0x00000000000104d1      0x104 build_ak-base-kit-stm32l151-application/SPI.o
                                         0x9ce (size before relaxing)
- .debug_str     0x0000000000010606     0x152c build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_str     0x00000000000105d5     0x155d build_ak-base-kit-stm32l151-application/Wire.o
                                        0x1a6f (size before relaxing)
  .debug_str     0x0000000000011b32      0x131 build_ak-base-kit-stm32l151-application/twi.o
                                        0x13f7 (size before relaxing)

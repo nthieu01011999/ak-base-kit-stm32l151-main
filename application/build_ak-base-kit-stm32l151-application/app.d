@@ -217,8 +217,6 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/sys/sys_irq.h sources/sys/sys_io.h sources/sys/sys_ctrl.h \
  sources/platform/stm32l/arduino/libraries/SPI/SPI.h \
  sources/platform/stm32l/arduino/cores/WString.h \
- sources/platform/stm32l/arduino/cores/HardwareSerial.h \
- sources/platform/stm32l/arduino/cores/Stream.h \
  sources/libraries/ArduinoJson/ArduinoJson.h \
  sources/libraries/ArduinoJson/src/ArduinoJson.h \
  sources/libraries/ArduinoJson/src/ArduinoJson.hpp \
