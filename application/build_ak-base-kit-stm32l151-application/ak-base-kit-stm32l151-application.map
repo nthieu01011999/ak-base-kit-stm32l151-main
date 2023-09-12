@@ -1866,41 +1866,6 @@ Discarded input sections
  .debug_frame   0x0000000000000000      0x170 build_ak-base-kit-stm32l151-application/Stream.o
  .ARM.attributes
                 0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/Stream.o
- .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/itoa.o
- .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/itoa.o
- .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/itoa.o
- .text.ltoa     0x0000000000000000       0x76 build_ak-base-kit-stm32l151-application/itoa.o
- .text.itoa     0x0000000000000000        0x4 build_ak-base-kit-stm32l151-application/itoa.o
- .text.ultoa    0x0000000000000000       0x5c build_ak-base-kit-stm32l151-application/itoa.o
- .text.utoa     0x0000000000000000        0x4 build_ak-base-kit-stm32l151-application/itoa.o
- .debug_info    0x0000000000000000      0x2f1 build_ak-base-kit-stm32l151-application/itoa.o
- .debug_abbrev  0x0000000000000000       0xe9 build_ak-base-kit-stm32l151-application/itoa.o
- .debug_loc     0x0000000000000000      0x567 build_ak-base-kit-stm32l151-application/itoa.o
- .debug_aranges
-                0x0000000000000000       0x38 build_ak-base-kit-stm32l151-application/itoa.o
- .debug_ranges  0x0000000000000000       0x28 build_ak-base-kit-stm32l151-application/itoa.o
- .debug_line    0x0000000000000000      0x1d7 build_ak-base-kit-stm32l151-application/itoa.o
- .debug_str     0x0000000000000000      0x1ed build_ak-base-kit-stm32l151-application/itoa.o
- .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/itoa.o
- .debug_frame   0x0000000000000000       0x7c build_ak-base-kit-stm32l151-application/itoa.o
- .ARM.attributes
-                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/itoa.o
- .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/IPAddress.o
- .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/IPAddress.o
- .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_line    0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_str     0x0000000000000000      0x11e build_ak-base-kit-stm32l151-application/IPAddress.o
- .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/IPAddress.o
- .ARM.attributes
-                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/IPAddress.o
- .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/SPI.o
- .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/SPI.o
- .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_line    0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_str     0x0000000000000000      0x120 build_ak-base-kit-stm32l151-application/SPI.o
- .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/SPI.o
- .ARM.attributes
-                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/SPI.o
  .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/Wire.o
  .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/Wire.o
  .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/Wire.o
@@ -3902,9 +3867,6 @@ LOAD build_ak-base-kit-stm32l151-application/link_phy.o
 LOAD build_ak-base-kit-stm32l151-application/link_data.o
 LOAD build_ak-base-kit-stm32l151-application/Print.o
 LOAD build_ak-base-kit-stm32l151-application/Stream.o
-LOAD build_ak-base-kit-stm32l151-application/itoa.o
-LOAD build_ak-base-kit-stm32l151-application/IPAddress.o
-LOAD build_ak-base-kit-stm32l151-application/SPI.o
 LOAD build_ak-base-kit-stm32l151-application/Wire.o
 LOAD build_ak-base-kit-stm32l151-application/twi.o
 LOAD build_ak-base-kit-stm32l151-application/mini_cpp.o

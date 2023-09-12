@@ -810,8 +810,6 @@
                 <dir
                   name="libraries">
                   <dir
-                    name="SPI"/>
-                  <dir
                     name="Wire">
                     <dir
                       name="utility"/>

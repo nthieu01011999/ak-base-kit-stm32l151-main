@@ -52,7 +52,7 @@
 #include "sys_dbg.h"
 
 /* arduino include */
-#include "SPI.h"
+//#include "SPI.h"
 //#include "WString.h"
 //#include "HardwareSerial.h"
 #include "ArduinoJson.h"
