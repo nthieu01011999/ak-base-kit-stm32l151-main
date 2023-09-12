@@ -273,6 +273,8 @@ Discarded input sections
                 0x0000000000000000       0x58 build_ak-base-kit-stm32l151-application/mbm.o
  .text.bMBMResponseTimeoutCB
                 0x0000000000000000       0x18 build_ak-base-kit-stm32l151-application/mbm.o
+ .text.eMBMSerialInitExt.part.0
+                0x0000000000000000       0x88 build_ak-base-kit-stm32l151-application/mbm.o
  .text.bMBMIsHdlValid
                 0x0000000000000000       0x18 build_ak-base-kit-stm32l151-application/mbm.o
  .text.eMBMSetSlaveTimeout
@@ -281,24 +283,24 @@ Discarded input sections
                 0x0000000000000000       0x2c build_ak-base-kit-stm32l151-application/mbm.o
  .text.vMBMMasterTransactionPolled
                 0x0000000000000000       0xae build_ak-base-kit-stm32l151-application/mbm.o
- .text.eMBMSerialInitExt
-                0x0000000000000000       0xcc build_ak-base-kit-stm32l151-application/mbm.o
  .text.eMBMSerialInit
-                0x0000000000000000       0x1a build_ak-base-kit-stm32l151-application/mbm.o
+                0x0000000000000000        0xa build_ak-base-kit-stm32l151-application/mbm.o
+ .text.eMBMSerialInitExt
+                0x0000000000000000        0xa build_ak-base-kit-stm32l151-application/mbm.o
  .bss.bIsInitalized
                 0x0000000000000000        0x1 build_ak-base-kit-stm32l151-application/mbm.o
  .bss.xMBMInternalHdl
                 0x0000000000000000       0x20 build_ak-base-kit-stm32l151-application/mbm.o
- .debug_info    0x0000000000000000      0xb47 build_ak-base-kit-stm32l151-application/mbm.o
- .debug_abbrev  0x0000000000000000      0x2e5 build_ak-base-kit-stm32l151-application/mbm.o
- .debug_loc     0x0000000000000000      0x88a build_ak-base-kit-stm32l151-application/mbm.o
+ .debug_info    0x0000000000000000      0xbb6 build_ak-base-kit-stm32l151-application/mbm.o
+ .debug_abbrev  0x0000000000000000      0x322 build_ak-base-kit-stm32l151-application/mbm.o
+ .debug_loc     0x0000000000000000      0x8b3 build_ak-base-kit-stm32l151-application/mbm.o
  .debug_aranges
-                0x0000000000000000       0x58 build_ak-base-kit-stm32l151-application/mbm.o
+                0x0000000000000000       0x60 build_ak-base-kit-stm32l151-application/mbm.o
  .debug_ranges  0x0000000000000000       0x80 build_ak-base-kit-stm32l151-application/mbm.o
- .debug_line    0x0000000000000000      0x63d build_ak-base-kit-stm32l151-application/mbm.o
- .debug_str     0x0000000000000000      0x75a build_ak-base-kit-stm32l151-application/mbm.o
+ .debug_line    0x0000000000000000      0x60a build_ak-base-kit-stm32l151-application/mbm.o
+ .debug_str     0x0000000000000000      0x748 build_ak-base-kit-stm32l151-application/mbm.o
  .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/mbm.o
- .debug_frame   0x0000000000000000       0xf0 build_ak-base-kit-stm32l151-application/mbm.o
+ .debug_frame   0x0000000000000000       0xe8 build_ak-base-kit-stm32l151-application/mbm.o
  .ARM.attributes
                 0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/mbm.o
  .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmudp.o
@@ -325,72 +327,6 @@ Discarded input sections
  .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/mbmascii.o
  .ARM.attributes
                 0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/mbmascii.o
- .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmtcp.o
- .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmtcp.o
- .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmtcp.o
- .debug_info    0x0000000000000000       0x6b build_ak-base-kit-stm32l151-application/mbmtcp.o
- .debug_abbrev  0x0000000000000000       0x26 build_ak-base-kit-stm32l151-application/mbmtcp.o
- .debug_aranges
-                0x0000000000000000       0x18 build_ak-base-kit-stm32l151-application/mbmtcp.o
- .debug_line    0x0000000000000000       0x1d build_ak-base-kit-stm32l151-application/mbmtcp.o
- .debug_str     0x0000000000000000      0x178 build_ak-base-kit-stm32l151-application/mbmtcp.o
- .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/mbmtcp.o
- .ARM.attributes
-                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/mbmtcp.o
- .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .text.usMBMCRC16
-                0x0000000000000000       0x2c build_ak-base-kit-stm32l151-application/mbmcrc.o
- .rodata.aucCRCHi
-                0x0000000000000000      0x100 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .rodata.aucCRCLo
-                0x0000000000000000      0x100 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .debug_info    0x0000000000000000      0x14e build_ak-base-kit-stm32l151-application/mbmcrc.o
- .debug_abbrev  0x0000000000000000       0xb2 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .debug_loc     0x0000000000000000       0xd8 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .debug_aranges
-                0x0000000000000000       0x20 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .debug_ranges  0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .debug_line    0x0000000000000000       0xf0 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .debug_str     0x0000000000000000      0x1c9 build_ak-base-kit-stm32l151-application/mbmcrc.o
- .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/mbmcrc.o
- .debug_frame   0x0000000000000000       0x2c build_ak-base-kit-stm32l151-application/mbmcrc.o
- .ARM.attributes
-                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/mbmcrc.o
- .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .text.bMBMSerialWaitCB
-                0x0000000000000000       0x3c build_ak-base-kit-stm32l151-application/mbmrtu.o
- .text.bMBMSerialRTUTransmitterEmptyAPIV1CB
-                0x0000000000000000       0xb2 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .text.eMBMSerialRTUFrameCloseInternal
-                0x0000000000000000       0x90 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .text.eMBMSerialRTUFrameReceive
-                0x0000000000000000       0xb8 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .text.eMBMSerialRTUFrameSend
-                0x0000000000000000       0xd0 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .text.eMBMSerialRTUFrameClose
-                0x0000000000000000       0x18 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .text.eMBMSerialRTUInit
-                0x0000000000000000       0xe0 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .bss.bIsInitialized
-                0x0000000000000000        0x1 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .bss.xMBMRTUFrameHdl
-                0x0000000000000000      0x118 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .debug_info    0x0000000000000000      0xd47 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .debug_abbrev  0x0000000000000000      0x290 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .debug_loc     0x0000000000000000      0x8e1 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .debug_aranges
-                0x0000000000000000       0x50 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .debug_ranges  0x0000000000000000       0x70 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .debug_line    0x0000000000000000      0x7ef build_ak-base-kit-stm32l151-application/mbmrtu.o
- .debug_str     0x0000000000000000      0x873 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/mbmrtu.o
- .debug_frame   0x0000000000000000       0xf0 build_ak-base-kit-stm32l151-application/mbmrtu.o
- .ARM.attributes
-                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/mbmrtu.o
  .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmfuncfiles.o
  .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmfuncfiles.o
  .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/mbmfuncfiles.o
@@ -3678,9 +3614,6 @@ LOAD build_ak-base-kit-stm32l151-application/mbutils.o
 LOAD build_ak-base-kit-stm32l151-application/mbm.o
 LOAD build_ak-base-kit-stm32l151-application/mbmudp.o
 LOAD build_ak-base-kit-stm32l151-application/mbmascii.o
-LOAD build_ak-base-kit-stm32l151-application/mbmtcp.o
-LOAD build_ak-base-kit-stm32l151-application/mbmcrc.o
-LOAD build_ak-base-kit-stm32l151-application/mbmrtu.o
 LOAD build_ak-base-kit-stm32l151-application/mbmfuncfiles.o
 LOAD build_ak-base-kit-stm32l151-application/mbmfuncholding.o
 LOAD build_ak-base-kit-stm32l151-application/mbmfunccustom1.o

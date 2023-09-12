@@ -63,5 +63,4 @@ build_ak-base-kit-stm32l151-application/mbm.o: \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbutils.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/internal/mbmiframe.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/internal/mbmi.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/rtu/mbmrtu.h
+ sources/networks/mbmaster-v2.9.6/mbmaster/include/internal/mbmi.h

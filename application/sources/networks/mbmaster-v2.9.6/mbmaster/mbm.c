@@ -27,7 +27,7 @@
 #include "ascii/mbmascii.h"
 #endif
 #if MBM_RTU_ENABLED == 1
-#include "rtu/mbmrtu.h"
+//#include "rtu/mbmrtu.h"
 #endif
 #if MBM_TCP_ENABLED == 1
 #include "tcp/mbmtcp.h"
@@ -511,11 +511,11 @@ eMBMSerialInitExt( xMBMHandle * pxHdl, eMBSerialMode eMode, UCHAR ucPort, ULONG 
                 break;
 #endif
 
-#if MBM_RTU_ENABLED == 1
-            case MB_RTU:
-                eStatus = eMBMSerialRTUInit( pxMBMNewIntHdl, ucPort, ulBaudRate, eParity, ucStopBits );
-                break;
-#endif
+//#if MBM_RTU_ENABLED == 1
+//            case MB_RTU:
+//                eStatus = eMBMSerialRTUInit( pxMBMNewIntHdl, ucPort, ulBaudRate, eParity, ucStopBits );
+//                break;
+//#endif
 
             default:
                 eStatus = MB_EINVAL;
