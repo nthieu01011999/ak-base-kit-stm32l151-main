@@ -21,8 +21,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "sys_dbg.h"
-#include "message.h"
+//#include "sys_dbg.h"
+//#include "message.h"
 
 //char* strdup (const char *s) {
 //	size_t len = strlen (s) + 1;

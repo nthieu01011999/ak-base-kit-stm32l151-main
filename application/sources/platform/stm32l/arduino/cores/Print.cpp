@@ -160,12 +160,12 @@ size_t Print::println(double num, int digits)
     return n;
 }
 
-size_t Print::println(const Printable& x)
-{
-    size_t n = print(x);
-    n += println();
-    return n;
-}
+//size_t Print::println(const Printable& x)
+//{
+//    size_t n = print(x);
+//    n += println();
+//    return n;
+//}
 
 // Private Methods /////////////////////////////////////////////////////////////
 

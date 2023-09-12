@@ -14,7 +14,6 @@ sources/platform/stm32l/arduino/cores/Print.cpp:128:8:size_t Print::println(int,
 sources/platform/stm32l/arduino/cores/Print.cpp:135:8:size_t Print::println(unsigned int, int)	16	static
 sources/platform/stm32l/arduino/cores/Print.cpp:142:8:size_t Print::println(long int, int)	16	static
 sources/platform/stm32l/arduino/cores/Print.cpp:149:8:size_t Print::println(long unsigned int, int)	16	static
-sources/platform/stm32l/arduino/cores/Print.cpp:163:8:size_t Print::println(const Printable&)	16	static
 sources/platform/stm32l/arduino/cores/Print.cpp:191:8:size_t Print::printFloat(double, uint8_t)	40	static
 sources/platform/stm32l/arduino/cores/Print.cpp:89:8:size_t Print::print(double, int)	0	static
 sources/platform/stm32l/arduino/cores/Print.cpp:156:8:size_t Print::println(double, int)	24	static

@@ -1476,14 +1476,14 @@ Discarded input sections
  .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/dtostrf.o
  .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/dtostrf.o
  .text.dtostrf  0x0000000000000000       0x5e build_ak-base-kit-stm32l151-application/dtostrf.o
- .debug_info    0x0000000000000000      0x516 build_ak-base-kit-stm32l151-application/dtostrf.o
- .debug_abbrev  0x0000000000000000      0x189 build_ak-base-kit-stm32l151-application/dtostrf.o
+ .debug_info    0x0000000000000000      0x25e build_ak-base-kit-stm32l151-application/dtostrf.o
+ .debug_abbrev  0x0000000000000000      0x131 build_ak-base-kit-stm32l151-application/dtostrf.o
  .debug_loc     0x0000000000000000       0xff build_ak-base-kit-stm32l151-application/dtostrf.o
  .debug_aranges
                 0x0000000000000000       0x20 build_ak-base-kit-stm32l151-application/dtostrf.o
  .debug_ranges  0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/dtostrf.o
- .debug_line    0x0000000000000000      0x2bf build_ak-base-kit-stm32l151-application/dtostrf.o
- .debug_str     0x0000000000000000      0x269 build_ak-base-kit-stm32l151-application/dtostrf.o
+ .debug_line    0x0000000000000000      0x182 build_ak-base-kit-stm32l151-application/dtostrf.o
+ .debug_str     0x0000000000000000      0x1f8 build_ak-base-kit-stm32l151-application/dtostrf.o
  .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/dtostrf.o
  .debug_frame   0x0000000000000000       0x38 build_ak-base-kit-stm32l151-application/dtostrf.o
  .ARM.attributes
@@ -1819,8 +1819,6 @@ Discarded input sections
                 0x0000000000000000       0x14 build_ak-base-kit-stm32l151-application/Print.o
  .text._ZN5Print7printlnEmi
                 0x0000000000000000       0x14 build_ak-base-kit-stm32l151-application/Print.o
- .text._ZN5Print7printlnERK9Printable
-                0x0000000000000000       0x14 build_ak-base-kit-stm32l151-application/Print.o
  .rodata._ZN5Print10printFloatEdh.str1.1
                 0x0000000000000000        0xe build_ak-base-kit-stm32l151-application/Print.o
  .text._ZN5Print10printFloatEdh
@@ -1856,14 +1854,14 @@ Discarded input sections
                 0x0000000000000000       0x1e build_ak-base-kit-stm32l151-application/Stream.o
  .text._ZN6Stream4findEPc
                 0x0000000000000000       0x2a build_ak-base-kit-stm32l151-application/Stream.o
- .debug_info    0x0000000000000000     0x2552 build_ak-base-kit-stm32l151-application/Stream.o
- .debug_abbrev  0x0000000000000000      0x550 build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_info    0x0000000000000000     0x1325 build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_abbrev  0x0000000000000000      0x437 build_ak-base-kit-stm32l151-application/Stream.o
  .debug_loc     0x0000000000000000      0xb1e build_ak-base-kit-stm32l151-application/Stream.o
  .debug_aranges
                 0x0000000000000000       0x70 build_ak-base-kit-stm32l151-application/Stream.o
  .debug_ranges  0x0000000000000000      0x138 build_ak-base-kit-stm32l151-application/Stream.o
- .debug_line    0x0000000000000000      0x927 build_ak-base-kit-stm32l151-application/Stream.o
- .debug_str     0x0000000000000000     0x133f build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_line    0x0000000000000000      0x801 build_ak-base-kit-stm32l151-application/Stream.o
+ .debug_str     0x0000000000000000      0x672 build_ak-base-kit-stm32l151-application/Stream.o
  .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/Stream.o
  .debug_frame   0x0000000000000000      0x170 build_ak-base-kit-stm32l151-application/Stream.o
  .ARM.attributes
@@ -1890,69 +1888,19 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/IPAddress.o
  .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/IPAddress.o
  .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text._ZN9IPAddressC2Ev
-                0x0000000000000000        0x6 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text._ZN9IPAddressC2Ehhhh
-                0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text._ZN9IPAddressC2Em
-                0x0000000000000000        0x4 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text._ZN9IPAddressC2EPKh
-                0x0000000000000000        0x6 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text._ZN9IPAddress10fromStringEPKc
-                0x0000000000000000       0x48 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text._ZN9IPAddressaSEPKh
-                0x0000000000000000        0x6 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text._ZN9IPAddressaSEm
-                0x0000000000000000        0x4 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text._ZNK9IPAddresseqEPKh
-                0x0000000000000000       0x16 build_ak-base-kit-stm32l151-application/IPAddress.o
- .text.startup._GLOBAL__sub_I__ZN9IPAddressC2Ev
-                0x0000000000000000        0x2 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_info    0x0000000000000000      0xda1 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_abbrev  0x0000000000000000      0x391 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_loc     0x0000000000000000      0x202 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_aranges
-                0x0000000000000000       0x60 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_ranges  0x0000000000000000       0x50 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_line    0x0000000000000000      0x642 build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_str     0x0000000000000000      0x600 build_ak-base-kit-stm32l151-application/IPAddress.o
+ .debug_line    0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/IPAddress.o
+ .debug_str     0x0000000000000000      0x11e build_ak-base-kit-stm32l151-application/IPAddress.o
  .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/IPAddress.o
- .debug_frame   0x0000000000000000       0xbc build_ak-base-kit-stm32l151-application/IPAddress.o
  .ARM.attributes
                 0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/IPAddress.o
  .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/SPI.o
  .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/SPI.o
  .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClassC2Ev
-                0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClassC2Eh
-                0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass9io_configEv
-                0x0000000000000000       0x68 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass5beginEv
-                0x0000000000000000       0xc4 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass3endEv
-                0x0000000000000000        0xc build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass16beginTransactionE11SPISettings
-                0x0000000000000000       0xb4 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass14endTransactionEv
-                0x0000000000000000        0x2 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass11setBitOrderEh
-                0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass11setBitOrderEhh
-                0x0000000000000000        0x6 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass11setDataModeEh
-                0x0000000000000000       0x38 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass15setClockDividerEh
-                0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass8transferEh
-                0x0000000000000000       0x38 build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass10transfer16Et
-                0x0000000000000000       0x3a build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass8transferEPvm
-                0x0000000000000000       0x1a build_ak-base-kit-stm32l151-application/SPI.o
- .text._ZN8SPIClass9setModuleEh
-                0x0000000000000000        0x4 build_ak-base-kit-stm32l151-application/SPI.o
+ .debug_line    0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/SPI.o
+ .debug_str     0x0000000000000000      0x120 build_ak-base-kit-stm32l151-application/SPI.o
+ .comment       0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/SPI.o
+ .ARM.attributes
+                0x0000000000000000       0x2d build_ak-base-kit-stm32l151-application/SPI.o
  .text          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/Wire.o
  .data          0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/Wire.o
  .bss           0x0000000000000000        0x0 build_ak-base-kit-stm32l151-application/Wire.o
@@ -1961,7 +1909,7 @@ Discarded input sections
  .text._ZN7TwoWire16onRequestServiceEv
                 0x0000000000000000       0x20 build_ak-base-kit-stm32l151-application/Wire.o
  .text._ZN7TwoWireC2Ev
-                0x0000000000000000       0x14 build_ak-base-kit-stm32l151-application/Wire.o
+                0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/Wire.o
  .text._ZN7TwoWire5beginEv
                 0x0000000000000000       0x28 build_ak-base-kit-stm32l151-application/Wire.o
  .text._ZN7TwoWire5beginEh
@@ -2227,7 +2175,7 @@ Linker script and memory map
                 0x0000000008003000                isr_vector
                 0x00000000080030f4                . = ALIGN (0x4)
 
-.text           0x00000000080030f8     0x9cc8
+.text           0x00000000080030f8     0x9cac
                 0x00000000080030f8                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080030f8       0xec /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcpy.o)
@@ -3245,274 +3193,271 @@ Linker script and memory map
                 0x000000000800a48c       0x22 build_ak-base-kit-stm32l151-application/Print.o
                 0x000000000800a48c                Print::write(unsigned char const*, unsigned int)
  *fill*         0x000000000800a4ae        0x2 
- .text.startup._GLOBAL__sub_I__ZN8SPIClassC2Ev
-                0x000000000800a4b0       0x14 build_ak-base-kit-stm32l151-application/SPI.o
  .text._ZN7TwoWire9availableEv
-                0x000000000800a4c4       0x14 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000000800a4c4                TwoWire::available()
+                0x000000000800a4b0       0x14 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800a4b0                TwoWire::available()
  .text._ZN7TwoWire4readEv
-                0x000000000800a4d8       0x28 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000000800a4d8                TwoWire::read()
+                0x000000000800a4c4       0x28 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800a4c4                TwoWire::read()
  .text._ZN7TwoWire4peekEv
-                0x000000000800a500       0x24 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000000800a500                TwoWire::peek()
+                0x000000000800a4ec       0x24 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800a4ec                TwoWire::peek()
  .text._ZN7TwoWire5flushEv
-                0x000000000800a524        0x2 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000000800a524                TwoWire::flush()
- *fill*         0x000000000800a526        0x2 
+                0x000000000800a510        0x2 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800a510                TwoWire::flush()
+ *fill*         0x000000000800a512        0x2 
  .text._ZN7TwoWire5writeEh
-                0x000000000800a528       0x54 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000000800a528                TwoWire::write(unsigned char)
+                0x000000000800a514       0x54 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800a514                TwoWire::write(unsigned char)
  .text._ZN7TwoWire5writeEPKhj
-                0x000000000800a57c       0x34 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000000800a57c                TwoWire::write(unsigned char const*, unsigned int)
+                0x000000000800a568       0x34 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800a568                TwoWire::write(unsigned char const*, unsigned int)
  .text.startup._GLOBAL__sub_I__ZN7TwoWire8rxBufferE
-                0x000000000800a5b0       0x1c build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800a59c       0x14 build_ak-base-kit-stm32l151-application/Wire.o
  .text._Z12twi_transmitPKhh
-                0x000000000800a5cc        0x4 build_ak-base-kit-stm32l151-application/twi.o
-                0x000000000800a5cc                twi_transmit(unsigned char const*, unsigned char)
+                0x000000000800a5b0        0x4 build_ak-base-kit-stm32l151-application/twi.o
+                0x000000000800a5b0                twi_transmit(unsigned char const*, unsigned char)
  .text.__cxa_pure_virtual
-                0x000000000800a5d0       0x1c build_ak-base-kit-stm32l151-application/mini_cpp.o
-                0x000000000800a5d0                __cxa_pure_virtual
- .text._sbrk    0x000000000800a5ec       0x1c build_ak-base-kit-stm32l151-application/mini_cpp.o
-                0x000000000800a5ec                _sbrk
- .text.malloc   0x000000000800a608       0x10 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-malloc.o)
-                0x000000000800a608                malloc
- .text.free     0x000000000800a618       0x10 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-malloc.o)
-                0x000000000800a618                free
+                0x000000000800a5b4       0x1c build_ak-base-kit-stm32l151-application/mini_cpp.o
+                0x000000000800a5b4                __cxa_pure_virtual
+ .text._sbrk    0x000000000800a5d0       0x1c build_ak-base-kit-stm32l151-application/mini_cpp.o
+                0x000000000800a5d0                _sbrk
+ .text.malloc   0x000000000800a5ec       0x10 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-malloc.o)
+                0x000000000800a5ec                malloc
+ .text.free     0x000000000800a5fc       0x10 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-malloc.o)
+                0x000000000800a5fc                free
  .text._malloc_r
-                0x000000000800a628      0x558 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
-                0x000000000800a628                _malloc_r
- .text.memcmp   0x000000000800ab80       0x68 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcmp.o)
-                0x000000000800ab80                memcmp
- .text.memset   0x000000000800abe8       0xa4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memset.o)
-                0x000000000800abe8                memset
+                0x000000000800a60c      0x558 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
+                0x000000000800a60c                _malloc_r
+ .text.memcmp   0x000000000800ab64       0x68 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcmp.o)
+                0x000000000800ab64                memcmp
+ .text.memset   0x000000000800abcc       0xa4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memset.o)
+                0x000000000800abcc                memset
  .text.__malloc_lock
-                0x000000000800ac8c        0xc /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mlock.o)
-                0x000000000800ac8c                __malloc_lock
+                0x000000000800ac70        0xc /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mlock.o)
+                0x000000000800ac70                __malloc_lock
  .text.__malloc_unlock
-                0x000000000800ac98        0xc /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mlock.o)
-                0x000000000800ac98                __malloc_unlock
- .text.rand     0x000000000800aca4       0x38 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-rand.o)
-                0x000000000800aca4                rand
- .text._sbrk_r  0x000000000800acdc       0x24 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-sbrkr.o)
-                0x000000000800acdc                _sbrk_r
- .text.strcpy   0x000000000800ad00       0xbc /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcpy.o)
-                0x000000000800ad00                strcpy
- .text.strlen   0x000000000800adbc       0x5c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x000000000800adbc                strlen
+                0x000000000800ac7c        0xc /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mlock.o)
+                0x000000000800ac7c                __malloc_unlock
+ .text.rand     0x000000000800ac88       0x38 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-rand.o)
+                0x000000000800ac88                rand
+ .text._sbrk_r  0x000000000800acc0       0x24 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-sbrkr.o)
+                0x000000000800acc0                _sbrk_r
+ .text.strcpy   0x000000000800ace4       0xbc /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcpy.o)
+                0x000000000800ace4                strcpy
+ .text.strlen   0x000000000800ada0       0x5c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x000000000800ada0                strlen
  .text._strtol_l.part.0
-                0x000000000800ae18      0x120 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
- .text.strtol   0x000000000800af38       0x2c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
-                0x000000000800af38                strtol
- .text.__errno  0x000000000800af64        0xc /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-errno.o)
-                0x000000000800af64                __errno
+                0x000000000800adfc      0x120 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .text.strtol   0x000000000800af1c       0x2c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+                0x000000000800af1c                strtol
+ .text.__errno  0x000000000800af48        0xc /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-errno.o)
+                0x000000000800af48                __errno
  .text._malloc_trim_r
-                0x000000000800af70       0xa0 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-freer.o)
-                0x000000000800af70                _malloc_trim_r
- .text._free_r  0x000000000800b010      0x200 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-freer.o)
-                0x000000000800b010                _free_r
+                0x000000000800af54       0xa0 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-freer.o)
+                0x000000000800af54                _malloc_trim_r
+ .text._free_r  0x000000000800aff4      0x200 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-freer.o)
+                0x000000000800aff4                _free_r
  .text.__retarget_lock_acquire_recursive
-                0x000000000800b210        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
-                0x000000000800b210                __retarget_lock_acquire_recursive
+                0x000000000800b1f4        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
+                0x000000000800b1f4                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000800b214        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
-                0x000000000800b214                __retarget_lock_release_recursive
+                0x000000000800b1f8        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
+                0x000000000800b1f8                __retarget_lock_release_recursive
  *(.rodata)
  *(.rodata*)
  .rodata.task_create.str1.1
-                0x000000000800b218        0x3 build_ak-base-kit-stm32l151-application/task.o
+                0x000000000800b1fc        0x3 build_ak-base-kit-stm32l151-application/task.o
  .rodata.task_run.str1.1
-                0x000000000800b21b       0x25 build_ak-base-kit-stm32l151-application/task.o
+                0x000000000800b1ff       0x25 build_ak-base-kit-stm32l151-application/task.o
  .rodata.timer_set.str1.1
-                0x000000000800b240        0x3 build_ak-base-kit-stm32l151-application/timer.o
+                0x000000000800b224        0x3 build_ak-base-kit-stm32l151-application/timer.o
  .rodata.msg_force_free.str1.1
-                0x000000000800b243        0x3 build_ak-base-kit-stm32l151-application/message.o
+                0x000000000800b227        0x3 build_ak-base-kit-stm32l151-application/message.o
  .rodata.ak_malloc.str1.1
-                0x000000000800b246        0xa build_ak-base-kit-stm32l151-application/message.o
+                0x000000000800b22a        0xa build_ak-base-kit-stm32l151-application/message.o
  .rodata.fifo_put.str1.1
-                0x000000000800b250        0x5 build_ak-base-kit-stm32l151-application/fifo.o
+                0x000000000800b234        0x5 build_ak-base-kit-stm32l151-application/fifo.o
  .rodata.xvfprintf.str1.1
-                0x000000000800b255        0xb build_ak-base-kit-stm32l151-application/xprintf.o
+                0x000000000800b239        0xb build_ak-base-kit-stm32l151-application/xprintf.o
                                           0xc (size before relaxing)
  .rodata.sys_dbg_cpu_dump.str1.1
-                0x000000000800b260       0x5f build_ak-base-kit-stm32l151-application/sys_dbg.o
+                0x000000000800b244       0x5f build_ak-base-kit-stm32l151-application/sys_dbg.o
  .rodata.sys_dbg_stack_space_dump.str1.1
-                0x000000000800b2bf       0x2f build_ak-base-kit-stm32l151-application/sys_dbg.o
+                0x000000000800b2a3       0x2f build_ak-base-kit-stm32l151-application/sys_dbg.o
  .rodata.sys_dbg_fatal.str1.1
-                0x000000000800b2ee      0x25f build_ak-base-kit-stm32l151-application/sys_dbg.o
+                0x000000000800b2d2      0x25f build_ak-base-kit-stm32l151-application/sys_dbg.o
                                         0x261 (size before relaxing)
  .rodata.vMBPAssert.str1.1
-                0x000000000800b54d        0x3 build_ak-base-kit-stm32l151-application/mbportother.o
+                0x000000000800b531        0x3 build_ak-base-kit-stm32l151-application/mbportother.o
  .rodata.exit_critical.str1.1
-                0x000000000800b550        0x4 build_ak-base-kit-stm32l151-application/platform.o
+                0x000000000800b534        0x4 build_ak-base-kit-stm32l151-application/platform.o
  .rodata.default_handler.str1.1
-                0x000000000800b554        0x3 build_ak-base-kit-stm32l151-application/system.o
+                0x000000000800b538        0x3 build_ak-base-kit-stm32l151-application/system.o
  .rodata.sys_cfg_update_info.str1.1
-                0x000000000800b557       0x62 build_ak-base-kit-stm32l151-application/sys_cfg.o
+                0x000000000800b53b       0x62 build_ak-base-kit-stm32l151-application/sys_cfg.o
                                          0x64 (size before relaxing)
  .rodata.sys_ctrl_soft_watchdog_increase_counter.str1.1
-                0x000000000800b5b9        0x5 build_ak-base-kit-stm32l151-application/sys_cfg.o
+                0x000000000800b59d        0x5 build_ak-base-kit-stm32l151-application/sys_cfg.o
  .rodata.flash_transfer.str1.1
-                0x000000000800b5be        0x4 build_ak-base-kit-stm32l151-application/io_cfg.o
+                0x000000000800b5a2        0x4 build_ak-base-kit-stm32l151-application/io_cfg.o
  .rodata._Z11task_systemP8ak_msg_t.str1.1
-                0x000000000800b5c2       0x23 build_ak-base-kit-stm32l151-application/task_system.o
+                0x000000000800b5a6       0x23 build_ak-base-kit-stm32l151-application/task_system.o
  .rodata.main_app.str1.1
-                0x000000000800b5e5       0x3a build_ak-base-kit-stm32l151-application/app.o
+                0x000000000800b5c9       0x3a build_ak-base-kit-stm32l151-application/app.o
  .rodata._Z20task_polling_consolev.str1.1
-                0x000000000800b61f       0x31 build_ak-base-kit-stm32l151-application/app.o
+                0x000000000800b603       0x31 build_ak-base-kit-stm32l151-application/app.o
  .rodata.app_info
-                0x000000000800b650        0x8 build_ak-base-kit-stm32l151-application/app.o
-                0x000000000800b650                app_info
+                0x000000000800b634        0x8 build_ak-base-kit-stm32l151-application/app.o
+                0x000000000800b634                app_info
  .rodata._Z17btn_mode_callbackPv.str1.1
-                0x000000000800b658       0x9f build_ak-base-kit-stm32l151-application/app_bsp.o
+                0x000000000800b63c       0x9f build_ak-base-kit-stm32l151-application/app_bsp.o
  .rodata._Z15btn_up_callbackPv.str1.1
-                0x000000000800b6f7       0x99 build_ak-base-kit-stm32l151-application/app_bsp.o
+                0x000000000800b6db       0x99 build_ak-base-kit-stm32l151-application/app_bsp.o
  .rodata._Z17btn_down_callbackPv.str1.1
-                0x000000000800b790       0x9f build_ak-base-kit-stm32l151-application/app_bsp.o
+                0x000000000800b774       0x9f build_ak-base-kit-stm32l151-application/app_bsp.o
  .rodata._Z11shell_resetPh.str1.1
-                0x000000000800b82f        0x6 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800b813        0x6 build_ak-base-kit-stm32l151-application/shell.o
  .rodata._Z10shell_helpPh.str1.1
-                0x000000000800b835       0x24 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800b819       0x24 build_ak-base-kit-stm32l151-application/shell.o
  .rodata._Z12shell_modbusPh.str1.1
-                0x000000000800b859       0x34 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800b83d       0x34 build_ak-base-kit-stm32l151-application/shell.o
  .rodata._Z9shell_verPh.str1.1
-                0x000000000800b88d      0x15d build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800b871      0x15d build_ak-base-kit-stm32l151-application/shell.o
                                         0x180 (size before relaxing)
  .rodata._Z11shell_fatalPh.str1.1
-                0x000000000800b9ea       0x65 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800b9ce       0x65 build_ak-base-kit-stm32l151-application/shell.o
                                         0x229 (size before relaxing)
  .rodata._Z11shell_flashPh.str1.1
-                0x000000000800ba4f       0x4f build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800ba33       0x4f build_ak-base-kit-stm32l151-application/shell.o
                                          0x55 (size before relaxing)
  .rodata._Z9shell_epsPh.str1.1
-                0x000000000800ba9e       0x28 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800ba82       0x28 build_ak-base-kit-stm32l151-application/shell.o
  .rodata._Z9shell_ramPh.str1.1
-                0x000000000800bac6       0x53 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800baaa       0x53 build_ak-base-kit-stm32l151-application/shell.o
  .rodata._Z10shell_bootPh.str1.1
-                0x000000000800bb19      0x166 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800bafd      0x166 build_ak-base-kit-stm32l151-application/shell.o
  .rodata._Z9shell_dbgPh.str1.1
-                0x000000000800bc7f       0x1b build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800bc63       0x1b build_ak-base-kit-stm32l151-application/shell.o
  .rodata._Z12shell_buzzerPh.str1.1
-                0x000000000800bc9a      0x166 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800bc7e      0x166 build_ak-base-kit-stm32l151-application/shell.o
  .rodata.str1.1
-                0x000000000800be00       0xda build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800bde4       0xda build_ak-base-kit-stm32l151-application/shell.o
                                          0xdf (size before relaxing)
  .rodata._ZL11tones_3beep
-                0x000000000800beda       0x18 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800bebe       0x18 build_ak-base-kit-stm32l151-application/shell.o
  .rodata._ZL20tones_merryChrismast
-                0x000000000800bef2       0xd0 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800bed6       0xd0 build_ak-base-kit-stm32l151-application/shell.o
  .rodata._ZL9tones_SMB
-                0x000000000800bfc2      0x104 build_ak-base-kit-stm32l151-application/shell.o
- *fill*         0x000000000800c0c6        0x2 
+                0x000000000800bfa6      0x104 build_ak-base-kit-stm32l151-application/shell.o
+ *fill*         0x000000000800c0aa        0x2 
  .rodata.lgn_cmd_table
-                0x000000000800c0c8       0xd8 build_ak-base-kit-stm32l151-application/shell.o
-                0x000000000800c0c8                lgn_cmd_table
+                0x000000000800c0ac       0xd8 build_ak-base-kit-stm32l151-application/shell.o
+                0x000000000800c0ac                lgn_cmd_table
  .rodata._Z10task_shellP8ak_msg_t.str1.1
-                0x000000000800c1a0       0x43 build_ak-base-kit-stm32l151-application/task_shell.o
+                0x000000000800c184       0x43 build_ak-base-kit-stm32l151-application/task_shell.o
  .rodata._Z7task_fwP8ak_msg_t.str1.1
-                0x000000000800c1e3      0x206 build_ak-base-kit-stm32l151-application/task_fw.o
- *fill*         0x000000000800c3e9        0x3 
+                0x000000000800c1c7      0x206 build_ak-base-kit-stm32l151-application/task_fw.o
+ *fill*         0x000000000800c3cd        0x3 
  .rodata.app_task_polling_table
-                0x000000000800c3ec       0x10 build_ak-base-kit-stm32l151-application/task_list.o
-                0x000000000800c3ec                app_task_polling_table
+                0x000000000800c3d0       0x10 build_ak-base-kit-stm32l151-application/task_list.o
+                0x000000000800c3d0                app_task_polling_table
  .rodata.app_task_table
-                0x000000000800c3fc       0x68 build_ak-base-kit-stm32l151-application/task_list.o
-                0x000000000800c3fc                app_task_table
+                0x000000000800c3e0       0x68 build_ak-base-kit-stm32l151-application/task_list.o
+                0x000000000800c3e0                app_task_table
  .rodata._Z7task_ifP8ak_msg_t.str1.1
-                0x000000000800c464       0xa9 build_ak-base-kit-stm32l151-application/task_if.o
+                0x000000000800c448       0xa9 build_ak-base-kit-stm32l151-application/task_if.o
  .rodata._Z12task_uart_ifP8ak_msg_t.str1.1
-                0x000000000800c50d       0xdf build_ak-base-kit-stm32l151-application/task_uart_if.o
+                0x000000000800c4f1       0xdf build_ak-base-kit-stm32l151-application/task_uart_if.o
  .rodata._ZL11render_list
-                0x000000000800c5ec        0x8 build_ak-base-kit-stm32l151-application/view_render.o
+                0x000000000800c5d0        0x8 build_ak-base-kit-stm32l151-application/view_render.o
  .rodata._Z16scr_mng_dispatchP8ak_msg_t.str1.1
-                0x000000000800c5f4        0x8 build_ak-base-kit-stm32l151-application/screen_manager.o
+                0x000000000800c5d8        0x8 build_ak-base-kit-stm32l151-application/screen_manager.o
  .rodata._ZL4font
-                0x000000000800c5fc      0x4fb build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
- *fill*         0x000000000800caf7        0x1 
+                0x000000000800c5e0      0x4fb build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
+ *fill*         0x000000000800cadb        0x1 
  .rodata._ZTV12Adafruit_GFX
-                0x000000000800caf8       0x2c build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
-                0x000000000800caf8                vtable for Adafruit_GFX
+                0x000000000800cadc       0x2c build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
+                0x000000000800cadc                vtable for Adafruit_GFX
  .rodata._ZTV19Adafruit_ssd1306syp
-                0x000000000800cb24       0x3c build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
-                0x000000000800cb24                vtable for Adafruit_ssd1306syp
+                0x000000000800cb08       0x3c build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
+                0x000000000800cb08                vtable for Adafruit_ssd1306syp
  .rodata._Z23link_hal_reg_write_bytePFhhE.str1.1
-                0x000000000800cb60        0x9 build_ak-base-kit-stm32l151-application/link_hal.o
+                0x000000000800cb44        0x9 build_ak-base-kit-stm32l151-application/link_hal.o
  .rodata._ZL19fsm_link_state_initP8ak_msg_t.str1.1
-                0x000000000800cb69      0x110 build_ak-base-kit-stm32l151-application/link.o
+                0x000000000800cb4d      0x110 build_ak-base-kit-stm32l151-application/link.o
  .rodata._ZL23link_mac_frame_send_reqv.str1.1
-                0x000000000800cc79        0x9 build_ak-base-kit-stm32l151-application/link_mac.o
+                0x000000000800cc5d        0x9 build_ak-base-kit-stm32l151-application/link_mac.o
  .rodata._Z25fsm_link_mac_state_handleP8ak_msg_t.str1.1
-                0x000000000800cc82        0x5 build_ak-base-kit-stm32l151-application/link_mac.o
+                0x000000000800cc66        0x5 build_ak-base-kit-stm32l151-application/link_mac.o
  .rodata._Z25fsm_link_phy_state_handleP8ak_msg_t.str1.1
-                0x000000000800cc87        0x7 build_ak-base-kit-stm32l151-application/link_phy.o
+                0x000000000800cc6b        0x7 build_ak-base-kit-stm32l151-application/link_phy.o
  .rodata._Z13link_pdu_freeP10link_pdu_t.str1.1
-                0x000000000800cc8e        0x9 build_ak-base-kit-stm32l151-application/link_data.o
- *fill*         0x000000000800cc97        0x1 
+                0x000000000800cc72        0x9 build_ak-base-kit-stm32l151-application/link_data.o
+ *fill*         0x000000000800cc7b        0x1 
  .rodata._ZTV7TwoWire
-                0x000000000800cc98       0x20 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000000800cc98                vtable for TwoWire
+                0x000000000800cc7c       0x20 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800cc7c                vtable for TwoWire
  .rodata.__cxa_pure_virtual.str1.1
-                0x000000000800ccb8        0x4 build_ak-base-kit-stm32l151-application/mini_cpp.o
+                0x000000000800cc9c        0x4 build_ak-base-kit-stm32l151-application/mini_cpp.o
  .rodata._ctype_
-                0x000000000800ccbc      0x101 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
-                0x000000000800ccbc                _ctype_
+                0x000000000800cca0      0x101 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
+                0x000000000800cca0                _ctype_
  *(.glue_7)
- .glue_7        0x000000000800cdbd        0x0 linker stubs
+ .glue_7        0x000000000800cda1        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800cdbd        0x0 linker stubs
+ .glue_7t       0x000000000800cda1        0x0 linker stubs
  *(.init)
  *(.fini)
-                0x000000000800cdc0                . = ALIGN (0x4)
- *fill*         0x000000000800cdbd        0x3 
-                0x000000000800cdc0                _etext = .
+                0x000000000800cda4                . = ALIGN (0x4)
+ *fill*         0x000000000800cda1        0x3 
+                0x000000000800cda4                _etext = .
 
-.vfp11_veneer   0x000000000800cdc0        0x0
- .vfp11_veneer  0x000000000800cdc0        0x0 linker stubs
+.vfp11_veneer   0x000000000800cda4        0x0
+ .vfp11_veneer  0x000000000800cda4        0x0 linker stubs
 
-.v4_bx          0x000000000800cdc0        0x0
- .v4_bx         0x000000000800cdc0        0x0 linker stubs
+.v4_bx          0x000000000800cda4        0x0
+ .v4_bx         0x000000000800cda4        0x0 linker stubs
 
-.iplt           0x000000000800cdc0        0x0
- .iplt          0x000000000800cdc0        0x0 build_ak-base-kit-stm32l151-application/task.o
+.iplt           0x000000000800cda4        0x0
+ .iplt          0x000000000800cda4        0x0 build_ak-base-kit-stm32l151-application/task.o
 
-.rel.dyn        0x000000000800cdc0        0x0
- .rel.iplt      0x000000000800cdc0        0x0 build_ak-base-kit-stm32l151-application/task.o
+.rel.dyn        0x000000000800cda4        0x0
+ .rel.iplt      0x000000000800cda4        0x0 build_ak-base-kit-stm32l151-application/task.o
 
-.ARM.exidx      0x000000000800cdc0        0x8
- .ARM.exidx     0x000000000800cdc0        0x8 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+.ARM.exidx      0x000000000800cda4        0x8
+ .ARM.exidx     0x000000000800cda4        0x8 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
 
-.preinit_array  0x000000000800cdc8        0x0
-                0x000000000800cdc8                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800cdac        0x0
+                0x000000000800cdac                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  *(.preinit_array*)
-                0x000000000800cdc8                PROVIDE (__preinit_array_end = .)
+                0x000000000800cdac                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000000800cdc8        0xc
-                0x000000000800cdc8                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800cdac        0x8
+                0x000000000800cdac                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800cdc8        0x4 build_ak-base-kit-stm32l151-application/view_render.o
- .init_array    0x000000000800cdcc        0x4 build_ak-base-kit-stm32l151-application/SPI.o
- .init_array    0x000000000800cdd0        0x4 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000000800cdd4                PROVIDE (__init_array_end = .)
+ .init_array    0x000000000800cdac        0x4 build_ak-base-kit-stm32l151-application/view_render.o
+ .init_array    0x000000000800cdb0        0x4 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000000800cdb4                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000000800cdd4        0x4
+.fini_array     0x000000000800cdb4        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(.fini_array*)
- .fini_array    0x000000000800cdd4        0x4 build_ak-base-kit-stm32l151-application/view_render.o
+ .fini_array    0x000000000800cdb4        0x4 build_ak-base-kit-stm32l151-application/view_render.o
  *(SORT_BY_NAME(.fini_array.*))
                 [!provide]                        PROVIDE (__fini_array_end = .)
 
-.end_flash      0x000000000800cdd8        0x0
-                0x000000000800cdd8                _end_flash = .
+.end_flash      0x000000000800cdb8        0x0
+                0x000000000800cdb8                _end_flash = .
 
 .start_ram      0x0000000020000000        0x0
                 0x0000000020000000                _start_ram = .
 
-.data           0x0000000020000000      0x888 load address 0x000000000800cdd8
+.data           0x0000000020000000      0x888 load address 0x000000000800cdb8
                 0x0000000020000000                _data = .
-                0x000000000800cdd8                _ldata = LOADADDR (.data)
+                0x000000000800cdb8                _ldata = LOADADDR (.data)
  *(vtable)
  *(.data)
  *(.data*)
@@ -3559,10 +3504,10 @@ Linker script and memory map
  *(.ram_func*)
                 0x0000000020000888                _edata = .
 
-.igot.plt       0x0000000020000888        0x0 load address 0x000000000800d660
+.igot.plt       0x0000000020000888        0x0 load address 0x000000000800d640
  .igot.plt      0x0000000020000888        0x0 build_ak-base-kit-stm32l151-application/task.o
 
-.bss            0x0000000020000888     0x1e98 load address 0x000000000800d660
+.bss            0x0000000020000888     0x1e7c load address 0x000000000800d640
                 0x0000000020000888                _bss = .
  *(.bss)
  *(.bss*)
@@ -3787,76 +3732,74 @@ Linker script and memory map
                 0x0000000020002028      0x640 build_ak-base-kit-stm32l151-application/link_data.o
  .bss._ZL18free_link_pdu_pool
                 0x0000000020002668        0x4 build_ak-base-kit-stm32l151-application/link_data.o
- .bss.SPI       0x000000002000266c       0x1c build_ak-base-kit-stm32l151-application/SPI.o
-                0x000000002000266c                SPI
- .bss.Wire      0x0000000020002688       0x10 build_ak-base-kit-stm32l151-application/Wire.o
-                0x0000000020002688                Wire
+ .bss.Wire      0x000000002000266c       0x10 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000002000266c                Wire
  .bss._ZN7TwoWire12transmittingE
-                0x0000000020002698        0x1 build_ak-base-kit-stm32l151-application/Wire.o
-                0x0000000020002698                TwoWire::transmitting
+                0x000000002000267c        0x1 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000002000267c                TwoWire::transmitting
  .bss._ZN7TwoWire13rxBufferIndexE
-                0x0000000020002699        0x1 build_ak-base-kit-stm32l151-application/Wire.o
-                0x0000000020002699                TwoWire::rxBufferIndex
+                0x000000002000267d        0x1 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000002000267d                TwoWire::rxBufferIndex
  .bss._ZN7TwoWire13txBufferIndexE
-                0x000000002000269a        0x1 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000002000269a                TwoWire::txBufferIndex
+                0x000000002000267e        0x1 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000002000267e                TwoWire::txBufferIndex
  .bss._ZN7TwoWire14rxBufferLengthE
-                0x000000002000269b        0x1 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000002000269b                TwoWire::rxBufferLength
+                0x000000002000267f        0x1 build_ak-base-kit-stm32l151-application/Wire.o
+                0x000000002000267f                TwoWire::rxBufferLength
  .bss._ZN7TwoWire14txBufferLengthE
-                0x000000002000269c        0x1 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000002000269c                TwoWire::txBufferLength
+                0x0000000020002680        0x1 build_ak-base-kit-stm32l151-application/Wire.o
+                0x0000000020002680                TwoWire::txBufferLength
  .bss._ZN7TwoWire8rxBufferE
-                0x000000002000269d       0x20 build_ak-base-kit-stm32l151-application/Wire.o
-                0x000000002000269d                TwoWire::rxBuffer
+                0x0000000020002681       0x20 build_ak-base-kit-stm32l151-application/Wire.o
+                0x0000000020002681                TwoWire::rxBuffer
  .bss._ZN7TwoWire8txBufferE
-                0x00000000200026bd       0x20 build_ak-base-kit-stm32l151-application/Wire.o
-                0x00000000200026bd                TwoWire::txBuffer
- *fill*         0x00000000200026dd        0x3 
+                0x00000000200026a1       0x20 build_ak-base-kit-stm32l151-application/Wire.o
+                0x00000000200026a1                TwoWire::txBuffer
+ *fill*         0x00000000200026c1        0x3 
  .bss._ZZ5_sbrkE4heap
-                0x00000000200026e0        0x4 build_ak-base-kit-stm32l151-application/mini_cpp.o
+                0x00000000200026c4        0x4 build_ak-base-kit-stm32l151-application/mini_cpp.o
  .bss.__malloc_current_mallinfo
-                0x00000000200026e4       0x28 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
-                0x00000000200026e4                __malloc_current_mallinfo
+                0x00000000200026c8       0x28 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
+                0x00000000200026c8                __malloc_current_mallinfo
  .bss.__malloc_max_sbrked_mem
-                0x000000002000270c        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
-                0x000000002000270c                __malloc_max_sbrked_mem
+                0x00000000200026f0        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
+                0x00000000200026f0                __malloc_max_sbrked_mem
  .bss.__malloc_max_total_mem
-                0x0000000020002710        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000020002710                __malloc_max_total_mem
+                0x00000000200026f4        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
+                0x00000000200026f4                __malloc_max_total_mem
  .bss.__malloc_top_pad
-                0x0000000020002714        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000020002714                __malloc_top_pad
+                0x00000000200026f8        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
+                0x00000000200026f8                __malloc_top_pad
  .bss.__lock___malloc_recursive_mutex
-                0x0000000020002718        0x1 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000020002718                __lock___malloc_recursive_mutex
- *fill*         0x0000000020002719        0x3 
- .bss.errno     0x000000002000271c        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-reent.o)
-                0x000000002000271c                errno
+                0x00000000200026fc        0x1 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
+                0x00000000200026fc                __lock___malloc_recursive_mutex
+ *fill*         0x00000000200026fd        0x3 
+ .bss.errno     0x0000000020002700        0x4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-reent.o)
+                0x0000000020002700                errno
  *(COMMON)
-                0x0000000020002720                _ebss = .
+                0x0000000020002704                _ebss = .
 
-.heap           0x0000000020002720      0x800 load address 0x000000000800f4f8
-                0x0000000020002720                __heap_start__ = .
-                0x0000000020002f20                . = (. + HEAP_SIZE)
- *fill*         0x0000000020002720      0x800 
-                0x0000000020002f20                . = ALIGN (0x4)
-                0x0000000020002f20                __heap_end__ = .
+.heap           0x0000000020002704      0x800 load address 0x000000000800f4bc
+                0x0000000020002704                __heap_start__ = .
+                0x0000000020002f04                . = (. + HEAP_SIZE)
+ *fill*         0x0000000020002704      0x800 
+                0x0000000020002f04                . = ALIGN (0x4)
+                0x0000000020002f04                __heap_end__ = .
 
-.non_clear_ram  0x0000000020002f20        0x4 load address 0x000000000800fcf8
-                0x0000000020002f20                _non_clear_ram = .
+.non_clear_ram  0x0000000020002f04        0x4 load address 0x000000000800fcbc
+                0x0000000020002f04                _non_clear_ram = .
  *(.non_clear_ram)
  .non_clear_ram
-                0x0000000020002f20        0x4 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
-                0x0000000020002f20                sys_soft_reboot_counter
+                0x0000000020002f04        0x4 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
+                0x0000000020002f04                sys_soft_reboot_counter
  *(.non_clear_ram*)
-                0x0000000020002f24                _enon_clear_ram = .
+                0x0000000020002f08                _enon_clear_ram = .
 
-.end_ram        0x0000000020002f24        0x0
-                0x0000000020002f24                _end_ram = .
+.end_ram        0x0000000020002f08        0x0
+                0x0000000020002f08                _end_ram = .
 
-.sstack         0x0000000020002f24        0x0
-                0x0000000020002f24                _sstack = .
+.sstack         0x0000000020002f08        0x0
+                0x0000000020002f08                _sstack = .
                 0x0000000020004000                _estack = (ORIGIN (SRAM) + LENGTH (SRAM))
 
 /DISCARD/
@@ -3980,7 +3923,7 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
 LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libg.a
 LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
 
-.debug_info     0x0000000000000000    0x4282a
+.debug_info     0x0000000000000000    0x41803
  .debug_info    0x0000000000000000      0x226 build_ak-base-kit-stm32l151-application/fsm.o
  .debug_info    0x0000000000000226     0x10e6 build_ak-base-kit-stm32l151-application/task.o
  .debug_info    0x000000000000130c      0xab5 build_ak-base-kit-stm32l151-application/timer.o
@@ -4039,13 +3982,12 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_info    0x0000000000033a7a     0x19c0 build_ak-base-kit-stm32l151-application/link_mac.o
  .debug_info    0x000000000003543a     0x1747 build_ak-base-kit-stm32l151-application/link_phy.o
  .debug_info    0x0000000000036b81      0xeed build_ak-base-kit-stm32l151-application/link_data.o
- .debug_info    0x0000000000037a6e     0x30ff build_ak-base-kit-stm32l151-application/Print.o
- .debug_info    0x000000000003ab6d      0xfb4 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_info    0x000000000003bb21     0x2e3a build_ak-base-kit-stm32l151-application/Wire.o
- .debug_info    0x000000000003e95b     0x292a build_ak-base-kit-stm32l151-application/twi.o
- .debug_info    0x0000000000041285     0x15a5 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_info    0x0000000000037a6e     0x3087 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_info    0x000000000003aaf5     0x2e3f build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_info    0x000000000003d934     0x292a build_ak-base-kit-stm32l151-application/twi.o
+ .debug_info    0x000000000004025e     0x15a5 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
-.debug_abbrev   0x0000000000000000     0xb42c
+.debug_abbrev   0x0000000000000000     0xb08c
  .debug_abbrev  0x0000000000000000       0xdc build_ak-base-kit-stm32l151-application/fsm.o
  .debug_abbrev  0x00000000000000dc      0x3c6 build_ak-base-kit-stm32l151-application/task.o
  .debug_abbrev  0x00000000000004a2      0x324 build_ak-base-kit-stm32l151-application/timer.o
@@ -4105,12 +4047,11 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_abbrev  0x0000000000009323      0x5bc build_ak-base-kit-stm32l151-application/link_phy.o
  .debug_abbrev  0x00000000000098df      0x304 build_ak-base-kit-stm32l151-application/link_data.o
  .debug_abbrev  0x0000000000009be3      0x4ed build_ak-base-kit-stm32l151-application/Print.o
- .debug_abbrev  0x000000000000a0d0      0x39f build_ak-base-kit-stm32l151-application/SPI.o
- .debug_abbrev  0x000000000000a46f      0x6e0 build_ak-base-kit-stm32l151-application/Wire.o
- .debug_abbrev  0x000000000000ab4f      0x47c build_ak-base-kit-stm32l151-application/twi.o
- .debug_abbrev  0x000000000000afcb      0x461 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_abbrev  0x000000000000a0d0      0x6df build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_abbrev  0x000000000000a7af      0x47c build_ak-base-kit-stm32l151-application/twi.o
+ .debug_abbrev  0x000000000000ac2b      0x461 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
-.debug_loc      0x0000000000000000    0x11eff
+.debug_loc      0x0000000000000000    0x1195c
  .debug_loc     0x0000000000000000       0x4a build_ak-base-kit-stm32l151-application/fsm.o
  .debug_loc     0x000000000000004a      0x73c build_ak-base-kit-stm32l151-application/task.o
  .debug_loc     0x0000000000000786      0x379 build_ak-base-kit-stm32l151-application/timer.o
@@ -4164,13 +4105,12 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_loc     0x000000000000f078      0x399 build_ak-base-kit-stm32l151-application/link_mac.o
  .debug_loc     0x000000000000f411      0x4be build_ak-base-kit-stm32l151-application/link_phy.o
  .debug_loc     0x000000000000f8cf      0x230 build_ak-base-kit-stm32l151-application/link_data.o
- .debug_loc     0x000000000000faff     0x10dd build_ak-base-kit-stm32l151-application/Print.o
- .debug_loc     0x0000000000010bdc      0x535 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_loc     0x0000000000011111      0x935 build_ak-base-kit-stm32l151-application/Wire.o
- .debug_loc     0x0000000000011a46      0x3bc build_ak-base-kit-stm32l151-application/twi.o
- .debug_loc     0x0000000000011e02       0xfd build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_loc     0x000000000000faff     0x1055 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_loc     0x0000000000010b54      0x94f build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_loc     0x00000000000114a3      0x3bc build_ak-base-kit-stm32l151-application/twi.o
+ .debug_loc     0x000000000001185f       0xfd build_ak-base-kit-stm32l151-application/mini_cpp.o
 
-.debug_aranges  0x0000000000000000     0x1d98
+.debug_aranges  0x0000000000000000     0x1cf8
  .debug_aranges
                 0x0000000000000000       0x20 build_ak-base-kit-stm32l151-application/fsm.o
  .debug_aranges
@@ -4288,17 +4228,15 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_aranges
                 0x0000000000001a38       0x60 build_ak-base-kit-stm32l151-application/link_data.o
  .debug_aranges
-                0x0000000000001a98       0xb8 build_ak-base-kit-stm32l151-application/Print.o
+                0x0000000000001a98       0xb0 build_ak-base-kit-stm32l151-application/Print.o
  .debug_aranges
-                0x0000000000001b50       0x98 build_ak-base-kit-stm32l151-application/SPI.o
+                0x0000000000001b48       0xe8 build_ak-base-kit-stm32l151-application/Wire.o
  .debug_aranges
-                0x0000000000001be8       0xe8 build_ak-base-kit-stm32l151-application/Wire.o
+                0x0000000000001c30       0x68 build_ak-base-kit-stm32l151-application/twi.o
  .debug_aranges
-                0x0000000000001cd0       0x68 build_ak-base-kit-stm32l151-application/twi.o
- .debug_aranges
-                0x0000000000001d38       0x60 build_ak-base-kit-stm32l151-application/mini_cpp.o
+                0x0000000000001c98       0x60 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
-.debug_ranges   0x0000000000000000     0x2368
+.debug_ranges   0x0000000000000000     0x22c0
  .debug_ranges  0x0000000000000000       0x10 build_ak-base-kit-stm32l151-application/fsm.o
  .debug_ranges  0x0000000000000010       0xf0 build_ak-base-kit-stm32l151-application/task.o
  .debug_ranges  0x0000000000000100       0x90 build_ak-base-kit-stm32l151-application/timer.o
@@ -4355,13 +4293,12 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_ranges  0x0000000000001c38      0x168 build_ak-base-kit-stm32l151-application/link_mac.o
  .debug_ranges  0x0000000000001da0      0x150 build_ak-base-kit-stm32l151-application/link_phy.o
  .debug_ranges  0x0000000000001ef0       0xb0 build_ak-base-kit-stm32l151-application/link_data.o
- .debug_ranges  0x0000000000001fa0      0x1a8 build_ak-base-kit-stm32l151-application/Print.o
- .debug_ranges  0x0000000000002148       0x88 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_ranges  0x00000000000021d0       0xf0 build_ak-base-kit-stm32l151-application/Wire.o
- .debug_ranges  0x00000000000022c0       0x58 build_ak-base-kit-stm32l151-application/twi.o
- .debug_ranges  0x0000000000002318       0x50 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_ranges  0x0000000000001fa0      0x1a0 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_ranges  0x0000000000002140       0xd8 build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_ranges  0x0000000000002218       0x58 build_ak-base-kit-stm32l151-application/twi.o
+ .debug_ranges  0x0000000000002270       0x50 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
-.debug_line     0x0000000000000000    0x1e106
+.debug_line     0x0000000000000000    0x1d934
  .debug_line    0x0000000000000000      0x18a build_ak-base-kit-stm32l151-application/fsm.o
  .debug_line    0x000000000000018a      0xa0e build_ak-base-kit-stm32l151-application/task.o
  .debug_line    0x0000000000000b98      0x5bb build_ak-base-kit-stm32l151-application/timer.o
@@ -4420,13 +4357,12 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_line    0x0000000000019633      0xbb7 build_ak-base-kit-stm32l151-application/link_mac.o
  .debug_line    0x000000000001a1ea      0xd02 build_ak-base-kit-stm32l151-application/link_phy.o
  .debug_line    0x000000000001aeec      0x7d1 build_ak-base-kit-stm32l151-application/link_data.o
- .debug_line    0x000000000001b6bd      0x9a6 build_ak-base-kit-stm32l151-application/Print.o
- .debug_line    0x000000000001c063      0x785 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_line    0x000000000001c7e8      0xa2e build_ak-base-kit-stm32l151-application/Wire.o
- .debug_line    0x000000000001d216      0x89a build_ak-base-kit-stm32l151-application/twi.o
- .debug_line    0x000000000001dab0      0x656 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_line    0x000000000001b6bd      0x977 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_line    0x000000000001c034      0xa10 build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_line    0x000000000001ca44      0x89a build_ak-base-kit-stm32l151-application/twi.o
+ .debug_line    0x000000000001d2de      0x656 build_ak-base-kit-stm32l151-application/mini_cpp.o
 
-.debug_str      0x0000000000000000    0x11b1f
+.debug_str      0x0000000000000000    0x117dd
  .debug_str     0x0000000000000000      0x1b4 build_ak-base-kit-stm32l151-application/fsm.o
                                         0x248 (size before relaxing)
  .debug_str     0x00000000000001b4      0x57f build_ak-base-kit-stm32l151-application/task.o
@@ -4471,87 +4407,85 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
                                         0x72b (size before relaxing)
  .debug_str     0x0000000000002d08      0x2ea build_ak-base-kit-stm32l151-application/stm32l1xx_usart.o
                                         0x6eb (size before relaxing)
- .debug_str     0x0000000000002ff2      0x36a build_ak-base-kit-stm32l151-application/stm32l1xx_spi.o
+ .debug_str     0x0000000000002ff2      0x386 build_ak-base-kit-stm32l151-application/stm32l1xx_spi.o
                                         0x658 (size before relaxing)
- .debug_str     0x000000000000335c      0x193 build_ak-base-kit-stm32l151-application/misc.o
+ .debug_str     0x0000000000003378      0x193 build_ak-base-kit-stm32l151-application/misc.o
                                         0x3ea (size before relaxing)
- .debug_str     0x00000000000034ef      0x1d5 build_ak-base-kit-stm32l151-application/stm32l1xx_exti.o
+ .debug_str     0x000000000000350b      0x1d5 build_ak-base-kit-stm32l151-application/stm32l1xx_exti.o
                                         0x368 (size before relaxing)
- .debug_str     0x00000000000036c4      0x85c build_ak-base-kit-stm32l151-application/stm32l1xx_tim.o
+ .debug_str     0x00000000000036e0      0x85c build_ak-base-kit-stm32l151-application/stm32l1xx_tim.o
                                         0xc8f (size before relaxing)
- .debug_str     0x0000000000003f20      0x61f build_ak-base-kit-stm32l151-application/stm32l1xx_adc.o
+ .debug_str     0x0000000000003f3c      0x61f build_ak-base-kit-stm32l151-application/stm32l1xx_adc.o
                                         0x828 (size before relaxing)
- .debug_str     0x000000000000453f      0x1cf build_ak-base-kit-stm32l151-application/stm32l1xx_pwr.o
+ .debug_str     0x000000000000455b      0x1cf build_ak-base-kit-stm32l151-application/stm32l1xx_pwr.o
                                         0x404 (size before relaxing)
- .debug_str     0x000000000000470e      0x617 build_ak-base-kit-stm32l151-application/stm32l1xx_flash.o
+ .debug_str     0x000000000000472a      0x617 build_ak-base-kit-stm32l151-application/stm32l1xx_flash.o
                                         0x7fd (size before relaxing)
- .debug_str     0x0000000000004d25       0xf0 build_ak-base-kit-stm32l151-application/stm32l1xx_iwdg.o
+ .debug_str     0x0000000000004d41       0xf0 build_ak-base-kit-stm32l151-application/stm32l1xx_iwdg.o
                                         0x288 (size before relaxing)
- .debug_str     0x0000000000004e15       0x70 build_ak-base-kit-stm32l151-application/platform.o
+ .debug_str     0x0000000000004e31       0x70 build_ak-base-kit-stm32l151-application/platform.o
                                         0x2a7 (size before relaxing)
- .debug_str     0x0000000000004e85      0x3a0 build_ak-base-kit-stm32l151-application/system.o
+ .debug_str     0x0000000000004ea1      0x3a0 build_ak-base-kit-stm32l151-application/system.o
                                         0x8bf (size before relaxing)
- .debug_str     0x0000000000005225      0x3dd build_ak-base-kit-stm32l151-application/sys_cfg.o
+ .debug_str     0x0000000000005241      0x3dd build_ak-base-kit-stm32l151-application/sys_cfg.o
                                        0x1361 (size before relaxing)
- .debug_str     0x0000000000005602      0x455 build_ak-base-kit-stm32l151-application/io_cfg.o
+ .debug_str     0x000000000000561e      0x455 build_ak-base-kit-stm32l151-application/io_cfg.o
                                        0x14f9 (size before relaxing)
- .debug_str     0x0000000000005a57       0x37 build_ak-base-kit-stm32l151-application/system_stm32l1xx.o
+ .debug_str     0x0000000000005a73       0x37 build_ak-base-kit-stm32l151-application/system_stm32l1xx.o
                                         0x364 (size before relaxing)
- .debug_str     0x0000000000005a8e      0x2c6 build_ak-base-kit-stm32l151-application/task_system.o
+ .debug_str     0x0000000000005aaa      0x2c6 build_ak-base-kit-stm32l151-application/task_system.o
                                         0x616 (size before relaxing)
- .debug_str     0x0000000000005d54     0x6b38 build_ak-base-kit-stm32l151-application/app.o
+ .debug_str     0x0000000000005d70     0x6b38 build_ak-base-kit-stm32l151-application/app.o
                                        0x77dd (size before relaxing)
- .debug_str     0x000000000000c88c       0x22 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
+ .debug_str     0x000000000000c8a8       0x22 build_ak-base-kit-stm32l151-application/app_non_clear_ram.o
                                         0x3c9 (size before relaxing)
- .debug_str     0x000000000000c8ae       0x97 build_ak-base-kit-stm32l151-application/app_bsp.o
+ .debug_str     0x000000000000c8ca       0x97 build_ak-base-kit-stm32l151-application/app_bsp.o
                                         0x73f (size before relaxing)
- .debug_str     0x000000000000c945      0x411 build_ak-base-kit-stm32l151-application/shell.o
+ .debug_str     0x000000000000c961      0x411 build_ak-base-kit-stm32l151-application/shell.o
                                         0xf27 (size before relaxing)
- .debug_str     0x000000000000cd56       0x49 build_ak-base-kit-stm32l151-application/task_shell.o
+ .debug_str     0x000000000000cd72       0x49 build_ak-base-kit-stm32l151-application/task_shell.o
                                         0x671 (size before relaxing)
- .debug_str     0x000000000000cd9f       0x3b build_ak-base-kit-stm32l151-application/task_life.o
+ .debug_str     0x000000000000cdbb       0x3b build_ak-base-kit-stm32l151-application/task_life.o
                                         0x53d (size before relaxing)
- .debug_str     0x000000000000cdda      0x356 build_ak-base-kit-stm32l151-application/task_fw.o
+ .debug_str     0x000000000000cdf6      0x356 build_ak-base-kit-stm32l151-application/task_fw.o
                                         0xe47 (size before relaxing)
- .debug_str     0x000000000000d130       0x1a build_ak-base-kit-stm32l151-application/task_list.o
+ .debug_str     0x000000000000d14c       0x1a build_ak-base-kit-stm32l151-application/task_list.o
                                         0x5a7 (size before relaxing)
- .debug_str     0x000000000000d14a       0x95 build_ak-base-kit-stm32l151-application/task_display.o
+ .debug_str     0x000000000000d166       0x95 build_ak-base-kit-stm32l151-application/task_display.o
                                         0x4ea (size before relaxing)
- .debug_str     0x000000000000d1df       0xe1 build_ak-base-kit-stm32l151-application/task_if.o
+ .debug_str     0x000000000000d1fb       0xe1 build_ak-base-kit-stm32l151-application/task_if.o
                                         0x738 (size before relaxing)
- .debug_str     0x000000000000d2c0      0x14a build_ak-base-kit-stm32l151-application/task_uart_if.o
+ .debug_str     0x000000000000d2dc      0x14a build_ak-base-kit-stm32l151-application/task_uart_if.o
                                         0x7b4 (size before relaxing)
- .debug_str     0x000000000000d40a       0x38 build_ak-base-kit-stm32l151-application/task_dbg.o
+ .debug_str     0x000000000000d426       0x38 build_ak-base-kit-stm32l151-application/task_dbg.o
                                         0x47c (size before relaxing)
- .debug_str     0x000000000000d442      0x26f build_ak-base-kit-stm32l151-application/view_render.o
+ .debug_str     0x000000000000d45e      0x26f build_ak-base-kit-stm32l151-application/view_render.o
                                         0x70c (size before relaxing)
- .debug_str     0x000000000000d6b1      0x181 build_ak-base-kit-stm32l151-application/screen_manager.o
+ .debug_str     0x000000000000d6cd      0x181 build_ak-base-kit-stm32l151-application/screen_manager.o
                                         0x6d6 (size before relaxing)
- .debug_str     0x000000000000d832      0x795 build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
+ .debug_str     0x000000000000d84e      0x795 build_ak-base-kit-stm32l151-application/Adafruit_GFX.o
                                         0xf40 (size before relaxing)
- .debug_str     0x000000000000dfc7      0x295 build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
+ .debug_str     0x000000000000dfe3      0x295 build_ak-base-kit-stm32l151-application/Adafruit_ssd1306syp.o
                                         0x7e4 (size before relaxing)
- .debug_str     0x000000000000e25c       0x21 build_ak-base-kit-stm32l151-application/eeprom.o
+ .debug_str     0x000000000000e278       0x21 build_ak-base-kit-stm32l151-application/eeprom.o
                                         0x412 (size before relaxing)
- .debug_str     0x000000000000e27d       0xdd build_ak-base-kit-stm32l151-application/link_hal.o
+ .debug_str     0x000000000000e299       0xdd build_ak-base-kit-stm32l151-application/link_hal.o
                                         0x4e7 (size before relaxing)
- .debug_str     0x000000000000e35a      0x3e4 build_ak-base-kit-stm32l151-application/link.o
+ .debug_str     0x000000000000e376      0x3e4 build_ak-base-kit-stm32l151-application/link.o
                                         0xc93 (size before relaxing)
- .debug_str     0x000000000000e73e      0x556 build_ak-base-kit-stm32l151-application/link_mac.o
+ .debug_str     0x000000000000e75a      0x556 build_ak-base-kit-stm32l151-application/link_mac.o
                                         0xf3f (size before relaxing)
- .debug_str     0x000000000000ec94      0x46a build_ak-base-kit-stm32l151-application/link_phy.o
+ .debug_str     0x000000000000ecb0      0x46a build_ak-base-kit-stm32l151-application/link_phy.o
                                         0xe16 (size before relaxing)
- .debug_str     0x000000000000f0fe       0xe9 build_ak-base-kit-stm32l151-application/link_data.o
+ .debug_str     0x000000000000f11a       0xe9 build_ak-base-kit-stm32l151-application/link_data.o
                                         0x5ec (size before relaxing)
- .debug_str     0x000000000000f1e7      0xc72 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_str     0x000000000000f203      0xc72 build_ak-base-kit-stm32l151-application/Print.o
                                        0x1098 (size before relaxing)
- .debug_str     0x000000000000fe59      0x3ce build_ak-base-kit-stm32l151-application/SPI.o
-                                        0x9ce (size before relaxing)
- .debug_str     0x0000000000010227     0x155d build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_str     0x000000000000fe75     0x155d build_ak-base-kit-stm32l151-application/Wire.o
                                        0x1a6f (size before relaxing)
- .debug_str     0x0000000000011784      0x233 build_ak-base-kit-stm32l151-application/twi.o
+ .debug_str     0x00000000000113d2      0x2a3 build_ak-base-kit-stm32l151-application/twi.o
                                        0x13f7 (size before relaxing)
- .debug_str     0x00000000000119b7      0x168 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_str     0x0000000000011675      0x168 build_ak-base-kit-stm32l151-application/mini_cpp.o
                                         0x95f (size before relaxing)
 
 .comment        0x0000000000000000       0x49
@@ -4615,7 +4549,6 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .comment       0x0000000000000049       0x4a build_ak-base-kit-stm32l151-application/link_phy.o
  .comment       0x0000000000000049       0x4a build_ak-base-kit-stm32l151-application/link_data.o
  .comment       0x0000000000000049       0x4a build_ak-base-kit-stm32l151-application/Print.o
- .comment       0x0000000000000049       0x4a build_ak-base-kit-stm32l151-application/SPI.o
  .comment       0x0000000000000049       0x4a build_ak-base-kit-stm32l151-application/Wire.o
  .comment       0x0000000000000049       0x4a build_ak-base-kit-stm32l151-application/twi.o
  .comment       0x0000000000000049       0x4a build_ak-base-kit-stm32l151-application/mini_cpp.o
@@ -4741,71 +4674,69 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .ARM.attributes
                 0x0000000000000a32       0x2d build_ak-base-kit-stm32l151-application/Print.o
  .ARM.attributes
-                0x0000000000000a5f       0x2d build_ak-base-kit-stm32l151-application/SPI.o
+                0x0000000000000a5f       0x2d build_ak-base-kit-stm32l151-application/Wire.o
  .ARM.attributes
-                0x0000000000000a8c       0x2d build_ak-base-kit-stm32l151-application/Wire.o
+                0x0000000000000a8c       0x2d build_ak-base-kit-stm32l151-application/twi.o
  .ARM.attributes
-                0x0000000000000ab9       0x2d build_ak-base-kit-stm32l151-application/twi.o
+                0x0000000000000ab9       0x2d build_ak-base-kit-stm32l151-application/mini_cpp.o
  .ARM.attributes
-                0x0000000000000ae6       0x2d build_ak-base-kit-stm32l151-application/mini_cpp.o
+                0x0000000000000ae6       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-malloc.o)
  .ARM.attributes
-                0x0000000000000b13       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-malloc.o)
+                0x0000000000000b13       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x0000000000000b40       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
+                0x0000000000000b40       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcmp.o)
  .ARM.attributes
-                0x0000000000000b6d       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcmp.o)
+                0x0000000000000b6d       0x1b /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x0000000000000b9a       0x1b /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcpy.o)
+                0x0000000000000b88       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000000000000bb5       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memset.o)
+                0x0000000000000bb5       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000be2       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mlock.o)
+                0x0000000000000be2       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-rand.o)
  .ARM.attributes
-                0x0000000000000c0f       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-rand.o)
+                0x0000000000000c0f       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000000000000c3c       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-sbrkr.o)
+                0x0000000000000c3c       0x1b /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x0000000000000c69       0x1b /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcmp.o)
+                0x0000000000000c57       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcpy.o)
  .ARM.attributes
-                0x0000000000000c84       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcpy.o)
+                0x0000000000000c84       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
  .ARM.attributes
-                0x0000000000000cb1       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000000000cb1       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
  .ARM.attributes
-                0x0000000000000cde       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+                0x0000000000000cde       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
  .ARM.attributes
-                0x0000000000000d0b       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-ctype_.o)
+                0x0000000000000d0b       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000000000000d38       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-errno.o)
+                0x0000000000000d38       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-freer.o)
  .ARM.attributes
-                0x0000000000000d65       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-freer.o)
+                0x0000000000000d65       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000000000000d92       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-impure.o)
+                0x0000000000000d92       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
  .ARM.attributes
-                0x0000000000000dbf       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
+                0x0000000000000dbf       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000000000000dec       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-reent.o)
+                0x0000000000000dec       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x0000000000000e19       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
+                0x0000000000000e09       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x0000000000000e36       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivdf3.o)
+                0x0000000000000e26       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x0000000000000e53       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
+                0x0000000000000e43       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_unorddf2.o)
  .ARM.attributes
-                0x0000000000000e70       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_unorddf2.o)
+                0x0000000000000e60       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x0000000000000e8d       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
+                0x0000000000000e7d       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
  .ARM.attributes
-                0x0000000000000eaa       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000000000000e9a       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x0000000000000ec7       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                0x0000000000000eb7       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000000000000ee4       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000000000ed4       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000000000000f01       0x2d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
- .ARM.attributes
-                0x0000000000000f2e       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000000000f01       0x1d /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_dvmd_tls.o)
 
-.debug_frame    0x0000000000000000     0x51b4
+.debug_frame    0x0000000000000000     0x5038
  .debug_frame   0x0000000000000000       0x20 build_ak-base-kit-stm32l151-application/fsm.o
  .debug_frame   0x0000000000000020      0x240 build_ak-base-kit-stm32l151-application/task.o
  .debug_frame   0x0000000000000260       0xf0 build_ak-base-kit-stm32l151-application/timer.o
@@ -4862,32 +4793,31 @@ LOAD /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-no
  .debug_frame   0x0000000000003f88       0xf4 build_ak-base-kit-stm32l151-application/link_mac.o
  .debug_frame   0x000000000000407c      0x16c build_ak-base-kit-stm32l151-application/link_phy.o
  .debug_frame   0x00000000000041e8      0x108 build_ak-base-kit-stm32l151-application/link_data.o
- .debug_frame   0x00000000000042f0      0x240 build_ak-base-kit-stm32l151-application/Print.o
- .debug_frame   0x0000000000004530      0x160 build_ak-base-kit-stm32l151-application/SPI.o
- .debug_frame   0x0000000000004690      0x21c build_ak-base-kit-stm32l151-application/Wire.o
- .debug_frame   0x00000000000048ac      0x108 build_ak-base-kit-stm32l151-application/twi.o
- .debug_frame   0x00000000000049b4      0x100 build_ak-base-kit-stm32l151-application/mini_cpp.o
- .debug_frame   0x0000000000004ab4       0x30 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-malloc.o)
- .debug_frame   0x0000000000004ae4       0x4c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
- .debug_frame   0x0000000000004b30       0x28 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcmp.o)
- .debug_frame   0x0000000000004b58       0x2c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memset.o)
- .debug_frame   0x0000000000004b84       0x30 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mlock.o)
- .debug_frame   0x0000000000004bb4       0x3c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-rand.o)
- .debug_frame   0x0000000000004bf0       0x2c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000004c1c       0x34 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcmp.o)
- .debug_frame   0x0000000000004c50       0x20 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcpy.o)
- .debug_frame   0x0000000000004c70       0x20 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
- .debug_frame   0x0000000000004c90       0x90 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
- .debug_frame   0x0000000000004d20       0x20 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-errno.o)
- .debug_frame   0x0000000000004d40       0x8c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-freer.o)
- .debug_frame   0x0000000000004dcc       0xb0 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
- .debug_frame   0x0000000000004e7c       0x64 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-reent.o)
- .debug_frame   0x0000000000004ee0       0xac /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000000000004f8c       0x50 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x0000000000004fdc       0xc4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00000000000050a0       0x20 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x00000000000050c0       0x24 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x00000000000050e4       0x24 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
- .debug_frame   0x0000000000005108       0x4c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x0000000000005154       0x2c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000000000005180       0x34 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000000042f0      0x224 build_ak-base-kit-stm32l151-application/Print.o
+ .debug_frame   0x0000000000004514      0x21c build_ak-base-kit-stm32l151-application/Wire.o
+ .debug_frame   0x0000000000004730      0x108 build_ak-base-kit-stm32l151-application/twi.o
+ .debug_frame   0x0000000000004838      0x100 build_ak-base-kit-stm32l151-application/mini_cpp.o
+ .debug_frame   0x0000000000004938       0x30 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000004968       0x4c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000000000049b4       0x28 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x00000000000049dc       0x2c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000004a08       0x30 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000004a38       0x3c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-rand.o)
+ .debug_frame   0x0000000000004a74       0x2c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000004aa0       0x34 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000004ad4       0x20 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strcpy.o)
+ .debug_frame   0x0000000000004af4       0x20 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000004b14       0x90 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-strtol.o)
+ .debug_frame   0x0000000000004ba4       0x20 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-errno.o)
+ .debug_frame   0x0000000000004bc4       0x8c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-freer.o)
+ .debug_frame   0x0000000000004c50       0xb0 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-lock.o)
+ .debug_frame   0x0000000000004d00       0x64 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(lib_a-reent.o)
+ .debug_frame   0x0000000000004d64       0xac /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000004e10       0x50 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000004e60       0xc4 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000004f24       0x20 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x0000000000004f44       0x24 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000004f68       0x24 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x0000000000004f8c       0x4c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000004fd8       0x2c /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000005004       0x34 /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a(_udivmoddi4.o)
