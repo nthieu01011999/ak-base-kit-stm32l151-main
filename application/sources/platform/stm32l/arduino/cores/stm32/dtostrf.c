@@ -24,13 +24,13 @@
 #include "sys_dbg.h"
 #include "message.h"
 
-char* strdup (const char *s) {
-	size_t len = strlen (s) + 1;
-	void *_new = ak_malloc (len);
-	if (_new == NULL)
-		return NULL;
-	return (char*)memcpy(_new, s, len);
-}
+//char* strdup (const char *s) {
+//	size_t len = strlen (s) + 1;
+//	//void *_new = ak_malloc (len);
+//	if (_new == NULL)
+//		return NULL;
+//	return (char*)memcpy(_new, s, len);
+//}
 
 char *dtostrf (double val, signed char width, unsigned char prec, char *sout) {
 #if 0
@@ -89,10 +89,10 @@ char *dtostrf (double val, signed char width, unsigned char prec, char *sout) {
 		memset(fmt, ' ', 128);
 		fmt[w-strlen(sout)] = '\0';
 		if(negative == 0) {
-			char *tmp = strdup(sout);
+			//char *tmp = strdup(sout);
 			strcpy(sout,fmt);
-			strcat(sout, tmp);
-			ak_free(tmp);
+			//strcat(sout, tmp);
+			//ak_free(tmp);
 		} else {
 			// left adjustment
 			strcat(sout, fmt);

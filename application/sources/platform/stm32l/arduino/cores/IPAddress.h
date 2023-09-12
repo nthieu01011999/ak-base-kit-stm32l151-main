@@ -23,7 +23,7 @@
 #include <stdint.h>
 #include "Print.h"
 #include "Printable.h"
-#include "WString.h"
+//#include "WString.h"
 
 // A class to make it easier to handle and pass around IP addresses
 
@@ -48,7 +48,7 @@ public:
     IPAddress(const uint8_t *address);
 
     bool fromString(const char *address);
-    bool fromString(const String &address) { return fromString(address.c_str()); }
+  //  bool fromString(const String &address) { return fromString(address.c_str()); }
 
     // Overloaded cast operator to allow IPAddress objects to be used where a pointer
     // to a four-byte uint8_t array is expected
@@ -64,7 +64,7 @@ public:
     IPAddress& operator=(const uint8_t *address);
     IPAddress& operator=(uint32_t address);
 
-    virtual size_t printTo(Print& p) const;
+    //virtual size_t printTo(Print& p) const;
 
     friend class EthernetClass;
     friend class UDP;

@@ -91,10 +91,10 @@ size_t Print::print(double n, int digits)
     return printFloat(n, digits);
 }
 
-size_t Print::print(const Printable& x)
-{
-    return x.printTo(*this);
-}
+// size_t Print::print(const Printable& x)
+// {
+//     return x.printTo(*this);
+// }
 
 size_t Print::println(void)
 {

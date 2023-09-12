@@ -534,25 +534,25 @@ int32_t shell_lcd(uint8_t* argv) {
 		view_render.update();
 		break;
 
-	case 't':
-		/* ak logo */
-#define AK_LOGO_AXIS_X	23
-#define AK_LOGO_TEXT	(AK_LOGO_AXIS_X + 4)
+// 	case 't':
+// 		/* ak logo */
+// #define AK_LOGO_AXIS_X	23
+// #define AK_LOGO_TEXT	(AK_LOGO_AXIS_X + 4)
 
-		view_render.setTextSize(1);
-		view_render.setTextColor(WHITE);
-		view_render.setCursor(AK_LOGO_AXIS_X, 3);
-		view_render.print("   __    _  _ ");
-		view_render.setCursor(AK_LOGO_AXIS_X, 10);
-		view_render.print("  /__\\  ( )/ )");
-		view_render.setCursor(AK_LOGO_AXIS_X, 20);
-		view_render.print(" /(__)\\ (   (");
-		view_render.setCursor(AK_LOGO_AXIS_X, 30);
-		view_render.print("(__)(__)(_)\\_)");
-		view_render.setCursor(AK_LOGO_TEXT, 42);
-		view_render.print("Active Kernel");
-		view_render.update ();
-		break;
+// 		view_render.setTextSize(1);
+// 		view_render.setTextColor(WHITE);
+// 		view_render.setCursor(AK_LOGO_AXIS_X, 3);
+// 		view_render.print("   __    _  _ ");
+// 		view_render.setCursor(AK_LOGO_AXIS_X, 10);
+// 		view_render.print("  /__\\  ( )/ )");
+// 		view_render.setCursor(AK_LOGO_AXIS_X, 20);
+// 		view_render.print(" /(__)\\ (   (");
+// 		view_render.setCursor(AK_LOGO_AXIS_X, 30);
+// 		view_render.print("(__)(__)(_)\\_)");
+// 		view_render.setCursor(AK_LOGO_TEXT, 42);
+// 		view_render.print("Active Kernel");
+// 		view_render.update ();
+// 		break;
 
 	case 'r':
 		view_render.clear ();
