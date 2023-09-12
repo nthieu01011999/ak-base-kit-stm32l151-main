@@ -56,18 +56,17 @@ build_ak-base-kit-stm32l151-application/mbportother.o: \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbframe.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbutils.h \
- sources/platform/stm32l/platform.h sources/sys/sys_dbg.h \
- sources/ak/inc/task.h \
+ sources/sys/sys_dbg.h sources/ak/inc/task.h \
  /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  sources/ak/inc/ak.h \
  /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
  /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
  sources/ak/inc/fsm.h sources/ak/inc/message.h sources/ak/inc/port.h \
- sources/ak/inc/task.h sources/common/container/log_queue.h \
- sources/ak/inc/message.h sources/sys/sys_ctrl.h sources/app/app_data.h \
- sources/sys/sys_boot.h sources/ak/inc/port.h sources/app/app.h \
- sources/ak/inc/ak.h sources/app/app_if.h sources/app/app_eeprom.h \
- sources/app/app_data.h \
+ sources/platform/stm32l/platform.h sources/ak/inc/task.h \
+ sources/common/container/log_queue.h sources/ak/inc/message.h \
+ sources/sys/sys_ctrl.h sources/app/app_data.h sources/sys/sys_boot.h \
+ sources/ak/inc/port.h sources/app/app.h sources/ak/inc/ak.h \
+ sources/app/app_if.h sources/app/app_eeprom.h sources/app/app_data.h \
  sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbport.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/mbm.h \
  sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbmconfig.h \

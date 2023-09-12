@@ -679,8 +679,6 @@
                     name="internal"/>
                 </dir>
                 <dir
-                  name="rtu"/>
-                <dir
                   name="tcp"/>
                 <dir
                   name="udp"/>

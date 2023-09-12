@@ -47,33 +47,33 @@ main( void )
     sysclk_init(  );
     pmic_init(  );
     cpu_irq_enable(  );
-    if( MB_ENOERR == ( eStatus = eMBMSerialInit( &xMBMMaster, MB_RTU, MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
-    {
-        do
-        {
-            for( ubCnt = 0; ubCnt < 100; ubCnt++ )
-            {
-                _delay_ms( 10 );
-            }
+    //if( MB_ENOERR == ( eStatus = eMBMSerialInit( &xMBMMaster, MB_RTU, MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
+    //{
+    //    do
+    //    {
+    //        for( ubCnt = 0; ubCnt < 100; ubCnt++ )
+    //        {
+    //            _delay_ms( 10 );
+    //        }
 
-            eStatus = MB_ENOERR;
+    //        eStatus = MB_ENOERR;
 
-            /* Write an incrementing counter to register address 0. */
-            if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usRegCnt++ ) ) )
-            {
-                eStatus = eStatus2;
-            }
-        }
-        while( TRUE );
-    }
-    else
-    {
-        MBP_ASSERT( 0 );
-    }
+    //        /* Write an incrementing counter to register address 0. */
+    //        //if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usRegCnt++ ) ) )
+    //        //{
+    //        //    eStatus = eStatus2;
+    //        //}
+    //    }
+    //    while( TRUE );
+    //}
+    //else
+    //{
+    //    MBP_ASSERT( 0 );
+    //}
 
 
-    if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
-    {
-        MBP_ASSERT( 0 );
-    }
-}
+//    if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
+//    {
+//        MBP_ASSERT( 0 );
+//    }
+//}

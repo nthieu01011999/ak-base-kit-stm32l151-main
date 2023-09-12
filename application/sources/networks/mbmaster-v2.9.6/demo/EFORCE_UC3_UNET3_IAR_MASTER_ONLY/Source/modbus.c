@@ -78,7 +78,7 @@ task_mbmaster_impl( void )
 					for( pollLoops = 0; pollLoops < 100; pollLoops++ )
 					{
 						/* Try to read 20 input registers from MODBUS TCP slave using address 255 */
-						eStatus = eMBMReadHoldingRegisters( xMBMHdl, 255, 0, 20, usNRegs );
+						//eStatus = eMBMReadHoldingRegisters( xMBMHdl, 255, 0, 20, usNRegs );
 						if( MB_ENOERR != eStatus )
 						{
 							errorCnt++;
@@ -94,7 +94,7 @@ task_mbmaster_impl( void )
             /* The close shall never fail if the instance was opened correctly. Assert on this
              * in debug build.
              */
-            eStatus = eMBMClose( xMBMHdl );
+//            eStatus = eMBMClose( xMBMHdl );
             MBP_ASSERT( MB_ENOERR == eStatus );
         }
     }

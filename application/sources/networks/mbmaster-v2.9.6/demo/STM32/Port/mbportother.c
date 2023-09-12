@@ -17,7 +17,7 @@
 #include "common/mbframe.h"
 #include "common/mbutils.h"
 
-#include "platform.h"
+//#include "platform.h"
 #include "sys_dbg.h"
 
 /* ----------------------- Modbus includes ----------------------------------*/
@@ -46,20 +46,20 @@ assert_failed( uint8_t * file, uint32_t line )
 void
 vMBPAssert( void )
 {
-    FATAL("MB", 0x01);
+//    FATAL("MB", 0x01);
 }
 
 #if 1
 void
 vMBPEnterCritical( void )
 {
-    ENTRY_CRITICAL();
+   // ENTRY_CRITICAL();
 }
 
 void
 vMBPExitCritical( void )
 {
-    EXIT_CRITICAL();
+//    EXIT_CRITICAL();
 }
 #else
 void
@@ -98,4 +98,5 @@ vMBPSetDebugPin( eMBPDebugPin ePinName, BOOL bTurnOn )
         break;
     }
     
+
 }

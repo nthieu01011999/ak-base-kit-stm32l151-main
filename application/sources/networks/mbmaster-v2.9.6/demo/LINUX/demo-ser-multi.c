@@ -175,46 +175,46 @@ pvHandlerThread1( void *pvArg )
     USHORT          usNRegs[1];
 
 
-    do
+//    do
 
 
-    {
+//    {
 
-        if( MB_ENOERR == ( eStatus = eMBMSerialInit( &xMBMMaster, MB_RTU, MASTER1_PORT, MASTER1_BAUDRATE, MASTER1_PARITY ) ) )
-
-
-        {
+////        if( MB_ENOERR == ( eStatus = eMBMSerialInit( &xMBMMaster, MB_RTU, MASTER1_PORT, MASTER1_BAUDRATE, MASTER1_PARITY ) ) )
 
 
-            /* Write an incrementing counter to register address 0. */
-            if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usLoopCnt++ ) ) )
+//     //   {
 
 
-            {
-
-                eStatus = eStatus2;
-
-            }
-
-            if( MB_ENOERR != ( eStatus2 = eMBMReadHoldingRegisters( xMBMMaster, 1, 1, sizeof( usNRegs ) / sizeof( usNRegs[0] ), usNRegs ) ) )
+//            /* Write an incrementing counter to register address 0. */
+//            //if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usLoopCnt++ ) ) )
 
 
-            {
+//            //{
 
-                eStatus = eStatus2;
+//            //    eStatus = eStatus2;
 
-            }
+//            //}
 
-            if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
+//            //if( MB_ENOERR != ( eStatus2 = eMBMReadHoldingRegisters( xMBMMaster, 1, 1, sizeof( usNRegs ) / sizeof( usNRegs[0] ), usNRegs ) ) )
 
 
-            {
+//            //{
 
-                MBP_ASSERT( 0 );
+//            //    eStatus = eStatus2;
 
-            }
+//            //}
 
-        }
+//            //if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
+
+
+//            //{
+
+//            //    MBP_ASSERT( 0 );
+
+//        //    }
+
+//        }
 
 
         /* Wait 50ms before next try. */
@@ -257,41 +257,41 @@ pvHandlerThread2( void *pvArg )
 
     {
 
-        if( MB_ENOERR == ( eStatus = eMBMSerialInit( &xMBMMaster, MB_RTU, MASTER2_PORT, MASTER2_BAUDRATE, MASTER2_PARITY ) ) )
+        //if( MB_ENOERR == ( eStatus = eMBMSerialInit( &xMBMMaster, MB_RTU, MASTER2_PORT, MASTER2_BAUDRATE, MASTER2_PARITY ) ) )
 
 
-        {
+        //{
 
 
-            /* Write an incrementing counter to register address 0. */
-            if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usLoopCnt++ ) ) )
+        //    /* Write an incrementing counter to register address 0. */
+        //    if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usLoopCnt++ ) ) )
 
 
-            {
+        //    {
 
-                eStatus = eStatus2;
+        //        eStatus = eStatus2;
 
-            }
+        //    }
 
-            if( MB_ENOERR != ( eStatus2 = eMBMReadHoldingRegisters( xMBMMaster, 1, 1, sizeof( usNRegs ) / sizeof( usNRegs[0] ), usNRegs ) ) )
-
-
-            {
-
-                eStatus = eStatus2;
-
-            }
-
-            if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
+        //    if( MB_ENOERR != ( eStatus2 = eMBMReadHoldingRegisters( xMBMMaster, 1, 1, sizeof( usNRegs ) / sizeof( usNRegs[0] ), usNRegs ) ) )
 
 
-            {
+        //    {
 
-                MBP_ASSERT( 0 );
+        //        eStatus = eStatus2;
 
-            }
+        //    }
 
-        }
+        //    if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
+
+
+        //    {
+
+        //        MBP_ASSERT( 0 );
+
+        //    }
+
+        //}
 
 
         /* Wait 50ms before next try. */

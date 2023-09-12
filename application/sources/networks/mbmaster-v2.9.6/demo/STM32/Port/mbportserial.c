@@ -190,8 +190,8 @@ eMBPSerialInit( xMBPSerialHandle * pxSerialHdl, UCHAR ucPort, ULONG ulBaudRate,
         RS_485_UART_1_DISABLE_TX(  );
 #endif
 #if UART_2_ENABLED == 1
-        RS_485_UART_2_INIT(  );
-        RS_485_UART_2_DISABLE_TX(  );
+//        RS_485_UART_2_INIT(  );
+//        RS_485_UART_2_DISABLE_TX(  );
 #endif
 #if UART_3_ENABLED == 1
         RS_485_UART_3_INIT(  );
@@ -423,7 +423,7 @@ eMBPSerialClose( xMBPSerialHandle xSerialHdl )
                 USART_Cmd( USART2, DISABLE );
                 USART_DeInit( USART2 );
                 /* Force RS485 back to receive mode */
-                RS_485_UART_2_DISABLE_TX(  );
+//                RS_485_UART_2_DISABLE_TX(  );
                 /* Reset handle */
                 HDL_RESET( pxSerialIntHdl );
                 /* No error */
@@ -491,7 +491,7 @@ eMBPSerialTxEnable( xMBPSerialHandle xSerialHdl, pbMBPSerialTransmitterEmptyCB p
 #if UART_2_ENABLED == 1
             case UART_2_IDX:
                 /* RS485 transmit mode */
-                RS_485_UART_2_ENABLE_TX(  );
+//                RS_485_UART_2_ENABLE_TX(  );
                 /* Enable USART 2 tx interrupt */
                 USART_ITConfig( USART2, USART_IT_TXE, ENABLE );
                 break;
@@ -790,7 +790,7 @@ void
 prvvMBPUSART2_TC_ISR( void )
 {
     /* Back to receive mode */
-    RS_485_UART_2_DISABLE_TX(  );
+//    RS_485_UART_2_DISABLE_TX(  );
     /* Disable TC interrupt */
     USART_ITConfig( USART2, USART_IT_TC, DISABLE );
 }

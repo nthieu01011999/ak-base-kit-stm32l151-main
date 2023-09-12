@@ -46,62 +46,62 @@ main( int argc, char *argv[] )
 
     do
     {
-        if( MB_ENOERR == ( eStatus = eMBMSerialInit( &xMBMMaster, MBM_MODE, MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
-        {
-            fprintf( stderr, "MODBUS master instance ready (MODE=%s, PORT=%d, BAUDRATE=%d, PARITY=%s)\n",
-                     prvszMBMode2String( MBM_MODE ), MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, prvszMBParity2String( MBM_PARITY ) );
-            eStatus = MB_ENOERR;
-            /* Write an incrementing counter to register address 0. */
-            if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usRegCnt++ ) ) )
-            {
-                eStatus = eStatus2;
-            }
-            /* Read holding register from adress 5 - 25, increment them by one and store
-             * them at address 10. 
-             */
-            if( MB_ENOERR != ( eStatus2 = eMBMReadHoldingRegisters( xMBMMaster, 1, 5, 20, usNRegs ) ) )
+        //if( MB_ENOERR == ( eStatus = eMBMSerialInit( &xMBMMaster, MBM_MODE, MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
+        //{
+        //    fprintf( stderr, "MODBUS master instance ready (MODE=%s, PORT=%d, BAUDRATE=%d, PARITY=%s)\n",
+        //             prvszMBMode2String( MBM_MODE ), MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, prvszMBParity2String( MBM_PARITY ) );
+        //    eStatus = MB_ENOERR;
+        //    /* Write an incrementing counter to register address 0. */
+        //    if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usRegCnt++ ) ) )
+        //    {
+        //        eStatus = eStatus2;
+        //    }
+        //    /* Read holding register from adress 5 - 25, increment them by one and store
+        //     * them at address 10. 
+        //     */
+        //    if( MB_ENOERR != ( eStatus2 = eMBMReadHoldingRegisters( xMBMMaster, 1, 5, 20, usNRegs ) ) )
 
-            {
-                eStatus = eStatus2;
-            }
-            for( ubIdx = 0; ubIdx < 20; ubIdx++ )
-            {
-                usNRegs[ubIdx]++;
-            }
-            if( MB_ENOERR != ( eStatus2 = eMBMWriteMultipleRegisters( xMBMMaster, 1, 5, 20, usNRegs ) ) )
-            {
-                eStatus = eStatus2;
-            }
-            /* Read the input registers from address 2 - 5 and write them to the holding
-             * registers at address 1 - 4.
-             */
-            if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 1, 2, 4, usNRegs ) ) )
-            {
-                eStatus = eStatus2;
-            }
-            if( MB_ENOERR != ( eStatus2 = eMBMWriteMultipleRegisters( xMBMMaster, 1, 1, 4, usNRegs ) ) )
-            {
-                eStatus = eStatus2;
-            }
-            fprintf( stderr, "  reading/writing slave registers: " );
-            if( MB_ENOERR == eStatus )
-            {
-                fprintf( stderr, "okay\n" );
-            }
-            else
-            {
-                fprintf( stderr, "failed\n" );
-            }
-            if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
-            {
-                MBP_ASSERT( 0 );
-            }
-        }
-        else
-        {
+        //    {
+        //        eStatus = eStatus2;
+        //    }
+        //    for( ubIdx = 0; ubIdx < 20; ubIdx++ )
+        //    {
+        //        usNRegs[ubIdx]++;
+        //    }
+        //    if( MB_ENOERR != ( eStatus2 = eMBMWriteMultipleRegisters( xMBMMaster, 1, 5, 20, usNRegs ) ) )
+        //    {
+        //        eStatus = eStatus2;
+        //    }
+        //    /* Read the input registers from address 2 - 5 and write them to the holding
+        //     * registers at address 1 - 4.
+        //     */
+        //    if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 1, 2, 4, usNRegs ) ) )
+        //    {
+        //        eStatus = eStatus2;
+        //    }
+        //    if( MB_ENOERR != ( eStatus2 = eMBMWriteMultipleRegisters( xMBMMaster, 1, 1, 4, usNRegs ) ) )
+        //    {
+        //        eStatus = eStatus2;
+        //    }
+        //    fprintf( stderr, "  reading/writing slave registers: " );
+        //    if( MB_ENOERR == eStatus )
+        //    {
+        //        fprintf( stderr, "okay\n" );
+        //    }
+        //    else
+        //    {
+        //        fprintf( stderr, "failed\n" );
+        //    }
+        //    if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
+        //    {
+        //        MBP_ASSERT( 0 );
+        //    }
+        //}
+        //else
+        //{
             fprintf( stderr, "Can't start MODBUS master instance (MODE=%s, PORT=%d, BAUDRATE=%d, PARITY=%s)!\n",
                      prvszMBMode2String( MBM_MODE ), MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, prvszMBParity2String( MBM_PARITY ) );
-        }
+        //}
         /* Wait 100ms before next try. */
     }
     while( TRUE );

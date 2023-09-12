@@ -119,18 +119,18 @@ vAppModbusTask( void *pvParameters )
         {
 #if 1 
             /* Write an incrementing counter to register address 0. */
-            if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usRegCnt++ ) ) )
-            {
-                eStatus = eStatus2;
-            }
+            //if( MB_ENOERR != ( eStatus2 = eMBMWriteSingleRegister( xMBMMaster, 1, 0, usRegCnt++ ) ) )
+            //{
+            //    eStatus = eStatus2;
+            //}
             vTaskDelay( 100 );
             /* Read holding register from adress 5 - 10, increment them by one and store
              * them at address 10. 
              */
-            if( MB_ENOERR != ( eStatus2 = eMBMReadHoldingRegisters( xMBMMaster, 1, 5, 5, usNRegs ) ) )
-            {
-                eStatus = eStatus2;
-            }
+            //if( MB_ENOERR != ( eStatus2 = eMBMReadHoldingRegisters( xMBMMaster, 1, 5, 5, usNRegs ) ) )
+            //{
+            //    eStatus = eStatus2;
+            //}
 #endif            
             switch ( eStatus )
             {
@@ -151,10 +151,10 @@ vAppModbusTask( void *pvParameters )
     {
         MBP_ASSERT( 0 );
     }
-    if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
-    {
-        MBP_ASSERT( 0 );
-    }
+    //if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
+    //{
+    //    MBP_ASSERT( 0 );
+    //}
 }
 
 void

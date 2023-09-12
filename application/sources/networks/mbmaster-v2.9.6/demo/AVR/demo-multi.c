@@ -56,64 +56,64 @@ main( int argc, char *argv[] )
     UBYTE           ubCnt;
 
     sei(  );
-    if( MB_ENOERR ==
-        ( eStatus = eMBMSerialInit( &xMBMMaster, MB_ASCII, MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
-    {
-        do
-        {
-            for( ubCnt = 0; ubCnt < 100; ubCnt++ )
-            {
-                _delay_ms( 10 );
-            }
+    //if( MB_ENOERR ==
+    //    ( eStatus = eMBMSerialInit( &xMBMMaster, MB_ASCII, MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
+    //{
+    //    do
+    //    {
+    //        for( ubCnt = 0; ubCnt < 100; ubCnt++ )
+    //        {
+    //            _delay_ms( 10 );
+    //        }
 
-            eStatus = MB_ENOERR;
+    //        eStatus = MB_ENOERR;
 
-            /* Read input register 0x000F from slave 4 */
-            if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 4, 0x000F, 1, &usNRegsSlave4[0] ) ) )
-            {
-                eStatus = eStatus2;
-            }
-            /* Read input register 0x0200 from slave 4 */
-            if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 4, 0x0200, 1, &usNRegsSlave4[1] ) ) )
-            {
-                eStatus = eStatus2;
-            }
-            /* Read input registers 0x0004 - 0x0007 from slave 3 */
-            if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 3, 0x0004, 4, &usNRegsSlave3[0] ) ) )
-            {
-                eStatus = eStatus2;
-            }
-            /* Read input registers 0x0004 - 0x0007 from slave 4 */
-            if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 4, 0x0004, 4, &usNRegsSlave4[0] ) ) )
-            {
-                eStatus = eStatus2;
-            }
+    //        /* Read input register 0x000F from slave 4 */
+    //        if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 4, 0x000F, 1, &usNRegsSlave4[0] ) ) )
+    //        {
+    //            eStatus = eStatus2;
+    //        }
+    //        /* Read input register 0x0200 from slave 4 */
+    //        if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 4, 0x0200, 1, &usNRegsSlave4[1] ) ) )
+    //        {
+    //            eStatus = eStatus2;
+    //        }
+    //        /* Read input registers 0x0004 - 0x0007 from slave 3 */
+    //        if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 3, 0x0004, 4, &usNRegsSlave3[0] ) ) )
+    //        {
+    //            eStatus = eStatus2;
+    //        }
+    //        /* Read input registers 0x0004 - 0x0007 from slave 4 */
+    //        if( MB_ENOERR != ( eStatus2 = eMBMReadInputRegisters( xMBMMaster, 4, 0x0004, 4, &usNRegsSlave4[0] ) ) )
+    //        {
+    //            eStatus = eStatus2;
+    //        }
 
-            switch ( eStatus )
-            {
-            case MB_ENOERR:
-                vIOSetLED( DEBUG_LED_WORKING, TRUE );
-                vIOSetLED( DEBUG_LED_ERROR, FALSE );
-                break;
+    //        switch ( eStatus )
+    //        {
+    //        case MB_ENOERR:
+    //            vIOSetLED( DEBUG_LED_WORKING, TRUE );
+    //            vIOSetLED( DEBUG_LED_ERROR, FALSE );
+    //            break;
 
-            default:
-                vIOSetLED( DEBUG_LED_ERROR, TRUE );
-                vIOSetLED( DEBUG_LED_WORKING, FALSE );
-                break;
-            }
-        }
-        while( TRUE );
-    }
-    else
-    {
-        MBP_ASSERT( 0 );
-    }
+    //        default:
+    //            vIOSetLED( DEBUG_LED_ERROR, TRUE );
+    //            vIOSetLED( DEBUG_LED_WORKING, FALSE );
+    //            break;
+    //        }
+    //    }
+    //    while( TRUE );
+    //}
+    //else
+    //{
+    //    MBP_ASSERT( 0 );
+    //}
 
 
-    if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
-    {
-        MBP_ASSERT( 0 );
-    }
+    //if( MB_ENOERR != ( eStatus = eMBMClose( xMBMMaster ) ) )
+    //{
+    //    MBP_ASSERT( 0 );
+    //}
 
     return 0;
 }

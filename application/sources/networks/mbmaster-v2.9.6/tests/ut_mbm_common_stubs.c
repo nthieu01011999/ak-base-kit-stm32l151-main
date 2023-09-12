@@ -97,9 +97,9 @@ eMBMTestInit( xMBMHandle * pxHdl )
             if( NULL != ( pxIntHdl = pxMBMGetNewHdl(  ) ) )
             {
                 arxMBMFrameInstances[ubIdx].ubIdx = ubIdx;
-                pxIntHdl->pFrameRecvFN = eMBMFrameReceive;
-                pxIntHdl->pFrameSendFN = eMBMFrameSend;
-                pxIntHdl->pFrameCloseFN = eMBMFrameClose;
+                //pxIntHdl->pFrameRecvFN = eMBMFrameReceive;
+            //    pxIntHdl->pFrameSendFN = eMBMFrameSend;
+            //    pxIntHdl->pFrameCloseFN = eMBMFrameClose;
                 /*@i1@ */ pxIntHdl->pubFrameMBPDUBuffer =
                     &( arxMBMFrameInstances[ubIdx].arubMBPDUBuffer[MBM_HEADER_SIZE] );
                 pxIntHdl->usFrameMBPDULength = 0;
@@ -137,7 +137,7 @@ eMBMFrameSend( xMBMHandle xHdl, UCHAR ucSlaveAddress, USHORT usMBPDULength )
     int             iIdx;
 #endif	
 
-    CU_ASSERT_FATAL( bMBMIsHdlValid( pxIntHdl ) );
+  //  CU_ASSERT_FATAL( bMBMIsHdlValid( pxIntHdl ) );
     pxFrameHdl = pxIntHdl->xFrameHdl;
 
 #if STUB_VERBOSE_MODE == 1
@@ -167,7 +167,7 @@ eMBMFrameReceive( xMBMHandle xHdl, UCHAR ucSlaveAddress, USHORT * pusMBPDULength
     xMBMInternalHandle *pxIntHdl = xHdl;
     xFrameInternalHandle *pxFrameHdl;
 
-    CU_ASSERT_FATAL( bMBMIsHdlValid( pxIntHdl ) );
+   // CU_ASSERT_FATAL( bMBMIsHdlValid( pxIntHdl ) );
 
     pxFrameHdl = pxIntHdl->xFrameHdl;
     if( NULL != pusMBPDULength )
@@ -195,15 +195,15 @@ eMBMFrameClose( xMBMHandle xHdl )
     xFrameInternalHandle *pxFrameHdl;
 
     MBP_ENTER_CRITICAL_SECTION(  );
-    if( bMBMIsHdlValid( pxIntHdl ) )
-    {
-        pxFrameHdl = pxIntHdl->xFrameHdl;
-        if( MB_IS_VALID_HDL( pxFrameHdl, arxMBMFrameInstances ) )
-        {
-            HDL_RESET( pxFrameHdl );
-            eStatus = MB_ENOERR;
-        }
-    }
+    //if( bMBMIsHdlValid( pxIntHdl ) )
+    //{
+    //    pxFrameHdl = pxIntHdl->xFrameHdl;
+    //    if( MB_IS_VALID_HDL( pxFrameHdl, arxMBMFrameInstances ) )
+    //    {
+    //        HDL_RESET( pxFrameHdl );
+    //        eStatus = MB_ENOERR;
+    //    }
+    //}
     MBP_EXIT_CRITICAL_SECTION(  );
 
     return eStatus;

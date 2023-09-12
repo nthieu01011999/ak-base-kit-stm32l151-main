@@ -49,55 +49,55 @@ main( int argc, char *argv[] )
     USHORT          usNRegs[10];    
 
     sei(  );
-    if( MB_ENOERR != ( eStatus = eMBMSerialInit( &xMBMMaster, MB_RTU, MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
-    {
-		MBP_ASSERT( 0 );
-	}
-	else if( MB_ENOERR != ( eStatus = eMBSSerialInit( &xMBSSlave, MB_RTU, 1, MBM_SERIAL_PORT + 1, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
-	{
-		MBP_ASSERT( 0 );
-	}
-	else
-	{
-		/* This is a code fragment where both the master and the slave stack
-		 * are active at the same time. This code works fine on a system
-		 * without or with an RTOS. Please note that with an RTOS and
-		 * threads you should better create a seperate thread for the
-		 * slave stack and let it run there. This will make the code a
-		 * lot easier.
-		 */
-        do
-        {
-			/* Please note that we need to poll the slave while we are
-			 * handling the master because otherwise there will be 
-			 * timeouts from devices accessing the slave.
-			 */
-			eQueryState = MBM_STATE_NONE;
+    //if( MB_ENOERR != ( eStatus = eMBMSerialInit( &xMBMMaster, MB_RTU, MBM_SERIAL_PORT, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
+    //{
+//		MBP_ASSERT( 0 );
+//	}
+//	else if( MB_ENOERR != ( eStatus = eMBSSerialInit( &xMBSSlave, MB_RTU, 1, MBM_SERIAL_PORT + 1, MBM_SERIAL_BAUDRATE, MBM_PARITY ) ) )
+//	{
+//		MBP_ASSERT( 0 );
+//	}
+//	else
+//	{
+//		/* This is a code fragment where both the master and the slave stack
+//		 * are active at the same time. This code works fine on a system
+//		 * without or with an RTOS. Please note that with an RTOS and
+//		 * threads you should better create a seperate thread for the
+//		 * slave stack and let it run there. This will make the code a
+//		 * lot easier.
+//		 */
+    //    do
+    //    {
+//			/* Please note that we need to poll the slave while we are
+//			 * handling the master because otherwise there will be 
+//			 * timeouts from devices accessing the slave.
+//			 */
+//			eQueryState = MBM_STATE_NONE;
 
-			do
-			{
-				eStatus2 = eMBSPoll( xMBSSlave );
-				vMBMReadHoldingRegistersPolled( xMBMMaster, 1, 0, 10, usNRegs, &eQueryState, &eStatus );
-			} while( MBM_STATE_DONE != eQueryState );
-			
-			/* Now we can access the eStatus variable from the stack and
-			 * check if the request was successfull.
-			 */
-			if( MB_ENOERR != eStatus )
-			{
-				/* Do something useful here. */
-				_delay_ms( 10 );
-			}
+//			do
+//			{
+//				eStatus2 = eMBSPoll( xMBSSlave );
+//				vMBMReadHoldingRegistersPolled( xMBMMaster, 1, 0, 10, usNRegs, &eQueryState, &eStatus );
+//			} while( MBM_STATE_DONE != eQueryState );
+//			
+//			/* Now we can access the eStatus variable from the stack and
+//			 * check if the request was successfull.
+//			 */
+//			if( MB_ENOERR != eStatus )
+//			{
+//				/* Do something useful here. */
+//				_delay_ms( 10 );
+//			}
 
-			/* Check for any slave errors. */
-			if( MB_ENOERR != eStatus2 )
-			{
-				/* Do something useful here. */
-				_delay_ms( 10 );
-			}
-        }
-        while( TRUE );
-    }
+//			/* Check for any slave errors. */
+//			if( MB_ENOERR != eStatus2 )
+//			{
+//				/* Do something useful here. */
+//				_delay_ms( 10 );
+//			}
+    //    }
+    //    while( TRUE );
+    //}
 
 
     return 0;
