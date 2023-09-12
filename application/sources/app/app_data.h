@@ -8,11 +8,11 @@
 #include "app.h"
 //#include "buzzer.h"
 
-#if defined (TASK_MBMASTER_EN)
-#include "mbport.h"
-#include "mbm.h"
-#include "common/mbportlayer.h"
-#endif
+// #if defined (TASK_MBMASTER_EN)
+// // #include "mbport.h"
+// #include "mbm.h"
+// #include "common/mbportlayer.h"
+// #endif
 
 /******************************************************************************
 * IF Type
@@ -52,7 +52,7 @@ typedef struct {
 * RS485-MODBUS
 *******************************************************************************/
 #if defined (TASK_MBMASTER_EN)
-extern xMBHandle xMBMMaster;
+//extern xMBHandle xMBMMaster;
 #endif
 
 #endif //__APP_DATA_H__

@@ -74,16 +74,8 @@ build_ak-base-kit-stm32l151-application/task_uart_if.o: \
  sources/app/app_data.h sources/sys/sys_boot.h sources/sys/sys_dbg.h \
  sources/ak/inc/task.h sources/sys/sys_ctrl.h sources/app/app.h \
  sources/ak/inc/ak.h sources/app/app_if.h sources/app/app_eeprom.h \
- sources/app/app_data.h \
- sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbport.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/assert.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/mbm.h \
- sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbmconfig.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/internal/mbmiconfig.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
- sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
- sources/platform/stm32l/system.h sources/app/app.h sources/app/app_dbg.h \
- sources/app/task_uart_if.h sources/app/task_list.h \
- sources/networks/net/link/link_sig.h sources/networks/net/link/link.h \
- sources/networks/net/link/link_data.h \
+ sources/app/app_data.h sources/platform/stm32l/system.h \
+ sources/app/app.h sources/app/app_dbg.h sources/app/task_uart_if.h \
+ sources/app/task_list.h sources/networks/net/link/link_sig.h \
+ sources/networks/net/link/link.h sources/networks/net/link/link_data.h \
  sources/networks/net/link/link_config.h

@@ -63,12 +63,12 @@
 /* ----------------------- Platform includes --------------------------------*/
 
 /* ----------------------- Modbus includes ----------------------------------*/
-#if defined (TASK_MBMASTER_EN)
-#include "mbport.h"
-#include "mbm.h"
-#include "mbtypes.h"
-#include "common/mbportlayer.h"
-#endif
+// #if defined (TASK_MBMASTER_EN)
+// #include "mbport.h"
+// #include "mbm.h"
+// #include "mbtypes.h"
+// #include "common/mbportlayer.h"
+// #endif
 
 //#include "buzzer.h"
 
