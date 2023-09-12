@@ -67,11 +67,7 @@ build_ak-base-kit-stm32l151-application/mbportother.o: \
  sources/ak/inc/message.h sources/sys/sys_ctrl.h sources/app/app_data.h \
  sources/sys/sys_boot.h sources/ak/inc/port.h sources/app/app.h \
  sources/ak/inc/ak.h sources/app/app_if.h sources/app/app_eeprom.h \
- sources/app/app_data.h sources/driver/buzzer/buzzer.h \
- sources/platform/stm32l/io_cfg.h \
- sources/platform/stm32l/stm32l1xx_conf.h \
- sources/platform/stm32l/Libraries/CMSIS/Device/ST/STM32L1xx/Include/system_stm32l1xx.h \
- sources/common/container/ring_buffer.h \
+ sources/app/app_data.h \
  sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbport.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/mbm.h \
  sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbmconfig.h \

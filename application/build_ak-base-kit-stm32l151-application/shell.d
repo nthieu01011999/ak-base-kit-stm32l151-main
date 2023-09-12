@@ -55,8 +55,9 @@ build_ak-base-kit-stm32l151-application/shell.o: sources/app/shell.cpp \
  sources/sys/sys_ctrl.h sources/app/app_data.h sources/sys/sys_boot.h \
  sources/ak/inc/port.h sources/sys/sys_dbg.h sources/sys/sys_ctrl.h \
  sources/app/app.h sources/app/app_if.h sources/app/app_eeprom.h \
- sources/app/app_data.h sources/driver/buzzer/buzzer.h \
- sources/platform/stm32l/io_cfg.h \
+ sources/app/app_data.h \
+ sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbport.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/assert.h \
  sources/platform/stm32l/Libraries/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h \
  sources/platform/stm32l/Libraries/CMSIS/Include/core_cm3.h \
  sources/platform/stm32l/Libraries/CMSIS/Include/core_cmInstr.h \
@@ -88,22 +89,21 @@ build_ak-base-kit-stm32l151-application/shell.o: sources/app/shell.cpp \
  sources/platform/stm32l/Libraries/STM32L1xx_StdPeriph_Driver/inc/stm32l1xx_usart.h \
  sources/platform/stm32l/Libraries/STM32L1xx_StdPeriph_Driver/inc/stm32l1xx_wwdg.h \
  sources/platform/stm32l/Libraries/STM32L1xx_StdPeriph_Driver/inc/misc.h \
- sources/platform/stm32l/stm32l1xx_conf.h \
- sources/platform/stm32l/Libraries/CMSIS/Device/ST/STM32L1xx/Include/system_stm32l1xx.h \
- sources/common/container/ring_buffer.h \
- sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbport.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/assert.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/mbm.h \
  sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbmconfig.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/internal/mbmiconfig.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbtypes.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/common/mbportlayer.h \
  sources/platform/stm32l/system.h sources/sys/sys_io.h \
- sources/sys/sys_irq.h sources/app/app.h sources/app/app_if.h \
- sources/app/app_dbg.h sources/app/app_data.h sources/app/app_flash.h \
- sources/app/app_eeprom.h sources/app/app_non_clear_ram.h \
- sources/app/task_shell.h sources/networks/net/link/link_phy.h \
- sources/ak/inc/fsm.h sources/networks/net/link/link_config.h \
+ sources/platform/stm32l/io_cfg.h \
+ sources/platform/stm32l/stm32l1xx_conf.h \
+ sources/platform/stm32l/Libraries/CMSIS/Device/ST/STM32L1xx/Include/system_stm32l1xx.h \
+ sources/common/container/ring_buffer.h sources/sys/sys_irq.h \
+ sources/app/app.h sources/app/app_if.h sources/app/app_dbg.h \
+ sources/app/app_data.h sources/app/app_flash.h sources/app/app_eeprom.h \
+ sources/app/app_non_clear_ram.h sources/app/task_shell.h \
+ sources/networks/net/link/link_phy.h sources/ak/inc/fsm.h \
+ sources/networks/net/link/link_config.h \
  sources/networks/net/link/hal/link_hal.h sources/app/task_list.h \
  sources/app/task_list_if.h sources/app/task_if.h sources/app/task_life.h \
  sources/driver/led/led.h sources/driver/eeprom/eeprom.h \

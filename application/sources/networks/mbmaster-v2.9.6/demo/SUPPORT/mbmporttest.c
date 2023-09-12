@@ -68,38 +68,38 @@ bMBMTmr1ExpiredCB( xMBHandle xHdl )
 BOOL
 bMBMTmr2ExpiredCB( xMBHandle xHdl )
 {
-    if( 0 == bCycle )
-    {
-        if( MB_ENOERR != eMBPTimerSetTimeout( xTmr2Hdl, 2000 ) )
-        {
-            vMBPTestAssert(  );
-        }
-        else if( MB_ENOERR != eMBPTimerStart( xTmr2Hdl ) )
-        {
-            vMBPTestAssert(  );
-        }
-        else
-        {
-            vMBPTestDebugLED( MBM_PORT_DEBUG_LED_WORKING, TRUE );
-        }
-        bCycle++;
-    }
-    else
-    {
-        if( MB_ENOERR != eMBPTimerSetTimeout( xTmr2Hdl, 1000 ) )
-        {
-            vMBPTestAssert(  );
-        }
-        else if( MB_ENOERR != eMBPTimerStart( xTmr2Hdl ) )
-        {
-            vMBPTestAssert(  );
-        }
-        else
-        {
-            vMBPTestDebugLED( MBM_PORT_DEBUG_LED_WORKING, FALSE );
-            bCycle = 0;
-        }
-    }
+    //if( 0 == bCycle )
+    //{
+    //    //if( MB_ENOERR != eMBPTimerSetTimeout( xTmr2Hdl, 2000 ) )
+    //    //{
+    //    //    vMBPTestAssert(  );
+    //    //}
+    //    // if( MB_ENOERR != eMBPTimerStart( xTmr2Hdl ) )
+    //    //{
+    //    //    vMBPTestAssert(  );
+    //    //}
+    //    //else
+    //    //{
+    //    //    vMBPTestDebugLED( MBM_PORT_DEBUG_LED_WORKING, TRUE );
+    //    //}
+    //    bCycle++;
+    //}
+    //else
+    //{
+    //    if( MB_ENOERR != eMBPTimerSetTimeout( xTmr2Hdl, 1000 ) )
+    //    {
+    //        vMBPTestAssert(  );
+    //    }
+    //    else if( MB_ENOERR != eMBPTimerStart( xTmr2Hdl ) )
+    //    {
+    //        vMBPTestAssert(  );
+    //    }
+    //    else
+    //    {
+    //        vMBPTestDebugLED( MBM_PORT_DEBUG_LED_WORKING, FALSE );
+    //        bCycle = 0;
+    //    }
+    //}
     ubPatternRcvCurPos = 0;
     return TRUE;
 }
@@ -160,13 +160,13 @@ vMBMSerialReceiverCB( xMBHandle xHdl, UBYTE ubValue )
         ubPatternRcvCurPos = 0;
     }
 
-    if( bRestartTimer )
-    {
-        if( MB_ENOERR != eMBPTimerStart( xTmr1Hdl ) )
-        {
-            vMBPTestAssert(  );
-        }
-    }
+    //if( bRestartTimer )
+    //{
+    //    if( MB_ENOERR != eMBPTimerStart( xTmr1Hdl ) )
+    //    {
+    //        vMBPTestAssert(  );
+    //    }
+    //}
 }
 
 /* ----------------------- Start implementation -----------------------------*/
@@ -226,18 +226,18 @@ vMBPTestRunBasic( void )
             {
                 vMBPTestAssert(  );
             }
-            else if( MB_ENOERR != eMBPTimerInit( &xTmr1Hdl, 1000, &bMBMTmr1ExpiredCB, xMBMHdl ) )
-            {
-                vMBPTestAssert(  );
-            }
-            else if( MB_ENOERR != eMBPTimerInit( &xTmr2Hdl, 1000, &bMBMTmr2ExpiredCB, xMBMHdl ) )
-            {
-                vMBPTestAssert(  );
-            }
-            else if( MB_ENOERR != eMBPTimerStart( xTmr2Hdl ) )
-            {
-                vMBPTestAssert(  );
-            }
+            //else if( MB_ENOERR != eMBPTimerInit( &xTmr1Hdl, 1000, &bMBMTmr1ExpiredCB, xMBMHdl ) )
+            //{
+            //    vMBPTestAssert(  );
+            //}
+            //else if( MB_ENOERR != eMBPTimerInit( &xTmr2Hdl, 1000, &bMBMTmr2ExpiredCB, xMBMHdl ) )
+            //{
+            //    vMBPTestAssert(  );
+            //}
+            //else if( MB_ENOERR != eMBPTimerStart( xTmr2Hdl ) )
+            //{
+            //    vMBPTestAssert(  );
+            //}
             else if( MB_ENOERR != eMBPSerialRxEnable( xSerHdl, vMBMSerialReceiverCB ) )
             {
                 vMBPTestAssert(  );

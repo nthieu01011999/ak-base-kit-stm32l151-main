@@ -69,8 +69,6 @@
             <dir
               name="button"/>
             <dir
-              name="buzzer"/>
-            <dir
               name="eeprom"/>
             <dir
               name="flash"/>
@@ -78,8 +76,6 @@
               name="gpio"/>
             <dir
               name="led"/>
-            <dir
-              name="nRF24"/>
           </dir>
           <dir
             name="libraries">

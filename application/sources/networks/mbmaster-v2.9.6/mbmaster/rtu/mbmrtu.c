@@ -245,12 +245,12 @@ eMBMSerialRTUInit( xMBMInternalHandle * pxIntHdl, UCHAR ucPort, ULONG ulBaudRate
             {
                 eStatus = eStatus2;
             }
-#if MBP_SERIAL_PORT_DETECTS_TIMEOUT == 0
-            else if( MB_ENOERR != ( eStatus2 = eMBPTimerInit( &( pxFrameHdl->xTmrHdl ), usTimeoutMS, bMBMSerialRTUT35CB, pxIntHdl ) ) )
-            {
-                eStatus = eStatus2;
-            }
-#endif
+//#if MBP_SERIAL_PORT_DETECTS_TIMEOUT == 0
+//            else if( MB_ENOERR != ( eStatus2 = eMBPTimerInit( &( pxFrameHdl->xTmrHdl ), usTimeoutMS, bMBMSerialRTUT35CB, pxIntHdl ) ) )
+//            {
+//                eStatus = eStatus2;
+//            }
+//#endif
 #if MBM_RTU_WAITAFTERSEND_ENABLED == 1
             else if( MB_ENOERR != ( eStatus2 = eMBPTimerInit( &( pxFrameHdl->xTmrWaitHdl ), usTimeoutMSWaitAfterSend, bMBMSerialWaitCB, pxIntHdl ) ) )
             {
@@ -553,12 +553,12 @@ eMBMSerialRTUFrameReceive( xMBHandle xHdl, UCHAR ucSlaveAddress, USHORT * pusMBP
             {
                 eStatus = eStatus2;
             }
-#if MBP_SERIAL_PORT_DETECTS_TIMEOUT == 0
-            if( MB_ENOERR != ( eStatus2 = eMBPTimerStop( pxRTUHdl->xTmrHdl ) ) )
-            {
-                eStatus = eStatus2;
-            }
-#endif
+//#if MBP_SERIAL_PORT_DETECTS_TIMEOUT == 0
+//            if( MB_ENOERR != ( eStatus2 = eMBPTimerStop( pxRTUHdl->xTmrHdl ) ) )
+//            {
+//                eStatus = eStatus2;
+//            }
+//#endif
 #if MBM_RTU_WAITAFTERSEND_ENABLED == 1
             if( MB_ENOERR != ( eStatus2 = eMBPTimerStop( pxRTUHdl->xTmrWaitHdl ) ) )
             {
@@ -645,69 +645,69 @@ eMBMSerialRTUFrameCloseInternal( xMBMRTUFrameHandle * pxRTUHdl )
 }
 
 #if MBM_SERIAL_API_VERSION == 1
-STATIC void
-bMBMSerialRTUReceiverAPIV1CB( xMBHandle xHdl, UBYTE ubValue )
-{
-    eMBErrorCode    eStatus;
-    xMBMInternalHandle *pxIntHdl = xHdl;
-    xMBMRTUFrameHandle *pxRTUFrameHdl;
+// STATIC void
+// bMBMSerialRTUReceiverAPIV1CB( xMBHandle xHdl, UBYTE ubValue )
+// {
+//     eMBErrorCode    eStatus;
+//     xMBMInternalHandle *pxIntHdl = xHdl;
+//     xMBMRTUFrameHandle *pxRTUFrameHdl;
 
-    ( void )eStatus;
-    MBP_ENTER_CRITICAL_SECTION(  );
-    pxRTUFrameHdl = pxIntHdl->xFrameHdl;
-    MBP_ASSERT( pxRTUFrameHdl->eSndState == MBM_STATE_TX_IDLE );
+//     ( void )eStatus;
+//     MBP_ENTER_CRITICAL_SECTION(  );
+//     pxRTUFrameHdl = pxIntHdl->xFrameHdl;
+//     MBP_ASSERT( pxRTUFrameHdl->eSndState == MBM_STATE_TX_IDLE );
 
-    switch ( pxRTUFrameHdl->eRcvState )
-    {
-    case MBM_STATE_RX_IDLE:
-#if defined(__18CXX)
-        pxRTUFrameHdl->usRcvBufferPos &= 0;
-#else
-        pxRTUFrameHdl->usRcvBufferPos = 0;
-#endif
-        pxRTUFrameHdl->ubRTUFrameBuffer[pxRTUFrameHdl->usRcvBufferPos] = ubValue;
-        pxRTUFrameHdl->usRcvBufferPos++;
-        pxRTUFrameHdl->eRcvState = MBM_STATE_RX_RCV;
+//     switch ( pxRTUFrameHdl->eRcvState )
+//     {
+//     case MBM_STATE_RX_IDLE:
+// #if defined(__18CXX)
+//         pxRTUFrameHdl->usRcvBufferPos &= 0;
+// #else
+//         pxRTUFrameHdl->usRcvBufferPos = 0;
+// #endif
+//         pxRTUFrameHdl->ubRTUFrameBuffer[pxRTUFrameHdl->usRcvBufferPos] = ubValue;
+//         pxRTUFrameHdl->usRcvBufferPos++;
+//         pxRTUFrameHdl->eRcvState = MBM_STATE_RX_RCV;
 
-        break;
+//         break;
 
-    case MBM_STATE_RX_RCV:
-        if( pxRTUFrameHdl->usRcvBufferPos < MBM_SER_PDU_SIZE_MAX )
-        {
-            pxRTUFrameHdl->ubRTUFrameBuffer[pxRTUFrameHdl->usRcvBufferPos] = ubValue;
-            pxRTUFrameHdl->usRcvBufferPos++;
-        }
-        else
-        {
-            pxRTUFrameHdl->eRcvState = MBM_STATE_RX_ERROR;
-        }
-        break;
+//     case MBM_STATE_RX_RCV:
+//         if( pxRTUFrameHdl->usRcvBufferPos < MBM_SER_PDU_SIZE_MAX )
+//         {
+//             pxRTUFrameHdl->ubRTUFrameBuffer[pxRTUFrameHdl->usRcvBufferPos] = ubValue;
+//             pxRTUFrameHdl->usRcvBufferPos++;
+//         }
+//         else
+//         {
+//             pxRTUFrameHdl->eRcvState = MBM_STATE_RX_ERROR;
+//         }
+//         break;
 
-    default:
-    case MBM_STATE_RX_ERROR:
-        pxRTUFrameHdl->eRcvState = MBM_STATE_RX_ERROR;
-        break;
-    }
+//     default:
+//     case MBM_STATE_RX_ERROR:
+//         pxRTUFrameHdl->eRcvState = MBM_STATE_RX_ERROR;
+//         break;
+//     }
 
-#if MBM_ENABLE_STATISTICS_INTERFACE == 1
-    pxIntHdl->xFrameStat.ulNBytesReceived += 1;
-#endif
+// #if MBM_ENABLE_STATISTICS_INTERFACE == 1
+//     pxIntHdl->xFrameStat.ulNBytesReceived += 1;
+// #endif
 
-#if MBP_SERIAL_PORT_DETECTS_TIMEOUT == 0
-#if MBM_TEST_DISABLE_RTU_TIMEOUTS != 1
-    if( MB_ENOERR != eMBPTimerStart( pxRTUFrameHdl->xTmrHdl ) )
-    {
-        /* We can only abort here because or timers failed. */
-        eStatus = eMBPSerialRxEnable( pxRTUFrameHdl->xSerHdl, NULL );
-        MBP_ASSERT( MB_ENOERR == eStatus );
-        eStatus = eMBPEventPost( pxIntHdl->xFrameEventHdl, ( xMBPEventType ) MBM_EV_RECV_ERROR );
-        MBP_ASSERT( MB_ENOERR == eStatus );
-        pxRTUFrameHdl->eRcvState = MBM_STATE_RX_ERROR;
-    }
-#endif
-#endif
-    MBP_EXIT_CRITICAL_SECTION(  );
-}
+// #if MBP_SERIAL_PORT_DETECTS_TIMEOUT == 0
+// #if MBM_TEST_DISABLE_RTU_TIMEOUTS != 1
+// //    if( MB_ENOERR != eMBPTimerStart( pxRTUFrameHdl->xTmrHdl ) )
+// //    {
+// //        /* We can only abort here because or timers failed. */
+// //        eStatus = eMBPSerialRxEnable( pxRTUFrameHdl->xSerHdl, NULL );
+// //        MBP_ASSERT( MB_ENOERR == eStatus );
+// //        eStatus = eMBPEventPost( pxIntHdl->xFrameEventHdl, ( xMBPEventType ) MBM_EV_RECV_ERROR );
+// //        MBP_ASSERT( MB_ENOERR == eStatus );
+// //        pxRTUFrameHdl->eRcvState = MBM_STATE_RX_ERROR;
+// //    }
+// //#endif
+// #endif
+//     MBP_EXIT_CRITICAL_SECTION(  );
+// }
 
 
 STATIC          BOOL
@@ -971,10 +971,10 @@ bMBMSerialRTUT35CB( xMBHandle xHdl )
     /* Disable the receive and the timers after a timeout. */
     eStatus = eMBPSerialRxEnable( pxRTUFrameHdl->xSerHdl, NULL );
     MBP_ASSERT( MB_ENOERR == eStatus );
-#if MBP_SERIAL_PORT_DETECTS_TIMEOUT == 0
-    eStatus = eMBPTimerStop( pxRTUFrameHdl->xTmrHdl );
-    MBP_ASSERT( MB_ENOERR == eStatus );
-#endif
+//#if MBP_SERIAL_PORT_DETECTS_TIMEOUT == 0
+//    eStatus = eMBPTimerStop( pxRTUFrameHdl->xTmrHdl );
+//    MBP_ASSERT( MB_ENOERR == eStatus );
+//#endif
     MBP_EXIT_CRITICAL_SECTION(  );
     return bNeedCtxSwitch;
 }

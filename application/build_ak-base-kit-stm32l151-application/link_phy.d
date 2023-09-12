@@ -37,8 +37,9 @@ build_ak-base-kit-stm32l151-application/link_phy.o: \
  sources/sys/sys_boot.h sources/ak/inc/port.h sources/sys/sys_dbg.h \
  sources/ak/inc/task.h sources/ak/inc/message.h sources/sys/sys_ctrl.h \
  sources/app/app_data.h sources/platform/stm32l/system.h \
- sources/common/xprintf.h sources/driver/buzzer/buzzer.h \
- sources/platform/stm32l/io_cfg.h \
+ sources/common/xprintf.h \
+ sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbport.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/assert.h \
  sources/platform/stm32l/Libraries/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h \
  sources/platform/stm32l/Libraries/CMSIS/Include/core_cm3.h \
  sources/platform/stm32l/Libraries/CMSIS/Include/core_cmInstr.h \
@@ -70,11 +71,6 @@ build_ak-base-kit-stm32l151-application/link_phy.o: \
  sources/platform/stm32l/Libraries/STM32L1xx_StdPeriph_Driver/inc/stm32l1xx_usart.h \
  sources/platform/stm32l/Libraries/STM32L1xx_StdPeriph_Driver/inc/stm32l1xx_wwdg.h \
  sources/platform/stm32l/Libraries/STM32L1xx_StdPeriph_Driver/inc/misc.h \
- sources/platform/stm32l/stm32l1xx_conf.h \
- sources/platform/stm32l/Libraries/CMSIS/Device/ST/STM32L1xx/Include/system_stm32l1xx.h \
- sources/common/container/ring_buffer.h \
- sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbport.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/assert.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/mbm.h \
  sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbmconfig.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/internal/mbmiconfig.h \

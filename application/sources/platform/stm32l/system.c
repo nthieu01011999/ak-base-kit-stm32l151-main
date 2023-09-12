@@ -75,7 +75,7 @@ void uart2_irq();
 //void buzzer_irq( void );
 
 #if defined (TASK_MBMASTER_EN)
-void vMBPTimerISR( void );
+//void vMBPTimerISR( void );
 void vMBPUSART2ISR( void );
 #endif
 
@@ -155,11 +155,11 @@ void (* const isr_vector[])() = {
 		
 //		buzzer_irq,								//	TIM3
 		
-		#if defined (TASK_MBMASTER_EN)
-		vMBPTimerISR,							//	TIM4
-		#else
-		default_handler,						//	TIM4
-		#endif
+		// #if defined (TASK_MBMASTER_EN)
+		// vMBPTimerISR,							//	TIM4
+		// #else
+		// default_handler,						//	TIM4
+		// #endif
 
 		default_handler,						//	I2C1 Event
 		default_handler,						//	I2C1 Error

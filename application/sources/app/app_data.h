@@ -6,7 +6,7 @@
 #include "sys_boot.h"
 #include "sys_dbg.h"
 #include "app.h"
-#include "buzzer.h"
+//#include "buzzer.h"
 
 #if defined (TASK_MBMASTER_EN)
 #include "mbport.h"

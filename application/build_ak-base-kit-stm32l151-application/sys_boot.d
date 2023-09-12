@@ -67,7 +67,6 @@ build_ak-base-kit-stm32l151-application/sys_boot.o: \
  sources/sys/sys_ctrl.h sources/app/app_data.h sources/sys/sys_boot.h \
  sources/sys/sys_dbg.h sources/app/app.h sources/ak/inc/ak.h \
  sources/app/app_if.h sources/app/app_eeprom.h sources/app/app_data.h \
- sources/driver/buzzer/buzzer.h \
  sources/networks/mbmaster-v2.9.6/demo/STM32/Port/mbport.h \
  /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/assert.h \
  sources/networks/mbmaster-v2.9.6/mbmaster/include/mbm.h \
