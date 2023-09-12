@@ -72,7 +72,7 @@ void timer4_irq();
 void timer7_irq();
 void uart1_irq();
 void uart2_irq();
-void buzzer_irq( void );
+//void buzzer_irq( void );
 
 #if defined (TASK_MBMASTER_EN)
 void vMBPTimerISR( void );
@@ -153,7 +153,7 @@ void (* const isr_vector[])() = {
 		default_handler,						//	TIM11
 		default_handler,						//	TIM2
 		
-		buzzer_irq,								//	TIM3
+//		buzzer_irq,								//	TIM3
 		
 		#if defined (TASK_MBMASTER_EN)
 		vMBPTimerISR,							//	TIM4

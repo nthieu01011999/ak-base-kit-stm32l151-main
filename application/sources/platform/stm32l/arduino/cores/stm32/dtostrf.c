@@ -64,12 +64,12 @@ char *dtostrf (double val, signed char width, unsigned char prec, char *sout) {
 		int_part = -int_part;
 
 	// Extract digits from the remainder
-	unsigned long dec_part = 0;
+	//unsigned long dec_part = 0;
 	double decade = 1.0;
 	for(int i=0; i < prec; i++)
 		decade *= 10.0;
 	remainder *= decade;
-	dec_part = (int)remainder;
+	//dec_part = (int)remainder;
 
 	//xsprintf(sout, "%d.%d", int_part, dec_part);
 

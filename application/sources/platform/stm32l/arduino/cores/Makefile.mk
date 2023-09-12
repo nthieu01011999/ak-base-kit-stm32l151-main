@@ -7,8 +7,8 @@ CPPFLAGS	+= -I./sources/platform/stm32l/arduino/cores
 VPATH += sources/platform/stm32l/arduino/cores
 
 # cpp files
-SOURCES_CPP += sources/platform/stm32l/arduino/cores/wiring_digital.cpp
-SOURCES_CPP += sources/platform/stm32l/arduino/cores/wiring_shift.cpp
+#SOURCES_CPP += sources/platform/stm32l/arduino/cores/wiring_digital.cpp
+#SOURCES_CPP += sources/platform/stm32l/arduino/cores/wiring_shift.cpp
 SOURCES_CPP += sources/platform/stm32l/arduino/cores/Print.cpp
 SOURCES_CPP += sources/platform/stm32l/arduino/cores/Stream.cpp
 SOURCES_CPP += sources/platform/stm32l/arduino/cores/WString.cpp

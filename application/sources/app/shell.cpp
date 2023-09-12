@@ -79,7 +79,7 @@ int32_t shell_dbg(uint8_t* argv);
 int32_t shell_boot(uint8_t* argv);
 int32_t shell_fwu(uint8_t* argv);
 int32_t shell_psv(uint8_t* argv);
-int32_t shell_buzzer(uint8_t* argv);
+//int32_t shell_buzzer(uint8_t* argv);
 int32_t shell_modbus(uint8_t* argv);
 
 /*****************************************************************************/
@@ -105,7 +105,7 @@ const cmd_line_t lgn_cmd_table[] = {
 	{(const int8_t*)"boot",		shell_boot,			(const int8_t*)"boot share"},
 	{(const int8_t*)"fwu",		shell_fwu,			(const int8_t*)"app burn firmware"},
 	{(const int8_t*)"psv",		shell_psv,			(const int8_t*)"psv"},
-	{(const int8_t*)"beep",		shell_buzzer,		(const int8_t*)"buzzer play tones"},
+	//{(const int8_t*)"beep",		shell_buzzer,		(const int8_t*)"buzzer play tones"},
 	{(const int8_t*)"modbus",	shell_modbus,		(const int8_t*)"modbus master"},
 
 	/*************************************************************************/
@@ -868,45 +868,45 @@ int32_t shell_psv(uint8_t* argv) {
 	return 0;
 }
 
-int32_t shell_buzzer(uint8_t* argv) {
-	switch (*(argv + 5)) {
-	case 'i': {
-		BUZZER_Init();
-	}
-		break;
+//int32_t shell_buzzer(uint8_t* argv) {
+//	switch (*(argv + 5)) {
+//	case 'i': {
+//		BUZZER_Init();
+//	}
+//		break;
 
-	// case '1': {
-	// 	BUZZER_PlayTones(tones_startup);
-	// }
-	// 	break;
+//	// case '1': {
+//	// 	BUZZER_PlayTones(tones_startup);
+//	// }
+//	// 	break;
 
-	case '2': {
-		BUZZER_PlayTones(tones_3beep);
-	}
-		break;
+//	case '2': {
+//		BUZZER_PlayTones(tones_3beep);
+//	}
+//		break;
 
-	case '3': {
-		BUZZER_PlayTones(tones_SMB);
-	}
-		break;
+//	case '3': {
+//		BUZZER_PlayTones(tones_SMB);
+//	}
+//		break;
 
-	case '4': {
-		BUZZER_PlayTones(tones_merryChrismast);
-	}
-		break;
+//	case '4': {
+//		BUZZER_PlayTones(tones_merryChrismast);
+//	}
+//		break;
 
-	default:
-		LOGIN_PRINT("\n[HELP]\n");
-		LOGIN_PRINT("1. \"beep i\"                           : init buzzer play tones \n");
-		LOGIN_PRINT("2. \"beep 1\"                           : buzzer play tones startup \n");
-		LOGIN_PRINT("3. \"beep 2\"                           : buzzer play tones three beeps \n");
-		LOGIN_PRINT("4. \"beep 3\"                           : buzzer play tones super mario bros \n");
-		LOGIN_PRINT("4. \"beep 4\"                           : buzzer play tones merry chrismast \n");
-		break;
-	}
+//	default:
+//		LOGIN_PRINT("\n[HELP]\n");
+//		LOGIN_PRINT("1. \"beep i\"                           : init buzzer play tones \n");
+//		LOGIN_PRINT("2. \"beep 1\"                           : buzzer play tones startup \n");
+//		LOGIN_PRINT("3. \"beep 2\"                           : buzzer play tones three beeps \n");
+//		LOGIN_PRINT("4. \"beep 3\"                           : buzzer play tones super mario bros \n");
+//		LOGIN_PRINT("4. \"beep 4\"                           : buzzer play tones merry chrismast \n");
+//		break;
+//	}
 
-	return 0;
-}
+//	return 0;
+//}
 
 int32_t shell_modbus(uint8_t* argv) {
 	switch (*(argv + 7)) {
