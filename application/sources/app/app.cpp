@@ -129,7 +129,7 @@ int main_app() {
 	sys_ctrl_independent_watchdog_init();	/* 32s */
 	sys_ctrl_soft_watchdog_init(200);		/* 20s */
 
-	SPI.begin();
+//	SPI.begin();
 
 	/* adc peripheral configure */
 	io_cfg_adc1();			/* configure adc for thermistor and CT sensor */

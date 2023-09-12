@@ -58,7 +58,7 @@ int boot_main() {
 	/**************************************************************************
 	* hardware configure
 	***************************************************************************/
-	SPI.begin();
+//	SPI.begin();
 	flash_io_ctrl_init();
 	sys_ctrl_independent_watchdog_init();	/* 32s */
 

@@ -49,10 +49,10 @@ public:
     void clearWriteError() { setWriteError(0); }
 
     virtual size_t write(uint8_t) = 0;
-    size_t write(const char *str) {
-        if (str == NULL) return 0;
-        return write((const uint8_t *)str, strlen(str));
-    }
+    //size_t write(const char *str) {
+    //    if (str == NULL) return 0;
+    //    return write((const uint8_t *)str, strlen(str));
+    //}
     virtual size_t write(const uint8_t *buffer, size_t size);
     
     size_t print(const char[]);

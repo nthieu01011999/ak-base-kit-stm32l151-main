@@ -39,10 +39,10 @@ size_t Print::write(const uint8_t *buffer, size_t size)
     return n;
 }
 
-size_t Print::print(const char str[])
-{
-    return write(str);
-}
+//size_t Print::print(const char str[])
+//{
+//    return write(str);
+//}
 
 size_t Print::print(char c)
 {
@@ -169,24 +169,24 @@ size_t Print::println(const Printable& x)
 
 // Private Methods /////////////////////////////////////////////////////////////
 
-size_t Print::printNumber(unsigned long n, uint8_t base) {
-    char buf[8 * sizeof(long) + 1]; // Assumes 8-bit chars plus zero byte.
-    char *str = &buf[sizeof(buf) - 1];
+//size_t Print::printNumber(unsigned long n, uint8_t base) {
+//    char buf[8 * sizeof(long) + 1]; // Assumes 8-bit chars plus zero byte.
+//    char *str = &buf[sizeof(buf) - 1];
 
-    *str = '\0';
+//    *str = '\0';
 
-    // prevent crash if called with base == 1
-    if (base < 2) base = 10;
+//    // prevent crash if called with base == 1
+//    if (base < 2) base = 10;
 
-    do {
-        unsigned long m = n;
-        n /= base;
-        char c = m - base * n;
-        *--str = c < 10 ? c + '0' : c + 'A' - 10;
-    } while(n);
+//    do {
+//        unsigned long m = n;
+//        n /= base;
+//        char c = m - base * n;
+//        *--str = c < 10 ? c + '0' : c + 'A' - 10;
+//    } while(n);
 
-    return write(str);
-}
+//    return write(str);
+//}
 
 size_t Print::printFloat(double number, uint8_t digits) 
 { 

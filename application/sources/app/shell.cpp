@@ -558,21 +558,21 @@ int32_t shell_lcd(uint8_t* argv) {
 		view_render.clear ();
 		break;
 
-	case 'a':
-		view_render.setTextSize (2);
-		view_render.setTextColor (WHITE);
-		view_render.setCursor (10, 10);
-		view_render.print ("12345");
-		view_render.update ();
-		break;
+	//case 'a':
+	//	view_render.setTextSize (2);
+	//	view_render.setTextColor (WHITE);
+	//	view_render.setCursor (10, 10);
+	//	view_render.print ("12345");
+	//	view_render.update ();
+	//	break;
 
-	case 'c':
-		view_render.setTextSize (2);
-		view_render.setTextColor (BLACK);
-		view_render.setCursor (10, 40);
-		view_render.print ("abcd");
-		view_render.update ();
-		break;
+	//case 'c':
+	//	view_render.setTextSize (2);
+	//	view_render.setTextColor (BLACK);
+	//	view_render.setCursor (10, 40);
+	//	view_render.print ("abcd");
+	//	view_render.update ();
+	//	break;
 
 	case 'p':
 		// draw a single pixel

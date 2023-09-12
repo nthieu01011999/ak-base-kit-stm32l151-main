@@ -71,7 +71,7 @@ char *dtostrf (double val, signed char width, unsigned char prec, char *sout) {
 	remainder *= decade;
 	dec_part = (int)remainder;
 
-	xsprintf(sout, "%d.%d", int_part, dec_part);
+	//xsprintf(sout, "%d.%d", int_part, dec_part);
 
 	// Handle minimum field width of the output string
 	// width is signed value, negative for left adjustment.

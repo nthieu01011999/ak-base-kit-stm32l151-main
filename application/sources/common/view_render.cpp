@@ -57,7 +57,7 @@ int view_render_rectangle(void* rectangle) {
 	view_render.setCursor(x,y);
 
 	/*print data of object screen on lcd*/
-	view_render.print(rect->text);
+//	view_render.print(rect->text);
 
 	/*paint back ground of object screen when setting*/
 	if (rect->border_width !=  0) {

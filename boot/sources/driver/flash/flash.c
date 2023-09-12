@@ -127,7 +127,7 @@ uint8_t flash_write(uint32_t address, uint8_t* pbuf, uint32_t len) {
 
 	while(len) {
 		if (next_page_flag) {
-			next_page_flag = false;
+			//next_page_flag = false;
 
 			flash_wait_to_idle();
 			flash_set_write_enable(true);

@@ -208,9 +208,9 @@ void usage_fault_handler() {
 /*******************************************/
 /* cortex-M processor non-fault exceptions */
 /*******************************************/
-void systick_handler() {
-	sys_irq_timer_10ms();
-}
+//void systick_handler() {
+//	sys_irq_timer_10ms();
+//}
 
 /************************/
 /* external interrupts  */
