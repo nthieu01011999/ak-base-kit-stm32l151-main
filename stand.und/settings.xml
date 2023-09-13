@@ -60,8 +60,6 @@
           <dir
             name="driver">
             <dir
-              name="Adafruit_ssd1306syp"/>
-            <dir
               name="AsyncDelay">
               <dir
                 name="src"/>

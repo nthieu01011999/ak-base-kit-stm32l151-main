@@ -95,7 +95,7 @@ typedef uint64_t prog_uint64_t;
 #define memcmp_PF(s1, s2, n) memcmp((s1), (s2), (n))
 
 
-#define pgm_read_byte(addr) (*(const unsigned char *)(addr))
+//#define pgm_read_byte(addr) (*(const unsigned char *)(addr))
 #if 0
 #define pgm_read_word(addr) (*(const unsigned short *)(addr))
 #define pgm_read_dword(addr) (*(const unsigned long *)(addr))
@@ -119,12 +119,12 @@ typedef uint64_t prog_uint64_t;
 })
 #endif
 
-#define pgm_read_byte_near(addr) pgm_read_byte(addr)
+//#define pgm_read_byte_near(addr) pgm_read_byte(addr)
 #define pgm_read_word_near(addr) pgm_read_word(addr)
 #define pgm_read_dword_near(addr) pgm_read_dword(addr)
 #define pgm_read_float_near(addr) pgm_read_float(addr)
 #define pgm_read_ptr_near(addr) pgm_read_ptr(addr)
-#define pgm_read_byte_far(addr) pgm_read_byte(addr)
+//#define pgm_read_byte_far(addr) pgm_read_byte(addr)
 #define pgm_read_word_far(addr) pgm_read_word(addr)
 #define pgm_read_dword_far(addr) pgm_read_dword(addr)
 #define pgm_read_float_far(addr) pgm_read_float(addr)
