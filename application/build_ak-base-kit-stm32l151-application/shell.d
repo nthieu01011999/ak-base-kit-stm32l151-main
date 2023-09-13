@@ -36,22 +36,6 @@ build_ak-base-kit-stm32l151-application/shell.o: sources/app/shell.cpp \
  sources/common/container/log_queue.h sources/ak/inc/task.h \
  sources/ak/inc/timer.h sources/ak/inc/timer.h sources/ak/inc/message.h \
  sources/common/cmd_line.h sources/common/xprintf.h \
- sources/common/view_render.h sources/common/view_item.h \
- sources/driver/Adafruit_ssd1306syp/Adafruit_ssd1306syp.h \
- sources/driver/Adafruit_ssd1306syp/Adafruit_GFX.h \
- sources/platform/stm32l/arduino/cores/Print.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
- sources/platform/stm32l/arduino/cores/Printable.h \
- sources/platform/stm32l/arduino/cores/Print.h \
- sources/platform/stm32l/arduino/cores/WString.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/ctype.h \
- sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
  sources/sys/sys_ctrl.h sources/app/app_data.h sources/sys/sys_boot.h \
  sources/ak/inc/port.h sources/sys/sys_dbg.h sources/sys/sys_ctrl.h \
  sources/app/app.h sources/app/app_if.h sources/app/app_eeprom.h \
@@ -99,4 +83,19 @@ build_ak-base-kit-stm32l151-application/shell.o: sources/app/shell.cpp \
  sources/networks/net/link/hal/link_hal.h sources/app/task_list.h \
  sources/app/task_list_if.h sources/app/task_if.h sources/app/task_life.h \
  sources/driver/led/led.h sources/driver/eeprom/eeprom.h \
+ sources/driver/Adafruit_ssd1306syp/Adafruit_ssd1306syp.h \
+ sources/driver/Adafruit_ssd1306syp/Adafruit_GFX.h \
+ sources/platform/stm32l/arduino/cores/Print.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
+ sources/platform/stm32l/arduino/cores/Printable.h \
+ sources/platform/stm32l/arduino/cores/Print.h \
+ sources/platform/stm32l/arduino/cores/WString.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/ctype.h \
+ sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
+ /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
  sources/driver/flash/flash.h

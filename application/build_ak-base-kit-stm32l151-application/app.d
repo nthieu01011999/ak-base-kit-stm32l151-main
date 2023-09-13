@@ -164,15 +164,6 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/networks/net/link/hal/link_hal.h sources/app/task_life.h \
  sources/app/task_if.h sources/app/task_uart_if.h \
  sources/app/task_display.h sources/common/screen_manager.h \
- sources/common/view_render.h sources/common/view_item.h \
- sources/driver/Adafruit_ssd1306syp/Adafruit_ssd1306syp.h \
- sources/driver/Adafruit_ssd1306syp/Adafruit_GFX.h \
- sources/platform/stm32l/arduino/cores/Print.h \
- sources/platform/stm32l/arduino/cores/Printable.h \
- sources/platform/stm32l/arduino/cores/Print.h \
- sources/platform/stm32l/arduino/cores/WString.h \
- sources/platform/stm32l/arduino/cores/stm32/pgmspace.h \
- /home/hieu/Workspace/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/inttypes.h \
  sources/sys/sys_irq.h sources/sys/sys_io.h \
  sources/platform/stm32l/io_cfg.h \
  sources/platform/stm32l/Libraries/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h \
@@ -253,9 +244,6 @@ build_ak-base-kit-stm32l151-application/app.o: sources/app/app.cpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Strings/RamStringAdapter.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Strings/SizedRamStringAdapter.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Strings/StlStringAdapter.hpp \
- sources/libraries/ArduinoJson/src/ArduinoJson/Strings/FlashStringAdapter.hpp \
- sources/libraries/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace.hpp \
- sources/libraries/ArduinoJson/src/ArduinoJson/Strings/SizedFlashStringAdapter.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp \
  sources/libraries/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp \

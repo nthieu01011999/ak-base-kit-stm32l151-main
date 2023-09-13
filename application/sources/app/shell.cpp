@@ -17,7 +17,7 @@
 
 #include "cmd_line.h"
 #include "xprintf.h"
-#include "view_render.h"
+//#include "view_render.h"
 
 #include "sys_ctrl.h"
 #include "sys_io.h"
@@ -74,7 +74,7 @@ int32_t shell_stt(uint8_t* argv);
 int32_t shell_epi(uint8_t* argv);
 int32_t shell_eps(uint8_t* argv);
 int32_t shell_flash(uint8_t* argv);
-int32_t shell_lcd(uint8_t* argv);
+//int32_t shell_lcd(uint8_t* argv);
 int32_t shell_dbg(uint8_t* argv);
 int32_t shell_boot(uint8_t* argv);
 int32_t shell_fwu(uint8_t* argv);
@@ -101,7 +101,7 @@ const cmd_line_t lgn_cmd_table[] = {
 	{(const int8_t*)"stt",		shell_stt,			(const int8_t*)"app status"},
 	{(const int8_t*)"eps",		shell_eps,			(const int8_t*)"epprom"},
 	{(const int8_t*)"flash",	shell_flash,		(const int8_t*)"flash"},
-	{(const int8_t*)"lcd",		shell_lcd,			(const int8_t*)"lcd"},
+	//{(const int8_t*)"lcd",		shell_lcd,			(const int8_t*)"lcd"},
 	{(const int8_t*)"boot",		shell_boot,			(const int8_t*)"boot share"},
 	{(const int8_t*)"fwu",		shell_fwu,			(const int8_t*)"app burn firmware"},
 	{(const int8_t*)"psv",		shell_psv,			(const int8_t*)"psv"},
@@ -510,85 +510,85 @@ int32_t shell_flash(uint8_t* argv) {
 	return 0;
 }
 
-int32_t shell_lcd(uint8_t* argv) {
-	switch (*(argv + 4)) {
-	case 'i':
-		view_render.initialize();
-		break;
+//int32_t shell_lcd(uint8_t* argv) {
+//	switch (*(argv + 4)) {
+//	case 'i':
+//		view_render.initialize();
+//		break;
 
-	case 'o':
-		view_render.display_on();
-		break;
+//	case 'o':
+//		view_render.display_on();
+//		break;
 
-	case 'f':
-		view_render.display_off();
-		break;
+//	case 'f':
+//		view_render.display_off();
+//		break;
 
-	case 'b':
-		view_render.fillScreen(BLACK);
-		view_render.update();
-		break;
+//	case 'b':
+//		view_render.fillScreen(BLACK);
+//		view_render.update();
+//		break;
 
-	case 'w':
-		view_render.fillScreen(WHITE);
-		view_render.update();
-		break;
+//	case 'w':
+//		view_render.fillScreen(WHITE);
+//		view_render.update();
+//		break;
 
-// 	case 't':
-// 		/* ak logo */
-// #define AK_LOGO_AXIS_X	23
-// #define AK_LOGO_TEXT	(AK_LOGO_AXIS_X + 4)
+//// 	case 't':
+//// 		/* ak logo */
+//// #define AK_LOGO_AXIS_X	23
+//// #define AK_LOGO_TEXT	(AK_LOGO_AXIS_X + 4)
 
-// 		view_render.setTextSize(1);
-// 		view_render.setTextColor(WHITE);
-// 		view_render.setCursor(AK_LOGO_AXIS_X, 3);
-// 		view_render.print("   __    _  _ ");
-// 		view_render.setCursor(AK_LOGO_AXIS_X, 10);
-// 		view_render.print("  /__\\  ( )/ )");
-// 		view_render.setCursor(AK_LOGO_AXIS_X, 20);
-// 		view_render.print(" /(__)\\ (   (");
-// 		view_render.setCursor(AK_LOGO_AXIS_X, 30);
-// 		view_render.print("(__)(__)(_)\\_)");
-// 		view_render.setCursor(AK_LOGO_TEXT, 42);
-// 		view_render.print("Active Kernel");
-// 		view_render.update ();
-// 		break;
+//// 		view_render.setTextSize(1);
+//// 		view_render.setTextColor(WHITE);
+//// 		view_render.setCursor(AK_LOGO_AXIS_X, 3);
+//// 		view_render.print("   __    _  _ ");
+//// 		view_render.setCursor(AK_LOGO_AXIS_X, 10);
+//// 		view_render.print("  /__\\  ( )/ )");
+//// 		view_render.setCursor(AK_LOGO_AXIS_X, 20);
+//// 		view_render.print(" /(__)\\ (   (");
+//// 		view_render.setCursor(AK_LOGO_AXIS_X, 30);
+//// 		view_render.print("(__)(__)(_)\\_)");
+//// 		view_render.setCursor(AK_LOGO_TEXT, 42);
+//// 		view_render.print("Active Kernel");
+//// 		view_render.update ();
+//// 		break;
 
-	case 'r':
-		view_render.clear ();
-		break;
+//	case 'r':
+//		view_render.clear ();
+//		break;
 
-	//case 'a':
-	//	view_render.setTextSize (2);
-	//	view_render.setTextColor (WHITE);
-	//	view_render.setCursor (10, 10);
-	//	view_render.print ("12345");
-	//	view_render.update ();
-	//	break;
+//	//case 'a':
+//	//	view_render.setTextSize (2);
+//	//	view_render.setTextColor (WHITE);
+//	//	view_render.setCursor (10, 10);
+//	//	view_render.print ("12345");
+//	//	view_render.update ();
+//	//	break;
 
-	//case 'c':
-	//	view_render.setTextSize (2);
-	//	view_render.setTextColor (BLACK);
-	//	view_render.setCursor (10, 40);
-	//	view_render.print ("abcd");
-	//	view_render.update ();
-	//	break;
+//	//case 'c':
+//	//	view_render.setTextSize (2);
+//	//	view_render.setTextColor (BLACK);
+//	//	view_render.setCursor (10, 40);
+//	//	view_render.print ("abcd");
+//	//	view_render.update ();
+//	//	break;
 
-	case 'p':
-		// draw a single pixel
-		view_render.drawPixel(9, 1, WHITE);
-		view_render.drawPixel(13, 4, WHITE);
-		view_render.drawPixel(16, 7, WHITE);
-		view_render.update ();
-		break;
+//	case 'p':
+//		// draw a single pixel
+//		view_render.drawPixel(9, 1, WHITE);
+//		view_render.drawPixel(13, 4, WHITE);
+//		view_render.drawPixel(16, 7, WHITE);
+//		view_render.update ();
+//		break;
 
-	default:
-		LOGIN_PRINT("unknow option\n");
-		break;
-	}
+//	default:
+//		LOGIN_PRINT("unknow option\n");
+//		break;
+//	}
 
-	return 0;
-}
+//	return 0;
+//}
 
 /* https://www.charbase.com */
 int32_t shell_dbg(uint8_t* argv) {
